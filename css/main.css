@@ -1,0 +1,133 @@
+@import "header.css";
+@import "footer.css";
+@import "products-section.css";
+@import "how-it-works-section.css";
+@import "integrate-with-section.css";
+@import "print-custom-section.css";
+@import "testimonials-section.css";
+
+body{
+	font-family: 'Gotham Pro Regular';
+	font-size: 14px;
+	color: #000000;
+}
+.main-container{
+	width: 100%;
+	max-width: 980px;
+	margin:0 auto;
+}
+.first-section{
+	padding: 75px 0 240px 0;
+}
+.first-section{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.first-section .first-section__column:first-child{
+	width: 55%;
+}
+.first-section .first-section__column:last-child{
+	width: 45%;
+}
+.first-section	.first-section__title{
+	font-family: 'Gotham Pro Bold';
+	font-size: 28px;
+	letter-spacing: 0;
+	line-height: 39px;
+	margin-bottom: 30px;
+}
+.first-section	.first-section__column h4{
+	font-size: 14px;
+	max-width: 400px;
+	line-height: 20px;
+	margin-bottom: 30px;
+}
+.first-section	.first-section__column .first-section__button{
+	font-family: 'Gotham Pro Bold';
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 45px;
+	text-align: center;
+	color: #FFFFFF;
+	width: 100%;
+	max-width: 216px;
+	border-radius: 4px;
+	background-color: #FF6953;
+	padding: 18px 43px;
+	text-transform: uppercase;
+}
+.first-section	.first-section__column .first-section__button:hover{
+	background-color: #ff4b1f;
+}
+.first-section	.first-section__column .first-section__button:active{
+	background-color: #ff9b82;
+}
+.first-section .first-section__plants{
+	margin: 60px 0 50px 0;
+    max-width: 400px;
+}
+.first-section .first-section__plants .first-section__plants-title{
+	font-family: 'Gotham Pro Bold';
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 26px;
+}
+.first-section .first-section__plants .first-section__plants_markers{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	align-items: center;	
+}
+.first-section .first-section__plants .first-section__plants_markers span{
+	letter-spacing: 0;
+	line-height: 15px;
+}
+.first-section .first-section__plants .first-section__plants_markers .fa-map-marker-alt{
+	color: #FF6953;
+}
+.first-section .first-section__partners img{margin-right: 28px;}
+.first-section .first-section__partners img:last-child{margin-right: 0;}
+.products-section .products-section__title,
+.how-it-works-section .how-it-works-section__title,
+.integrate-with-section .integrate-with-section__title,
+.print-custom-section .print-custom-section__title,
+.testimonials-section .testimonials-section__title{
+	text-align: center;
+	font-family: 'Gotham Pro Medium';
+	font-size: 30px;
+	letter-spacing: 0;
+	line-height: 29px;
+}
+.products-section .products-section__title{margin-bottom: 55px}
+.products-section .products-section__columns{
+	margin-top: 33px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.products-section .products-section__columns .products-section__single-product{
+	width: 24%;
+	max-width: 230px;
+	border-radius: 4px;
+	background-color: #f4f8fc;
+	height: 295px;
+	margin-bottom:20px;
+	position: relative;
+	margin-right: 20px;
+}
+.products-section .products-section__columns .products-section__single-product:nth-child(4n){
+	margin-right: 0;
+}
+.products-section .products-section__columns .products-section__single-product img{
+    margin: 0 auto;
+    display: block;
+}
