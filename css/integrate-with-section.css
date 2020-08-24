@@ -1,0 +1,34 @@
+.integrate-with-section{padding: 114px 0 90px 0;}
+.integrate-with-section__images-wrapper{
+	margin: 69px auto 0;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+.integrate-with-section__single-logo{
+	width: 25%;
+	margin-bottom: 39px;
+	text-align: center;
+}
+.integrate-with-section__button{
+	width: 100%;
+    max-width: 159px;
+    display: block;
+    margin: 10px auto 0;
+    text-align: center;
+    font-family: 'Gotham Pro Bold';
+    color: #009CE5;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 12px;
+    text-transform: uppercase;
+    padding: 14.5px;
+    border: 2px solid #19A2EA;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

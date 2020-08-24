@@ -10,6 +10,8 @@ body{
 	font-family: 'Gotham Pro Regular';
 	font-size: 14px;
 	color: #000000;
+	line-height: 20px;
+	letter-spacing: 0;
 }
 .main-container{
 	width: 100%;
@@ -93,41 +95,139 @@ body{
 }
 .first-section .first-section__partners img{margin-right: 28px;}
 .first-section .first-section__partners img:last-child{margin-right: 0;}
-.products-section .products-section__title,
-.how-it-works-section .how-it-works-section__title,
-.integrate-with-section .integrate-with-section__title,
-.print-custom-section .print-custom-section__title,
-.testimonials-section .testimonials-section__title{
+.products-section__title,
+.how-it-works-section__title,
+.integrate-with-section__title,
+.print-custom-section__title,
+.testimonials-section__title,
+.customers-selling-section__title{
 	text-align: center;
 	font-family: 'Gotham Pro Medium';
 	font-size: 30px;
 	letter-spacing: 0;
 	line-height: 29px;
+	text-transform: uppercase;
 }
-.products-section .products-section__title{margin-bottom: 55px}
-.products-section .products-section__columns{
-	margin-top: 33px;
+
+/*Our customers are selling*/
+.customers-selling-section{
+	background-color: #009CE5;
+	padding: 100px 0;
+}
+.customers-selling-section__title-row{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;	
+    margin-bottom: 50px;
+}
+.customers-selling-section__title-row .customers-selling-section__title{
+	color: #fff;
+}
+.customers-selling-section__about-us-link{
+	width: 100%;
+    max-width: 129px;
+    display: block;
+    text-align: center;
+    font-family: 'Gotham Pro Bold';
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0.83px;
+    line-height: 10px;
+    text-transform: uppercase;
+    padding: 9.5px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;	
+}
+.customers-selling-section__products-wrapper{
 	display: -webkit-flex;
 	display: flex;
 	-webkit-align-items: center;
 	align-items: center;
 	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
+	flex-wrap: wrap;	
 }
-.products-section .products-section__columns .products-section__single-product{
-	width: 24%;
+.customers-selling-section__single-product{
+  	width: 24%;
 	max-width: 230px;
 	border-radius: 4px;
-	background-color: #f4f8fc;
-	height: 295px;
-	margin-bottom:20px;
+	background-color: #FFFFFF;
+	height: 234px;
 	position: relative;
 	margin-right: 20px;
+	padding: 0 20px 20px;
+	display: -webkit-flex;
+	display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
 }
-.products-section .products-section__columns .products-section__single-product:nth-child(4n){
+.customers-selling-section__single-product:nth-child(4n){
 	margin-right: 0;
 }
-.products-section .products-section__columns .products-section__single-product img{
-    margin: 0 auto;
-    display: block;
+.customers-selling-section__single-product-image{
+	flex-grow: 2;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	-webkit-align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.customers-selling-section__single-product-title{
+	font-family: 'Gotham Pro Bold';
+	color: #009CE5;
+	font-size: 15px;
+	letter-spacing: 0;
+	line-height: 14px;
+	margin-bottom: 7px;
+}
+.customers-selling-section__single-product-price{
+	color: #afafaf;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 12px;
+}
+.customers-selling-section__single-product-price .customers-selling-section__single-product-price-value{
+	font-family: 'Gotham Pro Medium';
+	color: #2E2E30;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 13px;
+}
+.customers-selling-section__contact-info{
+	margin-top: 80px;
+	border-radius: 6px;
+  	background-color: #FFFFFF;
+  	padding: 65px 0;
+  	text-align: center;
+}
+.customers-selling-section__contact-info h3{
+	font-family: 'Gotham Pro Bold';
+	color: #2E2E30;
+	font-size: 28px;
+	letter-spacing: 0;
+	line-height: 38px;
+}
+.customers-selling-section__phone{
+	padding: 30px 0 42px;
+}
+.customers-selling-section__phone a{
+	font-family: 'Gotham Pro Bold';
+	color: #009CE5;
+	font-size: 30px;
+	letter-spacing: 0;
+	line-height: 29px;
+}
+.customers-selling-section__socials a{
+	margin-right: 34px;
+	color: #000000;
+    font-size: 25px;
+}
+.customers-selling-section__socials a:last-child{
+	margin-right: 0;
 }

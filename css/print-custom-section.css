@@ -1,0 +1,28 @@
+.print-custom-section{
+	border-radius: 4px;
+	background-color: #009CE5;
+	padding: 0px 50px 137px;
+}
+.print-custom--section__wrapper{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.print-custom-section .print-custom-section__title{
+	color: #fff;
+	text-align: left;
+	max-width: 361px;
+	position: relative;
+    top: 70px;
+}
+.print-custom-section__images{
+	position: relative;
+	width: 48%;
+}
+.print-custom-section__images img{
+	position: absolute;
+    top: -20px;
+}

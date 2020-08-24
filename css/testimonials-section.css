@@ -1,0 +1,59 @@
+.testimonials-section{
+	padding: 128px 0 144px;
+}
+.testimonials-section__title-row{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0 50px 33px;	
+}
+.testimonials-section__about-us-link{
+	font-family: 'Gotham Pro Medium';
+	color: #009DF3;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: 17px;
+	display: block;
+}
+.testimonials-section__about-us-link::after{
+	content: url(../img/arrow-right.svg);
+	padding-right: 9px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	 transform: rotate(180deg);
+    display: inline-block;
+}
+.testimonials-section__testimonials-wrapper{
+	border: 3px solid #F4F8FC;
+	border-radius: 4px;
+	padding: 50px 60px 30px;
+}
+.testimonials-section__testimonials-wrapper blockquote{
+	font-family: 'Gotham Pro Medium';
+	color: #2E2E30;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 26px;
+	text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+	position: relative;
+}
+.testimonials-section__testimonials-wrapper blockquote::before{
+	content: "‘’";
+	font-family: 'Gotham Pro Medium';
+	color: #8FA3B6;
+	font-size: 128px;
+	letter-spacing: 0;
+	line-height: 122px;
+	text-align: center;
+	opacity: 0.28;
+    position: absolute;
+	left: -80px;
+    top: -20px;
+}
