@@ -1,0 +1,77 @@
+.footer{
+	background-color: #2E2E30;
+	padding: 64px 0 73px;
+	color: #fff;
+}
+.footer__row{
+	display: -webkit-flex;
+	display: flex;
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;	
+}
+.footer__row .footer__menu-wrapper{
+	width: 24%;
+}
+.footer__row .footer__contact-info{
+	width: 48%;
+	text-align: right;
+}
+.footer__menu-wrapper .footer__menu-title{
+	font-family: 'Gotham Pro Medium';
+	font-size: 15px;
+	letter-spacing: 0;
+	line-height: 14px;
+	margin-bottom: 10px;
+}
+.footer__menu-wrapper .footer__nav-item{
+	list-style-type: none;
+}
+.footer__menu-wrapper .footer__nav-link{
+	opacity: 0.4;
+	color: #BCC6CB;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+.footer__contact-info{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;	
+}
+.footer__contact-info .footer__payments-logos{
+	max-width: 212px;
+	margin-bottom: 124px;
+}
+.footer__contact-info .footer__payments-logos img{
+	margin-right: 25px;
+	margin-bottom: 13px;
+}
+.footer__contact-info .footer__payments-logos img:nth-child(3),
+.footer__contact-info .footer__payments-logos img:last-child{
+	margin-right: 0;
+}
+.footer__contact-info .footer__copyright{
+	margin-bottom: 33px;
+}
+.footer__contact-info .footer__copyright a{
+	font-family: 'Gotham Pro Medium';
+	color: #FFFFFF;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+.footer__contact-info .footer__socials a{
+	color: #fff;
+	font-size: 22px;
+	margin-right: 34px;
+}
+.footer__contact-info .footer__socials a:last-child{
+	margin-right: 0;	
+}

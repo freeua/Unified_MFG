@@ -28,12 +28,12 @@
 	 transform: rotate(180deg);
     display: inline-block;
 }
-.testimonials-section__testimonials-wrapper{
+.testimonials-section__all-testimonials-wrapper{
 	border: 3px solid #F4F8FC;
 	border-radius: 4px;
 	padding: 50px 60px 30px;
 }
-.testimonials-section__testimonials-wrapper blockquote{
+.testimonials-section__all-testimonials-wrapper blockquote{
 	font-family: 'Gotham Pro Medium';
 	color: #2E2E30;
 	font-size: 16px;
@@ -44,7 +44,7 @@
     margin: 0 auto;
 	position: relative;
 }
-.testimonials-section__testimonials-wrapper blockquote::before{
+.testimonials-section__all-testimonials-wrapper blockquote::before{
 	content: "‘’";
 	font-family: 'Gotham Pro Medium';
 	color: #8FA3B6;
@@ -56,4 +56,51 @@
     position: absolute;
 	left: -80px;
     top: -20px;
+}
+.testimonials-section__logos{
+	margin-top: 50px;
+}
+.testimonials-section__logos .slick-track{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.testimonials-section__logos .testimonials-section__single-logo{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 152px!important;
+}
+.testimonials-section__single-logo.slick-center{
+    width: 152px!important;
+    border-radius: 6px;
+    background-color: #009DF3;
+    height: 88px;
+    padding: 19px 38px;	
+    margin: 0px 20px;
+}
+.testimonials-section__logos .slick-prev,
+.testimonials-section__logos .slick-next{
+	background-color: #FFFFFF;
+	width: 60px;
+	z-index: 99;
+	height: 100%;
+}
+.testimonials-section__logos .slick-prev::before,
+.testimonials-section__logos .slick-next::before{
+	color: #000000;
+}
+.testimonials-section__logos .slick-prev:hover::before,
+.testimonials-section__logos .slick-next:hover::before{
+	color: #00b6ff;
+}
+.testimonials-section__logos .slick-prev:active::before,
+.testimonials-section__logos .slick-next:active::before{
+	color: #0089ff;
 }

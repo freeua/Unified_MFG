@@ -32,3 +32,13 @@
     border-radius: 4px;
     box-sizing: border-box;
 }
+.integrate-with-section__button:hover{
+    background-color: #009ce5;
+    border-color:  #009ce5;
+    color: #fff;
+}
+.integrate-with-section__button:active{
+    background-color: #008dff;
+    border-color:  #008dff;
+    color: #fff;
+}

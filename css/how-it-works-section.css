@@ -87,3 +87,13 @@
     border-radius: 4px;
     box-sizing: border-box;
 }
+.how-it-works-section__button:hover{
+	background-color: #009ce5;
+	border-color:  #009ce5;
+	color: #fff;
+}
+.how-it-works-section__button:active{
+	background-color: #008dff;
+	border-color:  #008dff;
+	color: #fff;
+}

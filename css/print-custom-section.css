@@ -2,6 +2,7 @@
 	border-radius: 4px;
 	background-color: #009CE5;
 	padding: 0px 50px 137px;
+	box-sizing: border-box;
 }
 .print-custom--section__wrapper{
 	display: -webkit-flex;
@@ -25,4 +26,5 @@
 .print-custom-section__images img{
 	position: absolute;
     top: -20px;
+	right: -20px;
 }
