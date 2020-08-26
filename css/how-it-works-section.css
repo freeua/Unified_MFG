@@ -11,13 +11,13 @@
 	display: flex;
 	-webkit-justify-content: space-between;
 	justify-content: space-between;
-    -webkit-align-items: center;
-    align-items: center;
     padding-bottom: 180px;
 }
-.how-it-works-section__row:first-child{
-    -webkit-align-items: flex-start;
-    align-items: flex-start;	
+.how-it-works-section__row .how-it-works-section__row-text{
+	margin-top: 20px;
+}
+.how-it-works-section__row:nth-child(2) .how-it-works-section__row-text{
+	margin-top: 0;	
 }
 .how-it-works-section .how-it-works-section__row:last-child{
 	padding-bottom:0;
@@ -52,6 +52,11 @@
 .how-it-works-section__row p{
 	max-width: 410px;
 	margin-bottom: 40px;
+	font-family: 'Gotham Pro Regular';
+	color: #000000;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 20px;
 }
 .how-it-works-section__logos{
 	max-width: 392px;

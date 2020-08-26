@@ -22,11 +22,12 @@
 }
 .header .header__top-section .header__top-section-main-container .header__top-section-start,
 .header .header__top-section .header__top-section-main-container .header__top-section-phone{
-	width: 20%;
+	width: 15%;
 }
 .header .header__top-section .header__top-section-main-container .header__top-section-logo{
 	width: 40%;
 }
+.header__top-section-logo a{margin-left: 30px;}
 .header .header__top-section .header__top-section-main-container .header__top-section-signIn{
 	width: 10%;text-align: right;
 }
@@ -47,17 +48,27 @@
 	line-height: 14px;
 	font-family: 'Gotham Pro Medium';
 }
-.header__top-section .header__top-section-phone .header__top-section-phone-value > a{
-	font-family: 'Gotham Pro Bold';
+.header__top-section-start-main-text{
+	position: relative;
 }
+.header__top-section-start-main-text::after{
+	content: url(../img/instant-quote.png);
+	position: absolute;
+    top: -10px;
+}
+/*.header__top-section .header__top-section-phone .header__top-section-phone-value > a{
+	font-family: 'Gotham Pro Bold';
+}*/
 .header__top-section .header__top-section-signIn > a{
 	font-family: 'Gotham Pro Bold';
 	font-size: 13px;
 	letter-spacing: 1px;
 	line-height: 12px;	
 }
-.header__top-section .header__top-section-signIn > a >i{
-	margin-right: 10px;
+.header__top-section .header__top-section-signIn > a >svg{
+	margin-right: 7px;
+    position: relative;
+    top: 3px;
 }
 .header .header__main-nav-wrapper{
 	background-color: #fff;
@@ -95,6 +106,7 @@
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 12px;
+  text-transform: uppercase;
 }
 .header__main-nav-wrapper .header__main-container nav.header__main-nav > li >a:hover,
 .header__main-nav-wrapper .header__main-container nav.header__main-nav > li >a:active,

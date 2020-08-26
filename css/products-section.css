@@ -80,7 +80,13 @@
 }
 .products-section__slider{
     margin: 0 auto;
-    max-width: 854px;		
+    max-width: 700px;		
+}
+.products-section__slider .slick-prev {
+    left: -120px;
+}
+.products-section__slider .slick-next {
+    right: -120px;
 }
 .products-section__slider .products-section__single-slide img{
 	margin:0 auto;

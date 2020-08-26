@@ -232,6 +232,7 @@ body{
     -webkit-justify-content: center;
     justify-content: center;
 }
+.customers-selling-section__single-product-image img{max-height: 180px;}
 .customers-selling-section__single-product-title{
 	font-family: 'Gotham Pro Bold';
 	color: #009CE5;
@@ -480,4 +481,36 @@ body{
 	right: 0;
 	bottom: -90px;
 	height: 110%;
+}
+.unified-manufacturing-section__single-coming-soon-product .unified-manufacturing-section__single-product-title{
+	font-family: 'Gotham Pro Medium';
+	color: #A4A6AA;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0;
+	margin-bottom: 0;
+}
+.unified-manufacturing-section__single-variable-product .unified-manufacturing-section__single-product-title{
+	font-family: 'Gotham Pro Medium';
+	color: #A4A6AA;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0;
+	margin-bottom: 0;
+}
+.unified-manufacturing-section__single-coming-soon-product .unified-manufacturing-section__single-product-variable-text{
+	font-family: 'Gotham Pro Medium';
+	color: #009CE5;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0;
+	text-decoration: underline;
+}
+.unified-manufacturing-section__single-variable-product .unified-manufacturing-section__single-product-variable-text{
+	font-family: 'Gotham Pro Medium';
+	color: #009CE5;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0;
+	text-decoration: underline;
 }
