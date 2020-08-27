@@ -88,6 +88,14 @@
 .products-section__slider .slick-next {
     right: -120px;
 }
+.products-section__slider .slick-prev:hover:before,
+.products-section__slider .slick-prev:focus:before{
+    content: url(../img/arrow-left-white.svg);
+}
+.products-section__slider .slick-next:hover:before,
+.products-section__slider .slick-next:focus:before{
+	content: url(../img/arrow-right-white.svg);	
+}
 .products-section__slider .products-section__single-slide img{
 	margin:0 auto;
 }

@@ -42,3 +42,16 @@
     border-color:  #008dff;
     color: #fff;
 }
+.integrate-with-section__app-link{
+    font-family: 'Gotham Pro Medium';
+    color: #009DF3;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+.integrate-with-section__app-link:hover{
+    color: #0089ff;
+}
+.integrate-with-section__app-link:active{
+    color: #0072c1;;
+}

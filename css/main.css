@@ -22,23 +22,42 @@ body{
 	padding: 75px 0 240px 0;
 	position: relative;
 }
-.first-section{
+a{
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;
+}
+/*.first-section{
 	display: -webkit-flex;
 	display: flex;
 	-webkit-justify-content: space-between;
 	justify-content: space-between;
 	-webkit-align-items: center;
 	align-items: center;
-}
+}*/
 .first-section .first-section__column:first-child{
 	width: 55%;
 }
-.first-section .first-section__column:last-child{
+/*.first-section .first-section__column:last-child{
 	width: 45%;
+}*/
+.first-section__column__absolute{
+	width: 100%;
+	max-width: 1366px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+    -moz-transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
 }
 .first-section .first-section__column__absolute img{
 	position: absolute;
 	top:0;
+	right: 0;
 }
 .first-section	.first-section__title{
 	font-family: 'Gotham Pro Bold';
@@ -177,10 +196,11 @@ body{
 	margin-left: 50px;
 	margin-right: 25px;
 }
-.customers-selling-section__slider-navigation .slick-prev::before,
+.customers-selling-section__slider-navigation .slick-prev::before{
+	content: url(../img/arrow-left-white.svg);
+}
 .customers-selling-section__slider-navigation .slick-next::before{
-	line-height: 34px;
-	color: #fff;
+	content: url(../img/arrow-right-white.svg);
 }
 .customers-selling-section__slider-navigation .slick-prev::before{
 	opacity: 0.5;
@@ -191,12 +211,10 @@ body{
 }
 .customers-selling-section__slider-navigation .slick-prev,
 .customers-selling-section__slider-navigation .slick-next{
-	position: relative;
-	left: 0;
-	right: 0;
-	height: 24px;
-  	width: 24px;
-  	background-color:#009CE5;
+    position: relative;
+    background-color: #009CE5;
+    top: 20px;
+    right: unset;
 }
 .customers-selling-section__single-product{
   	width: 24%;
@@ -345,32 +363,41 @@ body{
 	margin-left: 50px;
 	margin-right: 25px;
 }
-.unified-manufacturing-section__slider-navigation .slick-prev::before,
+.unified-manufacturing-section__slider-navigation .slick-prev::before{
+	content: url(../img/arrow-left-black.svg);
+}
 .unified-manufacturing-section__slider-navigation .slick-next::before{
-	line-height: 34px;
-	color: #000000;
+	content: url(../img/arrow-right-black.svg);
 }
 .unified-manufacturing-section__slider-navigation .slick-prev::before{
 	opacity: 0.3;
 }
+.unified-manufacturing-section__slider-navigation .slick-prev:hover::before{
+	content: url(../img/arrow-left-light-blue.svg);
+}
+.unified-manufacturing-section__slider-navigation .slick-prev:focus::before{
+	content: url(../img/arrow-left-blue.svg);
+}
+.unified-manufacturing-section__slider-navigation .slick-next:hover::before{
+	content: url(../img/arrow-right-light-blue.svg);
+}
+.unified-manufacturing-section__slider-navigation .slick-next:focus::before{
+	content: url(../img/arrow-right-blue.svg);
+}
 .unified-manufacturing-section__slider-navigation .slick-prev:hover::before,
 .unified-manufacturing-section__slider-navigation .slick-next:hover::before{
 	opacity: 1;
-	color: #00b6ff;
 }
 .unified-manufacturing-section__slider-navigation .slick-prev:active::before,
 .unified-manufacturing-section__slider-navigation .slick-next:active::before{
 	opacity: 1;
-	color: #0089ff;
 }
 .unified-manufacturing-section__slider-navigation .slick-prev,
 .unified-manufacturing-section__slider-navigation .slick-next{
-	position: relative;
-	left: 0;
-	right: 0;
-	height: 24px;
-  	width: 24px;
-  	background-color:transparent;
+    position: relative;
+    top: 20px;
+    right: unset;
+    background-color: transparent;
 }
 .unified-manufacturing-section__single-product{
 	width: 24%;
@@ -479,7 +506,7 @@ body{
 .unified-manufacturing-section__single-product-double-width .unified-manufacturing-section__single-product-image img{
 	position: absolute;
 	right: 0;
-	bottom: -90px;
+	bottom: -70px;
 	height: 110%;
 }
 .unified-manufacturing-section__single-coming-soon-product .unified-manufacturing-section__single-product-title{

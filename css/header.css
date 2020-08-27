@@ -56,9 +56,6 @@
 	position: absolute;
     top: -10px;
 }
-/*.header__top-section .header__top-section-phone .header__top-section-phone-value > a{
-	font-family: 'Gotham Pro Bold';
-}*/
 .header__top-section .header__top-section-signIn > a{
 	font-family: 'Gotham Pro Bold';
 	font-size: 13px;
@@ -76,6 +73,12 @@
 	-webkit-box-shadow: 0px 1px 1px 0px rgba(46,46,48,0.05);
 	-moz-box-shadow: 0px 1px 1px 0px rgba(46,46,48,0.05);
 	box-shadow: 0px 1px 1px 0px rgba(46,46,48,0.05);
+}
+.header .header__main-nav-wrapper.header__main-nav-wrapper-fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
 }
 .header__main-nav-wrapper .header__main-container{
 	display: -webkit-flex;

@@ -35,6 +35,11 @@
 	letter-spacing: 0;
 	line-height: 24px;
 }
+.footer__menu-wrapper .footer__nav-link:hover,
+.footer__menu-wrapper .footer__nav-link:active{
+	color: #fff;
+	opacity: 0.9;
+}
 .footer__contact-info{
 	display: -webkit-flex;
 	display: flex;

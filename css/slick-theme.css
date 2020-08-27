@@ -72,7 +72,7 @@
 .slick-next:before
 {
    /* font-family: 'slick';*/
-    font-size: 40px;
+    font-size: 20px;
     /*line-height: 1;*/
 
     opacity: 1;
@@ -94,20 +94,17 @@
 .slick-prev:before
 {
     /*content: '←';*/
-    content:'\02FF';
-        position: relative;
-    top: -10px;
+    /*content:'\02FF';*/
+    content: url(../img/arrow-left-gray.svg);
+    position: relative;
+    top: 0;
     
 }
 [dir='rtl'] .slick-prev:before
 {
-    content:'\02FF';
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-     display: inline-block;
-         position: relative;
-    top: 24px;
+    content: url(../img/arrow-right-gray.svg);
+     position: relative;
+    top: 0;
     /*content: '→';*/
 }
 
@@ -123,20 +120,17 @@
 .slick-next:before
 {
     /*content: '→';*/
-    content:'\02FF';
-     display: inline-block;
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-        position: relative;
-    top: 24px;
+   /* content:'\02FF';*/
+    content: url(../img/arrow-right-gray.svg);
+    position: relative;
+    top: 0
 }
 [dir='rtl'] .slick-next:before
 {
     /*content: '←';*/
-    content:'\02FF';
-        position: relative;
-    top: -10px;
+    content: url(../img/arrow-left-gray.svg);
+    position: relative;
+    top: 0;
 }
 
 /* Dots */
@@ -149,28 +143,21 @@
 {
     position: absolute;
     bottom: -25px;
-
     display: block;
-
     width: 100%;
     padding: 0;
     margin: 0;
-
     list-style: none;
-
     text-align: center;
 }
 .slick-dots li
 {
     position: relative;
-
     display: inline-block;
-
     width: 20px;
     height: 20px;
     margin: 0 5px;
     padding: 0;
-
     cursor: pointer;
 }
 .slick-dots li button
@@ -206,20 +193,15 @@
     font-family: 'slick';
     font-size: 6px;
     line-height: 20px;
-
     position: absolute;
     top: 0;
     left: 0;
-
     width: 20px;
     height: 20px;
-
     content: '•';
     text-align: center;
-
     opacity: .25;
     color: black;
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

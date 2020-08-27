@@ -1,0 +1,116 @@
+@import "header.css";
+@import "footer.css";
+@import "integrate-with-section.css";
+@import "print-custom-section.css";
+
+
+.faq__first-section{
+	padding: 92px 0 409px 0;
+	background-image: url(../img/faq-first-section-background.png);
+}
+.faq__first-section .faq__first-section-title{
+	font-family: 'Gotham Pro Bold';
+	color: #000000;
+	font-size: 34px;
+	letter-spacing: 0;
+	line-height: 36px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.faq__search-form{
+	max-width: 490px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.faq__search-form input[type="text"]{
+	border-radius: 4px;
+	background-color: #F4F8FC;
+	border: none;
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 53px;
+	padding: 0 15px;
+	width: 100%;
+	max-width: 340px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    font-family: 'Gotham Pro Medium';
+}
+.faq__search-form input[type="text"]::-webkit-input-placeholder { /* Edge */
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.faq__search-form input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.faq__search-form input[type="text"]::placeholder {
+	color: rgba(0, 0, 0, 0.3);
+}
+.faq__search-form button[type="submit"]{
+	width: 100%;
+	max-width: 150px;
+    box-sizing: border-box;
+    border: unset;
+	border-radius: 4px;
+	background-color: #FF6953;
+	font-family: 'Gotham Pro Medium';
+	color: #FFFFFF;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 52px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.faq__search-form button[type="submit"] i{
+	padding-right: 10px;	
+}
+
+
+.faq__single-column{
+	padding: 30px 25px;
+	border-radius: 4px;
+	background-color: #F4F8FC;
+	width: 24%;
+	max-width: 230px;
+	margin: 0 20px 20px 0;
+}
+
+.faq__double-width-column{
+	width: 48%;
+	max-width: 480px;
+}
+.faq__full-width-column{
+	width: 100%;
+	max-width: 980px;
+}
+.faq__single-blue-column{
+	background-color: #009CE5;
+}
+.faq__quote-link{
+	display: block;
+	margin: 20px auto 0;
+	width: 100%;
+	max-width: 207px;
+	border-radius: 4px;
+  	background-color: #FF6953;
+	color: #FFFFFF;
+	font-family: 'Gotham Pro Bold';
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: 55px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+.print-custom-section.print-custom-section-desktop{
+	margin-bottom: 135px;
+}
