@@ -65,6 +65,21 @@
 		line-height: 75px;
     	font-size: 120px;
 	}
+
+	.faq__single-column{
+		max-width: unset;
+		width: 23.5%;
+		margin-right: auto;
+		padding: 20px;
+	}
+	.faq__double-width-column {
+	    max-width: unset;
+	    width: 49%;
+	    margin-right: auto;
+	}
+	.faq__full-width-column{
+		width: 100%;
+	}
 }
 @media(max-width: 900px){
 	.how-it-works-section__column-image img{
@@ -294,6 +309,19 @@
 	.unified-manufacturing-section__single-product{
 		margin-right: 20px!important;
 	}
+	
+/*	.faq__masonry-columns-wrapper .faq__single-column{
+		width: 24%;
+	}
+	.faq__masonry-columns-wrapper .faq__double-width-column {
+	    width: 49%;
+	}
+	.faq__two-columns-wrapper .faq__double-width-column {
+	    width: 49%;
+	    margin-right: 2%;
+	}*/
+
+
 }
 
 @media(max-width: 767px){
@@ -581,6 +609,9 @@
     	top: 57px;
     	width: 100%;
 	}
+	.print-custom-section-faq-page .print-custom-section__mobile-images img{
+		top:0;
+	}
 	.testimonials-section {
     	padding: 133px 20px 70px 20px;
 	}
@@ -835,6 +866,35 @@
 	.products-section__slider-navigation .slick-next:focus::before{
 		content: url(../img/arrow-right-blue.svg);
 	}
+	.faq__first-section{
+		padding: 164px 0 70px 0;
+		background-image: url(../img/faq-first-section-background-mobile.png);
+	    margin-bottom: 20px; 
+	}
+	.faq__single-column{
+		width: 48%;
+	}
+	.faq__double-width-column{
+	    width: 100%;
+	}
+	.faq__full-width-column {
+	    width: 100%;
+	}
+
+
+	.faq__first-section .faq__first-section-title{
+		font-size: 24px;
+		letter-spacing: 0;
+		line-height: 30px;
+		max-width: 176px;
+	}
+	.faq__first-section-title span{
+		color:#FF6953;
+	}
+	.faq__search-form input[type="text"]{
+		background-color: #fff; 
+	}
+
 }
 
 @media(max-width: 388px){
