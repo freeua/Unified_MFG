@@ -46,11 +46,11 @@
     border-top-right-radius: 0;
     font-family: 'Gotham Pro Medium';
 }
-.faq__search-form input[type="text"]::-webkit-input-placeholder { /* Edge */
+.faq__search-form input[type="text"]::-webkit-input-placeholder {
 	color: rgba(0, 0, 0, 0.3);
 }
 
-.faq__search-form input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+.faq__search-form input[type="text"]:-ms-input-placeholder {
 	color: rgba(0, 0, 0, 0.3);
 }
 
@@ -216,6 +216,17 @@
 .faq__full-width-column-image img{
 	width: 100%;
 	max-width: 304px;
+	max-height: 295px;
+	border: 2px solid #F4F8FC;
+    box-sizing: border-box;
+}
+.faq__single-column.faq__full-width-column:hover .faq__full-width-column-image img{
+    border: 2px solid rgba(0,156,236,1);
+    box-sizing: border-box;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left-color: transparent;
+    max-height: 295px;
 }
 .faq__single-column-category-link{
 	display: inline-block;

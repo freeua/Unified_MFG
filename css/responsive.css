@@ -11,6 +11,7 @@
 .unified-manufacturing-section__single-product-image-mobile{display: none;}
 .faq__btn-mobile{display: none;}
 .faq__masonry-columns-wrapper-reverse-mobile{display: none;}
+.сatalogue-mobile-image{display: none;}
 @media(max-width: 1310px){
 	.first-section .first-section__column__absolute img{
 		width: 50%;
@@ -81,6 +82,9 @@
 	}
 	.faq__full-width-column{
 		width: 100%;
+	}
+	.сatalogue-main__single-category-right-part {
+	    padding-right: 30px;
 	}
 }
 @media(max-width: 900px){
@@ -937,6 +941,14 @@
 	}
 	.faq__full-width-column-image img {
 	    max-width: 210px;
+	    border:unset;
+	    border-bottom: 2px solid #F4F8FC;
+	    border-right: 2px solid #F4F8FC;
+	}
+	.faq__single-column.faq__full-width-column:hover .faq__full-width-column-image img{
+	    border: unset;
+	    border-bottom: 2px solid rgba(0,156,236,1);
+	    border-right: 2px solid rgba(0,156,236,1);
 	}
 	.faq__single-column-category-link{
 	    padding-right: 0;
@@ -961,7 +973,36 @@
 	.print-custom-section-faq-page .print-custom-section__mobile-images img{
 		top: 15px;
 	}
-
+	.сatalogue-main__first-section{
+		padding: 26px 20px 60px 20px;
+	}
+	.сatalogue-main__single-category{
+		width: 100%;
+		max-width: 355px;
+		margin:0 auto 10px;
+	}
+	.сatalogue-main__single-category-right-part{
+		padding-right: 10px;
+	}
+	.сatalogue-main__single-category-left-part{
+		width: 50%;
+	}
+	.сatalogue-main__single-category-right-part{
+		width: 50%;
+	}
+	.сatalogue-mobile-image{
+		display: block;
+	}
+	.сatalogue-main__desktop-image{
+		display: none;
+	}
+	.сatalogue-main__single-blue-color .сatalogue-main__single-category-right-part{
+		display: -webkit-flex;
+		display: flex;
+		-webkit-justify-content: flex-end;
+		justify-content: flex-end;
+	}
+	.сatalogue-main__single-blue-color .сatalogue-main__single-category-title{width: 120%;}
 }
 
 @media(max-width: 388px){
@@ -1005,6 +1046,15 @@
 	}
 	.faq__double-width-column:nth-child(2) .faq__double-width-sub-columns-wrapper .faq__double-width-sub-column:nth-child(2) img{
     	width: 100%;
+	}
+	.сatalogue-main__single-category-title{
+		font-size: 16px;
+	}
+	.сatalogue-main__single-category-left-part {
+    	padding: 0 0 20px 20px;
+	}
+	.сatalogue-main__single-category-right-part {
+	    width: 45%;
 	}
 }
 
