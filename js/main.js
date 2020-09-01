@@ -174,5 +174,24 @@ $( document ).ready(function() {
 		$(this).toggleClass("menu-expanded");
 	});
 
+	$(".collection__category-item>a").click(function(e) {
+		e.preventDefault();
+		$('.collection__subcategories-list').hide();
+		$(".collection__category-item").removeClass("collection__category-item-active");
+		$(this).parent().toggleClass("collection__category-item-active");
+		$(this).parents('.collection__category-item').find('.collection__subcategories-list').slideToggle();
+	});
+
+	$(".collection__subcategory-item>a").click(function(e) {
+		e.preventDefault();
+		$(".collection__subcategory-item").removeClass("collection__subcategory-item-active");
+		$(this).parent().toggleClass("collection__subcategory-item-active");
+	});
+
+	$(".collection__page-item>a").click(function(e) {
+		e.preventDefault();
+		$(".collection__page-item").removeClass("collection__page-item-active");
+		$(this).parent().toggleClass("collection__page-item-active");
+	});
 
 });
