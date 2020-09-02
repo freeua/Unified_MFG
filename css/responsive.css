@@ -12,6 +12,7 @@
 .faq__btn-mobile{display: none;}
 .faq__masonry-columns-wrapper-reverse-mobile{display: none;}
 .сatalogue-mobile-image{display: none;}
+.collection__filters-mobile-label{display: none;}
 @media(max-width: 1310px){
 	.first-section .first-section__column__absolute img{
 		width: 50%;
@@ -99,11 +100,17 @@
 		width: 30%;
 		margin-right: auto;
 	}
+	.collection__single-product:hover .collection__single-product-inner-wrapper{
+		min-width: calc(100% + 20px);
+	}
 	.collection__single-product:nth-child(4n) {
 	    margin-right: auto;
 	}
 	.collection__single-product:nth-child(3n){
 		margin-right:0;
+	}
+	.collection__single-product-link {
+	    max-width: 98%;
 	}
 }
 @media(max-width: 900px){
@@ -182,6 +189,7 @@
 		-webkit-justify-content: space-between;
 		justify-content: space-between;
 		z-index: 999;
+		border-bottom: 1px solid #E8E8E8;
 	}
 	.header__mobile-menu-wrapper.header__mobile-menu-fixed{
 		top:0;
@@ -1025,6 +1033,119 @@
 		max-width: 355px;
 		margin: 0 auto;
 	}
+	.collection__first-section{
+		padding: 0 20px 62px 20px;
+	}
+	.collection__count-products{
+		display: none;
+	}
+	.collection__breadcrumbs-wrapper{
+		background-color: #F4F8FC;
+		margin: 0 -20px;
+		padding: 24px 20px;
+	}
+	.collection__breadcrumb-item a, .collection__breadcrumb-item span{
+		font-size: 12px;
+		line-height: 12px;
+	}
+	.collection__search-filter-wrapper{
+		padding: 25px 0;
+		margin-bottom: 23px;
+	}
+	.collection__filters-mobile-label{
+		display: block;
+		cursor: pointer;
+	}
+	.collection__filters-mobile-label span{
+		font-family: 'Gotham Pro Medium';
+		color: #3C3D41;
+		font-size: 14px;
+		letter-spacing: 0;
+		line-height: 13px;
+		text-align: right;
+		margin-right: 15px;
+	}
+	.collection__search-form {
+    	width: 50%;
+	}	
+	.collection__filters-inner-wrapper{
+		display: none;
+		position: absolute;
+		left: 0px;
+		background: #fff;
+    	z-index: 2;
+	    padding: 25px 20px 0 20px;
+	    width: 100%;
+	}
+	.collection__categories-wrapper{
+		display: none;
+	}
+	.collection__single-filter{
+		margin-bottom: 10px;
+		width: 100%;
+		margin-left: 0;
+	}
+	.collection__products-wrapper {
+	    width: 100%;
+	    max-width: 355px;
+	    margin: 0 auto;
+	}
+	.collection__single-product{
+		width: 100%;
+		max-width: 355px;
+		margin: 0 auto 30px;
+		margin-right: 0!important;
+		min-height: 495px;
+		min-width: unset;
+	}
+	.collection__single-product:hover .collection__single-product-inner-wrapper{
+		min-height: 600px;
+	}
+	.collection__single-product:hover .collection__single-product-additional-info{width: 100%;padding-right: 20px;}
+	.collection__single-product-image{min-height: 444px;overflow: hidden;}
+	.collection__single-product-image img{min-height: 444px;}
+	.collection__single-product-price{
+		display: -webkit-flex;
+		display: flex;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+	.collection__single-product-price,
+	.collection__single-product-size-label,
+	.collection__single-product-colors{
+		font-size: 12px;
+		line-height: 12px;
+	}
+	.collection__single-product-price-value{
+		font-size: 20px;
+		line-height: 19px;
+	}
+	.collection__single-product-title{
+		font-size: 14px;
+		line-height: 13px;
+	}
+	.collection__single-product-link {
+    	max-width: 200px;
+	}
+	.collection__page-item>a{
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	.collection__pagination-prev a,
+	.collection__pagination-next a {
+		min-width: 90px;
+		padding: 10px 10px;
+	}
+	.collection__pagination-prev a {
+    	margin-right: 5px;
+	}
+	.collection__pagination-next a{
+		margin-left: 5px;
+	}
+
 }
 
 @media(max-width: 388px){
@@ -1077,6 +1198,26 @@
 	}
 	.сatalogue-main__single-category-right-part {
 	    width: 45%;
+	}
+	.collection__page-item>a{
+		height: 24px;
+		width: 24px;
+		line-height: 24px;
+	}
+	.collection__pagination-prev a,
+	.collection__pagination-next a {
+		min-width: 70px;
+		padding: 7px 10px;
+	}
+	.collection__breadcrumb-item a, .collection__breadcrumb-item span {
+	    font-size: 11px;
+	    line-height: 11px;
+	}
+	.collection__breadcrumb-item {
+	    padding: 0 6px;
+	}
+	.collection__breadcrumb-item:after{
+		padding-left: 6px;
 	}
 }
 

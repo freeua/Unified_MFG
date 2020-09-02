@@ -176,7 +176,7 @@ $( document ).ready(function() {
 
 	$(".collection__category-item>a").click(function(e) {
 		e.preventDefault();
-		$('.collection__subcategories-list').hide();
+		//$('.collection__subcategories-list').hide()
 		$(".collection__category-item").removeClass("collection__category-item-active");
 		$(this).parent().toggleClass("collection__category-item-active");
 		$(this).parents('.collection__category-item').find('.collection__subcategories-list').slideToggle();
@@ -193,5 +193,10 @@ $( document ).ready(function() {
 		$(".collection__page-item").removeClass("collection__page-item-active");
 		$(this).parent().toggleClass("collection__page-item-active");
 	});
+
+	$('.collection__filters-mobile-label').click(function() {
+		$('.collection__filters-inner-wrapper').slideToggle();
+	});
+	
 
 });
