@@ -170,7 +170,6 @@ $( document ).ready(function() {
 
 
 	$(".menu-collapsed").click(function(e) {
-		e.preventDefault()
 		$(this).toggleClass("menu-expanded");
 	});
 

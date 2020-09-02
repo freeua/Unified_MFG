@@ -191,7 +191,7 @@
 .collection__subcategory-item a{
 	font-size: 12px;
 	text-transform: none;
-	padding-left: 24px;
+	padding-left: 10px;
 }
 .collection__subcategory-item-active>a{
 	color: #009CE5;
