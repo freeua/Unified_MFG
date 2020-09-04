@@ -541,3 +541,7 @@ a{
 	letter-spacing: 0;
 	text-decoration: underline;
 }
+
+.margin_bottom--12 {
+	margin-bottom: 12px;
+} 
