@@ -231,21 +231,7 @@
 	-webkit-align-items: flex-end;
 	align-items: flex-end;
 }
-.collection__single-product-new-lable{
-	position: absolute;
-    left: 0;
-    bottom: 0;
-	border-radius: 4px;
-	background-color: #FF6953;
-	width: 40px;
-	font-family: 'Gotham Pro Bold';
-	padding: 4px 0;
-	color: #FFFFFF;
-	font-size: 10px;
-	letter-spacing: 0;
-	line-height: 10px;
-	text-align: center;
-}
+
 .collection__single-product-additional-info{display: none;padding-top: 12px;}
 .collection__single-product:hover .collection__single-product-additional-info{display: block;position: absolute;}
 .collection__single-product:hover .collection__single-product-inner-wrapper{
@@ -328,11 +314,11 @@
 	height: 10px;
 	width: 10px;
 	border-radius: 3px;
-	background-color: #c5c5c5;	
+	/* background-color: #c5c5c5;	 */
 	padding-left: 5px;
 	display: inline-block;
-    box-sizing: border-box;
-    padding-left: 5px;
+	box-sizing: border-box;
+	padding-left: 5px;
 }
 .collection__single-product-color-value-more{
 	opacity: 0.2;
@@ -343,14 +329,7 @@
 	line-height: 11px;
 	padding-left: 5px;
 }
-.collection__single-product-color-beige{background-color: #E5D3B7;}
-.collection__single-product-color-melange{background-color: #DEDBD7;}
-.collection__single-product-color-black{background-color: #000000;}
-.collection__single-product-color-pink{background-color: #F4DCDC;}
-.collection__single-product-color-blue{background-color: #DCE6F4;}
-.collection__single-product-color-gray{background-color: #B9BFC7;}
-.collection__single-product-color-khaki{background-color: #8A9775;}
-.collection__single-product-color-dark-gray{background-color: #626262;}
+
 .collection__single-product-link{
 	display: block;
 	margin: 8px auto;

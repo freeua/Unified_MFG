@@ -199,5 +199,47 @@ $(document).ready(function () {
 		$('.collection__filters-inner-wrapper').slideToggle();
 	});
 
+	// change active class when user clicks on size(item page)
+	$('.item-info__size-item').click(function () {
+		$('.item-info__size-item').removeClass('item-info__size-item_active');
+		$(this).addClass('item-info__size-item_active');
+	})
 
+	// change active class when user clicks on color(item page)
+	$('.item-info__color-item').click(function () {
+		$('.item-info__color-item').removeClass('item-info__color-item_active');
+		$(this).addClass('item-info__color-item_active');
+	})
+
+
+	// change active class when user clicks on material(item page)
+	$('.item-info__material-item').click(function () {
+		$('.item-info__material-item').removeClass('item-info__material-item_active');
+		$(this).addClass('item-info__material-item_active');
+	})
+
+
+
+	// $(document).on("click", ".custom-print__input-file", function () {
+	// 	$(this).parent().find('input[type="file"]').trigger("click");
+	// });
+
+	// custom "download file" input. show file name of code user selected file
+	$(document).on("change", ".custom-print__input-file", function () {
+		if ($(this).val()) {
+			$(this)
+				.parent()
+				.find(".custom-print__input-text")
+				.text(this.value.replace(/C:\\fakepath\\/i, ""));
+		}
+	});
+
+	// smooth scroll to anchors
+	$(document).on('click', 'a[href^="#"]', function (event) {
+		event.preventDefault();
+
+		$('html, body').animate({
+			scrollTop: $($.attr(this, 'href')).offset().top - 150
+		}, 500);
+	});
 });

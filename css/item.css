@@ -1,0 +1,468 @@
+.item-sub-title {
+	font-family: 'Gotham Pro Medium';
+	font-size: 12px;
+	line-height: 12px;
+	color: #3C3D41;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.item-info__price-sub-title  {
+	margin-bottom: 30px;
+
+}
+
+.item-info__descrip-sub-title {
+	margin-bottom: 10px;
+}
+
+.item-reviews__sub-title {
+	margin-bottom: 33px;
+}
+
+.item__recommended-sub-title {
+	margin-bottom: 20px;
+}
+
+.item__main-section {
+	width: 100%;
+	max-width: 1366px;
+	margin: auto;
+}
+
+.item-info {
+	display: flex;
+}
+
+.item-info__right {
+	max-width: 480px;
+	display: flex;
+	flex-direction: column;
+}
+
+.item-info__name {
+	display: flex;
+	align-items: center;
+	margin-bottom: 7px;
+}
+
+.item-info__name-wrapper {
+	margin-bottom: 30px;
+}
+
+.item-info__rating {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.item-info__border-bottom {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.item-info__stars {
+	margin-right: 11px;
+}
+
+.item-info__rating-number {
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+	line-height: 13px;
+	color: #00CA4B;
+
+}
+
+.item-info__rating .fa-star {
+	color: #00CA4B;
+	opacity: 0.3;
+}
+.item-info__rating .fa-star:not(:last-child) {
+	margin-right: 3px;
+}
+
+.item-info__rating .fa-star.checked {
+	color: #00CA4B;
+	opacity: 1;
+}
+
+.item-info__firm {
+	margin-right: 12px;
+	font-family: 'Gotham Pro Medium';
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.item-info__descr {
+	font-family: 'Gotham Pro Medium';
+	font-size: 24px;
+	line-height: 24px;
+	margin-right: 12px;
+	color: #3C3D41;
+	opacity: 0.3;
+}
+
+.item-info__categ {
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+	line-height: 13px;
+	color: #3C3D41;
+	opacity: 0.3;
+	text-transform: uppercase;
+}
+
+.item-info__new-label {
+	position: static;
+}
+.item-info__anchors {
+	display: flex;
+	border-bottom: 1px solid #D8D8D8;
+	margin-bottom: 33px;
+}
+
+.item-info__anchors li:not(:last-child) {
+	margin-right: 50px;
+}
+
+.item-info__anchor {
+	padding-bottom: 21px;
+	font-size: 14px;
+	line-height: 13px;
+	color:#3C3D41;
+	text-transform: uppercase;
+	position: relative;
+	font-family: 'Gotham Pro Medium';
+	display: block;
+}
+
+.item-info__anchor:after {
+	display: none;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: #009DE6;
+	position: absolute;
+	top: 34px;
+}
+
+
+
+.item-info__anchor:hover {
+	color: #009DE6;
+}
+.item-info__anchor:hover:after {
+	display: block;
+}
+
+.reviews-count {
+	color: #009DE6;
+	margin-left: 6px;
+}
+
+.item-info__size {
+	margin-bottom: 50px;
+}
+
+.item-info__sizes-wrapper {
+	display: flex;
+}
+.item-info__size-item {
+	width: 44px;
+	height: 44px;
+	border: 2px solid #F3F8FC;
+	border-radius: 10px;
+	background: #F3F8FC;
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+	line-height: 13px;
+	color:#3C3D41;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.item-info__size-item:not(:last-child) {
+	margin-right: 10px;
+}
+
+.item-info__size-item:hover {
+	border: 2px solid #009CE5;
+	background: #fff;
+}
+
+.item-info__size-item_active {
+	border: 2px solid #009CE5;
+	background: #fff;
+}
+
+.item-info__size-item_disable {
+	color:rgba(60, 61, 65, 0.25);
+	pointer-events: none;
+}
+
+.item-info__color-item {
+	width: 44px;
+	height: 44px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-right: 9px;
+	margin-bottom: 9px;
+}
+
+.item-info__color-item:hover {
+	border: 2px solid #009CE5;
+}
+
+.item-info__color-item_active {
+	border: 2px solid #009CE5;
+}
+
+.item-info__colors-wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item-info__color {
+	margin-bottom: 50px;
+}
+
+.item-info__material {
+	margin-bottom: 50px;
+}
+
+.item-info__materials-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.item-info__material-item {
+	background: #F2F8FC;
+	border-radius: 10px;
+	width: 148px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #3C3D41;
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+	line-height: 13px;
+	border: 2px solid #F2F8FC;
+	cursor: pointer;
+}
+
+#file-upload-button {
+	cursor: pointer;
+}
+
+.item-info__material-item:hover {
+	border: 2px solid #009CE5;
+	color: #009CE5;
+	background: transparent;
+}
+
+.item-info__material-item_active {
+	border: 2px solid #009CE5;
+	color: #009CE5;
+	background: transparent;
+}
+
+.custom-print__btn {
+	background: transparent;
+	border: 2px solid #C3C3C3;
+	border-radius: 10px;
+	width: 204px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+	line-height: 13px;
+	color: #C3C3C3;
+	position: relative;
+	padding: 10px;
+	word-break: break-all;
+}
+
+.custom-print__btn img {
+	margin-right: 10px;
+}
+
+.custom-print__input-file {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.item-info__custom-print {
+	margin-bottom: 30px;
+}
+
+.item-info__price-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.item-info__price-number {
+	font-size: 24px;
+	line-height: 24px;
+	color: #3C3D41;
+	font-family: 'Gotham Pro Bold';
+}
+
+.add-design__btn {
+	background: #FF6953;
+	font-family: 'Gotham Pro Bold';
+	font-size: 16px;
+	line-height: 45px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	padding: 16px 0;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+}
+
+.item-info__price {
+	margin-bottom: 40px;
+}
+
+.item-info__descrip-text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 14px;
+	line-height: 20px;
+	color: #3C3D41;
+}
+
+.item-info__descrip {
+	margin-bottom: 37px;
+}
+
+.item-reviews__average-stars {
+	margin-bottom: 10px;
+}
+
+.item-reviews__average-stars .fa-star.checked {
+	color: #00C55B;
+	opacity: 1;
+}
+
+.item-reviews__average-stars .fa-star {
+	color: #00C55B;
+	opacity: 0.3;
+	font-size: 16px;
+}
+
+.item-reviews__average-number {
+	font-family: 'Gotham Pro Bold';
+	font-size: 24px;
+	line-height: 22px;
+	color: #41C167;
+}
+
+.item-reviews__stat {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.item-reviews__title {
+	font-family: 'Gotham Pro Medium';
+	font-size: 12px;
+	line-height: 15px;
+	color: #99A5B7;
+
+}
+
+.item-reviews__text {
+	font-family: 'Gotham Pro Bold';
+	font-size: 24px;
+	line-height: 22px;
+	color: #000000;
+}
+
+.item-reviews__total,
+.item-reviews__order {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.item-reviews__item {
+	padding: 30px;
+	background: #F4F8FC;
+	border-radius: 4px;
+}
+
+.item-reviews__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.item-reviews__item-rating {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.item-reviews__photo {
+	margin-right: 15px;
+}
+
+.item-reviews__name {
+	font-size: 12px;
+	line-height: 19px;
+	font-family: 'Gotham Pro Medium';
+	color: #2E2E30;
+
+}
+
+.item-reviews__stars .fa-star.checked {
+	color: #00C94B;
+	opacity: 1;
+}
+
+.item-reviews__stars .fa-star {
+	color: #00C94B;
+	opacity: 0.3;
+	font-size: 19px;
+}
+
+.item-reviews__item-title {
+	font-family: 'Gotham Pro Bold';
+	font-size: 16px;
+	line-height: 24px;
+	color: #2E2E30;
+	margin-bottom: 10px;
+}
+
+.item-reviews__item-text {
+	font-family: 'Gotham Pro Regular';
+	color: #2E2E30;
+	font-size: 12px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+
+.item-reviews__item-date {
+	font-family: 'Gotham Pro Medium';
+	font-size: 12px;
+	line-height: 24px;
+	color: rgba(46, 46, 48, 0.3);
+}
+
+.item-reviews__wrapper {
+	margin-bottom: 50px;
+}
