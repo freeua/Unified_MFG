@@ -8,6 +8,12 @@
 	max-width: 980px;
 	margin:0 auto;
 }
+
+.homepage__header-main-container,
+.homepage__header-top-section-main-container{
+	max-width: 1230px;
+}
+
 .header .header__top-section,
 .header .header__top-section a{
 	color: #fff;
@@ -69,7 +75,8 @@
 }
 .header .header__main-nav-wrapper{
 	background-color: #fff;
-	padding: 22px;
+	/* padding: 22px; */
+	padding: 22px 0;
 	-webkit-box-shadow: 0px 1px 1px 0px rgba(46,46,48,0.05);
 	-moz-box-shadow: 0px 1px 1px 0px rgba(46,46,48,0.05);
 	box-shadow: 0px 1px 1px 0px rgba(46,46,48,0.05);

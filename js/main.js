@@ -1,11 +1,18 @@
 $(document).ready(function () {
 	$('.products-section__slider').slick({
-		slidesToShow: 3,
-		slidesToScroll: 3,
+		slidesToShow: 5,
+		slidesToScroll: 5,
 		dots: false,
 		speed: 300,
 		infinite: true,
 		responsive: [
+			{
+				breakpoint: 1100,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1
+				}
+			},
 			{
 				breakpoint: 767,
 				settings: {
@@ -24,11 +31,11 @@ $(document).ready(function () {
 	});
 
 	$('.customers-selling-section__products-wrapper').slick({
-		slidesToShow: 4,
-		slidesToScroll: 4,
+		slidesToShow: 5,
+		slidesToScroll: 5,
 		dots: false,
 		speed: 300,
-		infinite: true,
+		infinite: false,
 		variableWidth: true,
 		prevArrow: $('.prev-slide'),
 		nextArrow: $('.next-slide'),
@@ -51,11 +58,11 @@ $(document).ready(function () {
 	});
 
 	$('.unified-manufacturing-section__products-wrapper').slick({
-		slidesToShow: 3,
-		slidesToScroll: 3,
+		slidesToShow: 4,
+		slidesToScroll: 4,
 		dots: false,
 		speed: 300,
-		infinite: true,
+		infinite: false,
 		variableWidth: true,
 		prevArrow: $('.unified-prev-slide'),
 		nextArrow: $('.unified-next-slide'),
@@ -99,7 +106,7 @@ $(document).ready(function () {
 		focusOnSelect: true,
 		responsive: [
 			{
-				breakpoint: 10245,
+				breakpoint: 1450,
 				settings: {
 					slidesToShow: 5,
 					slidesToScroll: 1
@@ -218,6 +225,13 @@ $(document).ready(function () {
 		$(this).addClass('item-info__material-item_active');
 	})
 
+	// change active class when user clicks on anchor(item page)
+	$('.item-info__anchor').click(function () {
+		$('.item-info__anchor').removeClass('item-info__anchor_active');
+		$(this).addClass('item-info__anchor_active');
+	})
+
+
 
 
 	// $(document).on("click", ".custom-print__input-file", function () {
@@ -242,4 +256,5 @@ $(document).ready(function () {
 			scrollTop: $($.attr(this, 'href')).offset().top - 150
 		}, 500);
 	});
+
 });

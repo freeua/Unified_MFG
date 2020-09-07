@@ -17,7 +17,8 @@
 	margin-top: 20px;
 }
 .how-it-works-section__row:nth-child(2) .how-it-works-section__row-text{
-	margin-top: 0;	
+	/* margin-top: 0;	 */
+	margin-top: 24px;
 }
 .how-it-works-section .how-it-works-section__row:last-child{
 	padding-bottom:0;
@@ -26,13 +27,23 @@
 	-webkit-flex-direction: row-reverse;
 	flex-direction: row-reverse;	
 }
+
+.how-it-works-section__row.how-it-works-section__row-inverse .how-it-works-section__row-text {
+	width: 37%;
+}
+
 .how-it-works-section__column{
 	width: 40%;
 }
 .how-it-works-section__column-image{
 	text-align: right;
-	padding-right: 20px;	
+	/* padding-right: 20px;	 */
+	margin-right: 60px;
 }
+.manufacturing-img__mob {
+	display: none;
+}
+
 .how-it-works-section__row-inverse .how-it-works-section__column-image{
 	text-align: left;
 	padding-left: 0;	
@@ -59,7 +70,8 @@
 	line-height: 20px;
 }
 .how-it-works-section__logos{
-	max-width: 392px;
+	/* max-width: 392px; */
+	max-width: 430px;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-wrap: wrap;

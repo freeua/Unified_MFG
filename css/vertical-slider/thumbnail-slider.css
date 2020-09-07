@@ -2,18 +2,20 @@
 
 /*---------------------------- Thumbnails ----------------------------*/
 #thumbnail-slider {    
-    height:400px; 
+    width: 230px;
+    height: 550px;
     display:inline-block;
     padding:0px 0; /*Increse its value if want to move the arrows out of the div.inner */
     position:relative;
     -webkit-user-select: none;
     user-select:none;
+    float: none;
 }
 
 #thumbnail-slider div.inner {
-    border-radius:3px;
-    background-color:#444;
-    padding:0 12px;
+    /* border-radius:3px; */
+    /* background-color:#444; */
+    /* padding:0 12px; */
 
     /*the followings should not be changed */    
     height:100%;  box-sizing:border-box;
@@ -21,7 +23,7 @@
     overflow:hidden;
     margin:0;
 }
- 
+
 #thumbnail-slider div.inner ul {    
     /*the followings should not be changed */
     position:relative;
@@ -31,28 +33,26 @@
     padding:0;
     margin:0;
     float:left!important;
-    width:auto!important;
+    width:100%!important;
     height:auto!important;
 }
 
 #thumbnail-slider ul li {
     opacity:1;
     display:block;
-    border:3px solid transparent;
-    margin:4px 0; /* Spacing between thumbs*/
-
+    /* border:3px solid transparent; */
+    margin: 10px 0; /* Spacing between thumbs*/
     transition:all 0.5s;
-
     text-align:center;
     padding:0;
     position:relative;
     list-style:none;
     box-sizing:content-box;
     backface-visibility:hidden;
-
-    
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+    width: 100% !important;
+	/* -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); */
+    border-radius: 4px;
 }
 
 #thumbnail-slider ul li.active {
@@ -62,8 +62,8 @@
 }
 #thumbnail-slider li:hover {
     border-color:rgba(255,255,255,0.5);   
-	-webkit-filter: grayscale(50%);
-	filter: grayscale(50%);
+	/* -webkit-filter: grayscale(50%);
+	filter: grayscale(50%); */
 }
 
 #thumbnail-slider .thumb {

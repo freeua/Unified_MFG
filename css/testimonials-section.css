@@ -26,11 +26,20 @@
 	padding-left: 5px;
 }
 .testimonials-section__about-us-link:hover{
-    color: #0089ff;
+	color: #0089ff;
 }
 .testimonials-section__about-us-link:active{
-    color: #0072c1;
+	color: #0072c1;
 }
+
+.testimonials-section__logos .slick-prev {
+	left: -10px;
+}
+.testimonials-section__logos .slick-next {
+	right: -10px;
+}
+
+
 .testimonials-section__all-testimonials-wrapper{
 	border: 3px solid #F4F8FC;
 	border-radius: 4px;
@@ -44,9 +53,10 @@
 	letter-spacing: 0;
 	line-height: 26px;
 	text-align: center;
-    max-width: 700px;
-    margin: 0 auto;
-    padding-top: 10px;
+	/* max-width: 700px; */
+	max-width: 955px;
+	margin: 0 auto;
+	padding-top: 10px;
 	position: relative;
 }
 .testimonials-section__all-testimonials-wrapper blockquote::before{

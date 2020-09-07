@@ -1,7 +1,7 @@
 .print-custom-section{
 	border-radius: 4px;
 	background-color: #009CE5;
-	padding: 0px 50px 137px;
+	padding: 65px 50px;
 	box-sizing: border-box;
 }
 .print-custom--section__wrapper{
@@ -16,15 +16,64 @@
 	color: #fff;
 	text-align: left;
 	max-width: 361px;
-	position: relative;
-    top: 70px;
+	line-height: 34px;
 }
 .print-custom-section__images{
-	position: relative;
-	width: 48%;
+	position: absolute;
+	display: flex;
+	right: 60px;
+	top: 30px;
 }
+
+.print-custom-section {
+	position: relative;
+}
+
+.print-custom-section_item {
+	position: relative;
+	width: 215px;
+	height: 190px;
+	border-radius: 9px;
+	padding-top: 150px;
+	font-family: 'Gotham Pro Bold';
+	font-size: 14px;
+	line-height: 13px;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+}
+
+.print-custom-section_item .coming-soon-label {
+	right: -11px;
+	top: -13px;
+	left: initial;
+	text-transform: none;
+}
+
+.print-custom-section_item:nth-child(1) {
+	margin-right: 25px;
+}
+
+.print-custom-section_item-white {
+	color: #00B4FF;
+	background: #fff;
+	-webkit-box-shadow: -9px -6px 31px 16px rgba(67,98,126,0.15);
+	-moz-box-shadow: -9px -6px 31px 16px rgba(67,98,126,0.15);
+	box-shadow: -9px -6px 31px 16px rgba(67,98,126,0.15);
+}
+
+.print-custom-section_item-blue {
+	color: #fff;
+	background: #00B3FF;
+	-webkit-box-shadow: 0px 4px 7px 0 rgba(169,182,218,0.5);
+	-moz-box-shadow: 0px 4px 7px 0 rgba(169,182,218,0.5);
+	box-shadow: 0px 4px 7px 0 rgba(169,182,218,0.5)s;
+}
+
 .print-custom-section__images img{
 	position: absolute;
-    top: -20px;
-	right: -20px;
+	right: 0;
+	left: 0;
+	top: -12px;
+	margin: auto;
 }

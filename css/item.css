@@ -38,6 +38,7 @@
 	max-width: 480px;
 	display: flex;
 	flex-direction: column;
+	margin-left: 60px;
 }
 
 .item-info__name {
@@ -135,6 +136,7 @@
 	display: block;
 }
 
+
 .item-info__anchor:after {
 	display: none;
 	content: "";
@@ -146,10 +148,12 @@
 }
 
 
-
+.item-info__anchor_active, 
 .item-info__anchor:hover {
 	color: #009DE6;
 }
+
+.item-info__anchor_active:after, 
 .item-info__anchor:hover:after {
 	display: block;
 }
@@ -160,11 +164,12 @@
 }
 
 .item-info__size {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 .item-info__sizes-wrapper {
 	display: flex;
+	flex-wrap: wrap;
 }
 .item-info__size-item {
 	width: 44px;
@@ -180,6 +185,7 @@
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	margin-bottom: 10px;
 }
 
 .item-info__size-item:not(:last-child) {
@@ -229,19 +235,21 @@
 }
 
 .item-info__material {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .item-info__materials-wrapper {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 20px;
 }
 
 .item-info__material-item {
 	background: #F2F8FC;
 	border-radius: 10px;
 	width: 148px;
+	min-width: 148px;
 	height: 44px;
 	display: flex;
 	justify-content: center;
@@ -252,6 +260,10 @@
 	line-height: 13px;
 	border: 2px solid #F2F8FC;
 	cursor: pointer;
+}
+
+.item-info__material-item:not(:last-child) {
+	margin-right: 10px;
 }
 
 #file-upload-button {
@@ -349,6 +361,14 @@
 
 .item-info__descrip {
 	margin-bottom: 37px;
+}
+
+.item-reviews__total {
+	padding-right: 15px;
+}
+
+.item-reviews__average {
+	padding-right: 15px;
 }
 
 .item-reviews__average-stars {
@@ -466,3 +486,51 @@
 .item-reviews__wrapper {
 	margin-bottom: 50px;
 }
+
+
+
+
+
+
+/* 
+
+.carousel-indicators-wrapper {
+	width: 230px !important;
+	max-width: 230px !important;
+}
+
+.carousel-indicators {
+	position: static !important;
+	display: flex;
+	flex-direction: column;
+	height: 550px;
+	width: 230px;
+	margin: 0 !important;
+	overflow-y: scroll;
+}
+
+.carousel-indicators .item {
+	height: 50%;
+}
+
+.carousel-indicators .item img {
+	height: 100%;
+	width: 100%;
+}
+
+.carousel__big-image-wrapper {
+	width: 440px !important;
+	min-width: 440px !important;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+.carousel-item {
+	height: 100%;
+}
+
+.carousel-item img {
+	height: 100%;
+} */

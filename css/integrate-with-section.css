@@ -8,7 +8,9 @@
     -webkit-align-items: center;
     align-items: center;
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    max-width: 1000px;
+    
 }
 .integrate-with-section__single-logo{
 	width: 25%;

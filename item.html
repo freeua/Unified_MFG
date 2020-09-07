@@ -14,12 +14,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/collection.css">
+
+  <link rel="stylesheet" href="css/vertical-slider/ninja-slider.css">
+  <link rel="stylesheet" href="css/vertical-slider/thumbnail-slider.css">
+  <script src="js/vertical-slider/ninja-slider.js" crossorigin="anonymous"></script>
+  <script src="js/vertical-slider/thumbnail-slider.js" crossorigin="anonymous"></script>
+
+
   <link rel="stylesheet" href="css/item.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <link href="css/vertical-slider/ninja-slider.css" rel="stylesheet" />
-  <link href="css/vertical-slider/thumbnail-slider.css" rel="stylesheet" type="text/css" />
-  <script src="js/vertical-slider/ninja-slider.js"></script>
-  <script src="js/vertical-slider/thumbnail-slider.js" type="text/javascript"></script>
+
+
+
+
 </head>
 
 <body>
@@ -130,7 +137,7 @@
 
   <!-- Breadcrumbs -->
   <section class="breadcrumbs-section">
-    <div class="collection__breadcrumbs-wrapper">
+    <div class="collection__breadcrumbs-wrapper item-breadcrumbs-wrapper">
       <nav class="collection__breadcrumb" aria-label="breadcrumb">
         <ol class="collection__breadcrumb">
           <li class="collection__breadcrumb-item"><a href="#">Catalog</a></li>
@@ -145,8 +152,12 @@
     <!-- Information about item -->
     <div class="item-info">
       <div class="item-info__left">
-        <!--start-->
-        <div style="width:1000px;margin:80px auto;">
+
+
+
+
+        <div class="item-slider-wrapper">
+          <!--start-->
           <div id="thumbnail-slider" style="float:left;">
             <div class="inner">
               <ul>
@@ -156,26 +167,44 @@
                 <li>
                   <a class="thumb" href="img/item-img-3.png"></a>
                 </li>
+                <li>
+                  <a class="thumb" href="img/item-img-2.png"></a>
+                </li>
+                <li>
+                  <a class="thumb" href="img/item-img-3.png"></a>
+                </li>
+                <li>
+                  <a class="thumb" href="img/item-img-2.png"></a>
+                </li>
               </ul>
             </div>
           </div>
           <div id="ninja-slider" style="float:left;">
             <div class="slider-inner">
-              <ul>
+              <ul class="slider-inner-wrapper">
                 <li><a class="ns-img" href="img/item-img-1.png"></a></li>
                 <li><a class="ns-img" href="img/item-img-1.png"></a></li>
+                <li><a class="ns-img" href="img/item-img-1.png"></a></li>
+                <li><a class="ns-img" href="img/item-img-1.png"></a></li>
+                <li><a class="ns-img" href="img/item-img-1.png"></a></li>
+
               </ul>
-              <div class="fs-icon" title="Expand/Close"></div>
             </div>
           </div>
-
-          <div style="clear:both;"></div>
         </div>
+        <div style="clear:both;"></div>
         <!--end-->
+
+
+
+
+
+
+
       </div>
       <div class="item-info__right">
         <ul class="item-info__anchors">
-          <li><a class="item-info__anchor" href="#item-info__name">overview</a></li>
+          <li><a class="item-info__anchor item-info__anchor_active" href="#item-info__name">overview</a></li>
           <li><a class="item-info__anchor" href="#item-info__descrip">description</a></li>
           <li><a class="item-info__anchor" href="#item-reviews">reviews<span class="reviews-count">12</span></a></li>
         </ul>
