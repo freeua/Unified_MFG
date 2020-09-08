@@ -1,17 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg  width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Shape</title>
-    <desc>Created with Sketch.</desc>
-    <g id="--" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300269717">
-        <g id="01-Unified_Main_1650" transform="translate(-1356.000000, -6102.000000)" fill="#000000" fill-rule="nonzero">
-            <g id="Group-25-Copy" transform="translate(210.000000, 6094.000000)">
-                <g id="&lt;----&gt;-copy-2" transform="translate(1142.000000, 4.000000)">
-                    <g id="&lt;">
-                        <polygon id="Shape" points="20 11 7.83 11 13.42 5.41 12 4 4 12 12 20 13.41 18.59 7.83 13 20 13"></polygon>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">  <image id="image0" width="16" height="16" x="0" y="0"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZ
+cwAAAGAAAABgAPBrQs8AAAAHdElNRQfkCQgHNjgt9IbEAAAAbklEQVQY012POw6EMAwFJxEtJ9h2
+lbRwdg7CdhGfEi4ANTJF4sRaN/aMLD/ZCQAsxDx0ud2bFOOz6Ee37naDD3Pia0Q1VajxNDO4tNNN
+2Ep2A4DHSYNzlhD9H5uU4ych0m4UrkJZxaWMpiRf3n8Bx+4mU85s8OsAAAAldEVYdGRhdGU6Y3Jl
+YXRlADIwMjAtMDktMDhUMDc6NTQ6NTUrMDA6MDC+20/DAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIw
+LTA5LTA4VDA3OjU0OjU1KzAwOjAwz4b3fwAAAABJRU5ErkJggg==" />
 </svg>

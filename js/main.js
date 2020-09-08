@@ -148,7 +148,7 @@ $(document).ready(function () {
 	// slick on mobile
 	function slick_on_mobile(slider, settings) {
 		$(window).on('load resize', function () {
-			if ($(window).width() >= 767) {
+			if ($(window).width() >= 768) {
 				if (slider.hasClass('slick-initialized')) {
 					slider.slick('unslick');
 				}

@@ -32,6 +32,25 @@
 	width: 37%;
 }
 
+.how-it-works-section__row-customers {
+	position: relative;
+}
+
+.how-it-works-section__row-customers .how-it-works-section__column {
+	z-index: 2;
+}
+.how-it-works__customers-bg-mob {
+	display: none;
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	height: calc(100% - 40px);
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
 .how-it-works-section__column{
 	width: 40%;
 }

@@ -122,6 +122,10 @@ a{
 	-webkit-align-items: center;
 	align-items: center;	
 }
+.first-section__plants_markers__single:not(:last-child) {
+	margin-right: 10px;
+}
+
 .first-section .first-section__plants .first-section__plants_markers span{
 	letter-spacing: 0;
 	line-height: 15px;
@@ -313,9 +317,15 @@ a{
 	letter-spacing: 0;
 	line-height: 38px;
 }
-.customers-selling-section__phone{
+
+.customers-selling-section__phone {
 	padding: 30px 0 42px;
 }
+
+.customers-selling-section__phone .fa-phone-alt {
+	margin-right: 8px;
+}
+
 .customers-selling-section__phone a{
 	font-family: 'Gotham Pro Bold';
 	color: #009CE5;
@@ -433,15 +443,16 @@ a{
 .unified-manufacturing-section__slider-navigation .slick-prev:hover::before{
 	content: url(../img/arrow-left-light-blue.svg);
 }
-/* .unified-manufacturing-section__slider-navigation .slick-prev:focus::before{
-	content: url(../img/arrow-left-blue.svg);
-} */
+
 .unified-manufacturing-section__slider-navigation .slick-next:hover::before{
 	content: url(../img/arrow-right-light-blue.svg);
 }
-/* .unified-manufacturing-section__slider-navigation .slick-next:focus::before{
+.unified-manufacturing-section__slider-navigation .slick-prev:focus::before{
+	content: url(../img/arrow-left-blue.svg);
+}
+.unified-manufacturing-section__slider-navigation .slick-next:focus::before{
 	content: url(../img/arrow-right-blue.svg);
-} */
+}
 /* .unified-manufacturing-section__slider-navigation .slick-prev:hover::before,
 .unified-manufacturing-section__slider-navigation .slick-next:hover::before{
 	opacity: 1;
