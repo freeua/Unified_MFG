@@ -154,24 +154,39 @@
 		padding: 20px;
 	}
 	.faq__double-width-column {
-	    max-width: unset;
-	    width: 49%;
-	    margin-right: auto;
+		max-width: unset;
+		width: 49%;
+		margin-right: auto;
 	}
 	.faq__full-width-column{
 		width: 100%;
 	}
 	.сatalogue-main__single-category-right-part {
-	    padding-right: 30px;
+		padding-right: 30px;
 	}
 	.collection__search-form {
-    	width: 25%;
+		width: 25%;
+	}
+	.сatalogue-main__single-category:nth-child(1) .сatalogue-main__single-category-right-part {
+		padding-right: 20px;
+	}
+	
+	.сatalogue-main__single-category:nth-child(2) .сatalogue-main__single-category-right-part {
+		padding-right: 20px;
+	}
+	
+	.сatalogue-main__single-category:nth-child(3) .сatalogue-main__single-category-right-part {
+		padding-right: 20px;
+	}
+	
+	.сatalogue-main__single-category:nth-child(4) .сatalogue-main__single-category-right-part {
+		padding-right: 20px;
 	}
 	.collection__single-filter{
 		width: 90px;
 	}
 	.collection__categories-wrapper {
-    	min-width: 180px;
+		min-width: 180px;
 	}
 	.collection__single-product{
 		width: 30%;
@@ -1169,6 +1184,9 @@
 	.сatalogue-main__single-category-right-part{
 		width: 50%;
 	}
+	.сatalogue-main__single-category:nth-child(3) .сatalogue-main__single-category-right-part {
+    padding-right: 10px;
+	}
 	.сatalogue-mobile-image{
 		display: block;
 	}
@@ -1417,24 +1435,24 @@
 		top: 53px;
 	}
 	.products-section__slider .slick-next {
-    	right: -10px;
+		right: -10px;
 	}
 	.products-section__slider .slick-prev {
-	    left: -10px;
+		left: -10px;
 	}
 	.testimonials-section__logos .slick-prev, .testimonials-section__logos .slick-next {
-	    background-color: transparent;
+		background-color: transparent;
 	}
 	.testimonials-section__all-testimonials-wrapper blockquote{max-width: 200px;}
 	.footer__contact-info .footer__payments-logos img {
-    	margin-right: 35px;
+		margin-right: 35px;
 	}
 	.header__mobile-top-section-help-text,
 	.header__mobile-top-section-help-text,
 	.header__mobile-top-section-contact-us-link,
 	.first-section .first-section__plants .first-section__plants_markers span{
-	    font-size: 11px;
-	    line-height: 11px;
+		font-size: 11px;
+		line-height: 11px;
 	}
 	.faq__single-column-title{
 		font-size: 16px;
@@ -1443,19 +1461,19 @@
 		padding: 15px;
 	}
 	.faq__single-column-category-link{
-    	font-size: 11px;
+		font-size: 11px;
 	}
 	.faq__double-width-column:nth-child(2) .faq__double-width-sub-columns-wrapper .faq__double-width-sub-column:nth-child(2) img{
-    	width: 100%;
+		width: 100%;
 	}
 	.сatalogue-main__single-category-title{
 		font-size: 16px;
 	}
 	.сatalogue-main__single-category-left-part {
-    	padding: 0 0 20px 20px;
+		padding: 0 0 20px 20px;
 	}
 	.сatalogue-main__single-category-right-part {
-	    width: 45%;
+		width: 45%;
 	}
 	.collection__page-item>a{
 		height: 24px;
@@ -1468,11 +1486,11 @@
 		padding: 7px 10px;
 	}
 	.collection__breadcrumb-item a, .collection__breadcrumb-item span {
-	    font-size: 11px;
-	    line-height: 11px;
+		font-size: 11px;
+		line-height: 11px;
 	}
 	.collection__breadcrumb-item {
-	    padding: 0 6px;
+		padding: 0 6px;
 	}
 	.collection__breadcrumb-item:after{
 		padding-left: 6px;

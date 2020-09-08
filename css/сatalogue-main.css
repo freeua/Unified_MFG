@@ -57,6 +57,23 @@
 	margin-bottom: 10px;
     overflow: hidden;
 }
+
+.сatalogue-main__single-category:nth-child(1) .сatalogue-main__single-category-right-part {
+	padding-right: 30px;
+}
+
+.сatalogue-main__single-category:nth-child(2) .сatalogue-main__single-category-right-part {
+	padding-right: 40px;
+}
+
+.сatalogue-main__single-category:nth-child(3) .сatalogue-main__single-category-right-part {
+	padding-right: 60px;
+}
+
+.сatalogue-main__single-category:nth-child(4) .сatalogue-main__single-category-right-part {
+	padding-right: 70px;
+}
+
 .сatalogue-main__single-burgundy-color{
 	background-color: #620E22;
 }
@@ -76,7 +93,6 @@
 }
 .сatalogue-main__single-category-right-part{
 	width: 55%;
-	padding-right: 55px;
 	text-align: right;
 }
 .сatalogue-main__single-category-right-part img{
