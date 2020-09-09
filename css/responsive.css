@@ -19,7 +19,9 @@
 	.homepage__main-container {
     max-width: 980px;
 	}
-
+	.homepage__header-main-container, .homepage__header-top-section-main-container {
+    max-width: 980px;
+	}
 	.products-section__slider-wrapper {
     max-width: 944px;
 	}
