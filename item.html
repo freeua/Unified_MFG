@@ -152,11 +152,31 @@
     <!-- Information about item -->
     <div class="item-info">
       <div class="item-info__left">
+        <div class="item-slider-wrapper__desk">
+          <!-- Slider with thumbnails -->
+          <div class="item__thumbnail-slider">
+            <div class="item__thumbnail-slide" data-open="1"><img src="img/item-img-3.png"></div>
+            <div class="item__thumbnail-slide" data-open="2"><img src="img/item-img-2.png"></div>
+            <div class="item__thumbnail-slide" data-open="3"><img src="img/item-img-3.png"></div>
+            <div class="item__thumbnail-slide" data-open="4"><img src="img/item-img-2.png"></div>
+            <div class="item__thumbnail-slide" data-open="5"><img src="img/item-img-3.png"></div>
+            <div class="item__thumbnail-slide" data-open="6"><img src="img/item-img-2.png"></div>
+          </div>
+          <!-- Block with full image. By clicking on the thumbnail, the corresponding large picture is displayed -->
+          <div class="item__full-img-wrapper">
+            <div class="item__full-img_active"><img src="img/item-img-1.png"></div>
+            <div><img src="img/item-img-1.png"></div>
+            <div><img src="img/item-img-1.png"></div>
+            <div><img src="img/item-img-1.png"></div>
+            <div><img src="img/item-img-1.png"></div>
+            <div><img src="img/item-img-1.png"></div>
+          </div>
+        </div>
+        <!-- end of item-slider-wrapper__desk -->
 
 
 
-
-        <div class="item-slider-wrapper">
+        <div class="item-slider-wrapper__desktop">
           <!--start-->
           <div id="thumbnail-slider" style="float:left;">
             <div class="inner">
@@ -192,16 +212,36 @@
             </div>
           </div>
         </div>
+        <!--end of item-slider-wrapper-desktop-->
         <div style="clear:both;"></div>
         <!--end-->
 
-
-
-
-
-
-
+        <div class="item-slider-wrapper__mob">
+          <div class="item-slider__mob">
+            <div class="item-slider__mob-img">
+              <img src="img/item-img-1.png" alt="">
+            </div>
+            <div class="item-slider__mob-img">
+              <img src="img/item-img-1.png" alt="">
+            </div>
+            <div class="item-slider__mob-img">
+              <img src="img/item-img-1.png" alt="">
+            </div>
+            <div class="item-slider__mob-img">
+              <img src="img/item-img-1.png" alt="">
+            </div>
+            <div class="item-slider__mob-img">
+              <img src="img/item-img-1.png" alt="">
+            </div>
+            <div class="item-slider__mob-img">
+              <img src="img/item-img-1.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!--end of item-slider-wrapper-mob-->
       </div>
+      <!--end of item-info__left-->
+
       <div class="item-info__right">
         <ul class="item-info__anchors">
           <li><a class="item-info__anchor item-info__anchor_active" href="#item-info__name">overview</a></li>
@@ -399,7 +439,167 @@
 
     <!-- Recommended -->
     <div class="item__recommended">
-      <p class="item__recommended-sub-title item-sub-title">recommended</p>
+      <div class="item__recommended-top">
+        <p class="item__recommended-sub-title item-sub-title">recommended</p>
+        <a href="#" class="item__recommended-view-all">View all</a>
+      </div>
+
+      <div class="item__recommended__products">
+        <div class="item__recommended__products-desk">
+          <div class="collection__single-product">
+            <div class="collection__single-product-inner-wrapper">
+              <div class="collection__single-product-image"><img src="img/collection/Hoodie-brown.png"></div>
+              <div class="collection__single-product-info">
+                <div class="collection__single-product-price">
+                  Starting At <span
+                    class="collection__single-product-price-value collection__single-product-price-value__small">$7.91</span>
+                </div>
+                <div class="collection__single-product-title">
+                  Hanes <span>50/50 Hoodie</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection__single-product">
+            <div class="collection__single-product-inner-wrapper">
+              <div class="collection__single-product-image"><img src="img/collection/Hoodie-gray.png"></div>
+              <div class="collection__single-product-info">
+                <div class="collection__single-product-price">
+                  Starting At <span
+                    class="collection__single-product-price-value collection__single-product-price-value__small">$7.91</span>
+                </div>
+                <div class="collection__single-product-title">
+                  Jerzees <span>50/50 Hoodie</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection__single-product">
+            <div class="collection__single-product-inner-wrapper">
+              <div class="collection__single-product-image"><img src="img/collection/Hoodie-beige.png"></div>
+              <div class="collection__single-product-info">
+                <div class="collection__single-product-price">
+                  Starting At <span
+                    class="collection__single-product-price-value collection__single-product-price-value__small">$7.91</span>
+                </div>
+                <div class="collection__single-product-title">
+                  Hanes <span>50/50 Hoodie</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection__single-product">
+            <div class="collection__single-product-inner-wrapper">
+              <div class="collection__single-product-image"><img src="img/collection/Hoodie-blue.png"><span
+                  class="new-label">NEW</span></div>
+              <div class="collection__single-product-info">
+                <div class="collection__single-product-price">
+                  Starting At <span class="collection__single-product-price-value">$7.91</span>
+                </div>
+                <div class="collection__single-product-title">
+                  Gildan <span>50/50 Hoodie</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="collection__single-product">
+            <div class="collection__single-product-inner-wrapper">
+              <div class="collection__single-product-image"><img src="img/collection/Hoodie-melange.png"><span
+                  class="new-label">NEW</span></div>
+              <div class="collection__single-product-info">
+                <div class="collection__single-product-price">
+                  Starting At <span class="collection__single-product-price-value">$7.91</span>
+                </div>
+                <div class="collection__single-product-title">
+                  Hanes <span>50/50 Hoodie</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of item__recommended__products-desk -->
+        <div class="item__recommended__products-mob">
+          <div class="item__recommended__products-slider">
+            <div class="collection__single-product">
+              <div class="collection__single-product-inner-wrapper">
+                <div class="collection__single-product-image "><img src="img/collection/Hoodie-brown.png"></div>
+                <div class="collection__single-product-info">
+                  <div class="collection__single-product-price">
+                    Starting At <span
+                      class="collection__single-product-price-value collection__single-product-price-value__small">$7.91</span>
+                  </div>
+                  <div class="collection__single-product-title">
+                    Hanes <span>50/50 Hoodie</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="collection__single-product">
+              <div class="collection__single-product-inner-wrapper">
+                <div class="collection__single-product-image "><img src="img/collection/Hoodie-gray.png"></div>
+                <div class="collection__single-product-info">
+                  <div class="collection__single-product-price">
+                    Starting At <span
+                      class="collection__single-product-price-value collection__single-product-price-value__small">$7.91</span>
+                  </div>
+                  <div class="collection__single-product-title">
+                    Jerzees <span>50/50 Hoodie</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="collection__single-product">
+              <div class="collection__single-product-inner-wrapper">
+                <div class="collection__single-product-image "><img src="img/collection/Hoodie-beige.png"></div>
+                <div class="collection__single-product-info">
+                  <div class="collection__single-product-price">
+                    Starting At <span
+                      class="collection__single-product-price-value collection__single-product-price-value__small">$7.91</span>
+                  </div>
+                  <div class="collection__single-product-title">
+                    Hanes <span>50/50 Hoodie</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="collection__single-product">
+              <div class="collection__single-product-inner-wrapper">
+                <div class="collection__single-product-image"><img src="img/collection/Hoodie-blue.png"><span
+                    class="new-label">NEW</span></div>
+                <div class="collection__single-product-info">
+                  <div class="collection__single-product-price">
+                    Starting At <span class="collection__single-product-price-value">$7.91</span>
+                  </div>
+                  <div class="collection__single-product-title">
+                    Gildan <span>50/50 Hoodie</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="collection__single-product">
+              <div class="collection__single-product-inner-wrapper">
+                <div class="collection__single-product-image"><img src="img/collection/Hoodie-melange.png"><span
+                    class="new-label">NEW</span></div>
+                <div class="collection__single-product-info">
+                  <div class="collection__single-product-price">
+                    Starting At <span class="collection__single-product-price-value">$7.91</span>
+                  </div>
+                  <div class="collection__single-product-title">
+                    Hanes <span>50/50 Hoodie</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- end of item__recommended__products-slider -->
+        </div><!-- end of item__recommended__products-mob -->
+      </div><!-- end of item__recommended__products -->
     </div><!-- end of recommended -->
 
   </section>

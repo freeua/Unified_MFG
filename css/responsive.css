@@ -54,7 +54,7 @@
 		margin: auto;
 	}
 
-	.item-slider-wrapper {
+	.item-slider-wrapper-desktop {
 		display: table;
 		margin: auto;
 	}
@@ -67,6 +67,14 @@
 }
 
 @media(max-width: 1100px){
+	.item__recommended__products-mob {
+		display: block;
+	}
+
+	.item__recommended__products-desk {
+		display: none;
+	}
+	
 	.products-section__slider {
 		max-width: initial;
 		display: flex;
@@ -192,7 +200,8 @@
 		width: 30%;
 		margin-right: auto;
 	}
-	.collection__single-product:hover .collection__single-product-inner-wrapper{
+
+	.collection__products-wrapper .collection__single-product:hover .collection__single-product-inner-wrapper{
 		min-width: calc(100% + 20px);
 	}
 	.collection__single-product:nth-child(4n) {
@@ -455,6 +464,12 @@
 		display: none;
 	}
 
+	.item-slider-wrapper__mob {
+		display: block;
+	}
+	.item-slider-wrapper__desktop {
+		display: none;
+	}
 
 	.how-it-works-section__row .how-it-works-section__row-text.how-it-works__unified-text {
     margin-top: 50px;
@@ -1314,7 +1329,7 @@
 		padding-top: 15px;
 	}
 
-	.collection__single-product{
+	.collection__products-wrapper .collection__single-product{
 		width: 100%;
 		max-width: 355px;
 		margin: 0 auto 30px;
@@ -1329,9 +1344,9 @@
 	.collection__single-product:hover .collection__single-product-additional-info{width: 100%;padding-right: 20px;}
 	.collection__single-product-image-mobile{display: -webkit-flex; display: flex;}
 	.collection__single-product-image-desktop{display: none;}
-	.collection__single-product-image{min-height: 444px;overflow: hidden;}
+  .collection__products-wrapper .collection__single-product-image{min-height: 444px;overflow: hidden;}
 	/*.collection__single-product-image img{min-height: 444px;}*/
-	.collection__single-product-price{
+	.collection__products-wrapper .collection__single-product-price{
 		display: -webkit-flex;
 		display: flex;
 		-webkit-justify-content: space-between;
@@ -1339,17 +1354,18 @@
 		-webkit-align-items: center;
 		align-items: center;
 	}
-	.collection__single-product-price,
-	.collection__single-product-size-label,
-	.collection__single-product-colors{
+	.collection__products-wrapper .collection__single-product-price,
+	.collection__products-wrapper .collection__single-product-size-label,
+	.collection__products-wrapper .collection__single-product-colors{
 		font-size: 12px;
 		line-height: 12px;
 	}
-	.collection__single-product-price-value{
+	.collection__products-wrapper .collection__single-product-price-value{
 		font-size: 20px;
 		line-height: 19px;
 	}
-	.collection__single-product-title{
+
+	.collection__products-wrapper .collection__single-product-title{
 		font-size: 14px;
 		line-height: 13px;
 	}

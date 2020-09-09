@@ -242,7 +242,11 @@
 	/* position: absolute; */
 }
 
-.collection__single-product:hover .collection__single-product-inner-wrapper{
+.collection__products-list .collection__single-product {
+	cursor: pointer;
+}
+
+.collection__products-list .collection__single-product:hover .collection__single-product-inner-wrapper{
 	width: 100%;
 	min-width: 208px;
 	min-height: 390px;
