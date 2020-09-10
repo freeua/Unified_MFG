@@ -85,6 +85,10 @@
 	.item-slider-wrapper__desk .slider-nav {
 		width: 154px;
 	}
+
+	.item-slider-wrapper__desk .slider-for .item__full-img img {
+		height: 100%;
+	} 
 }
 
 @media(max-width: 1100px) {
@@ -489,7 +493,9 @@
 	.breadcrumbs-section__item-page {
 		margin-bottom: 10px;
 	}
-
+	.load-colors__btn-wrapper {
+		display: flex;
+	}
 	.item-info__firm,
 	.item-info__descr {
 		font-size: 20px;
@@ -524,10 +530,7 @@
     margin-bottom: 20px;
 	}
 
-	.add-design__btn {
-		padding: 9px 0;
-	}
-	
+
 	.item-info__price {
     margin-bottom: 30px;
 	}

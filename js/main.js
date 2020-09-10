@@ -155,14 +155,13 @@ $(document).ready(function () {
 
 	// Item page. First slider. Mobile slider
 	$('.item-slider__mob').slick({
-		infinite: false,
 		appendArrows: ".item-slider__mob-arrows",
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		dots: false,
 		speed: 300,
-		infinite: true,
 		variableWidth: true,
+		infinite: false,
 		responsive: [
 			{
 				breakpoint: 767,
@@ -189,7 +188,7 @@ $(document).ready(function () {
 				breakpoint: 812,
 				settings: {
 					slidesToShow: 3,
-					slidesToScroll: 1
+					slidesToScroll: 2
 				}
 			},
 			{

@@ -230,10 +230,8 @@
 	flex-wrap: wrap;
 }
 
-
-
 .item-info__color {
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 .item-info__material {
@@ -341,8 +339,7 @@
 
 .add-design__btn {
 	width: 100%;
-	padding: 16px 0;
-	line-height: 45px;
+	padding: 19px 0;
 }
 
 .item-info__price {
@@ -443,7 +440,6 @@
 	line-height: 19px;
 	font-family: 'Gotham Pro Medium';
 	color: #2E2E30;
-
 }
 
 .item-reviews__stars .fa-star.checked {
@@ -595,10 +591,6 @@
 	justify-content: center;
 }
 
-.item-slider-wrapper__desk .slider-for .item__full-img img {
-	height: 100%;
-}
-
 .item-slider-wrapper__desk .slider-nav {
 	width: 190px;
 	margin-right: 10px;
@@ -669,6 +661,9 @@
 	opacity: 0;
 }
 
+.load-colors__btn-wrapper {
+	display: none;
+}
 
 /*end first slider mobile version*/
 
