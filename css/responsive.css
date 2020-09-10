@@ -43,9 +43,7 @@
 		box-sizing: border-box;
 	}
 
-	.item-info {
-    flex-direction: column;
-	}
+
 
 	.item-info__left {
 		margin-bottom: 110px;
@@ -68,7 +66,37 @@
 	}
 }
 
-@media(max-width: 1100px){
+@media(max-width: 1280px){
+	/* .item-info {
+		flex-direction: column;
+	} */
+	.item-slider-wrapper__desk .slider-for,
+	.item-slider-wrapper__desk .slider-for .slick-list,
+	.item-slider-wrapper__desk .slider-for .slick-track {
+    height: 448px;
+	}
+	.item-slider-wrapper__desk .slider-for {
+    width: 320px;
+	}
+	.item-slider-wrapper__desk .thumbnail-image {
+    height: 220px;
+	}
+
+	.item-slider-wrapper__desk .slider-nav {
+		width: 154px;
+	}
+}
+
+@media(max-width: 1100px) {
+	.item-info__left {
+		display: flex;
+		justify-content: center;
+    margin-bottom: 45px;
+	}
+
+	.item-info {
+		flex-direction: column;
+	}
 	.item__recommended__products-mob {
 		display: block;
 	}
@@ -458,7 +486,75 @@
 }
 
 @media(max-width: 767px){
+	.breadcrumbs-section__item-page {
+		margin-bottom: 10px;
+	}
 
+	.item-info__firm,
+	.item-info__descr {
+		font-size: 20px;
+		line-height: 19px;
+	}
+
+	.item-info__categ {
+		font-size: 12px;
+		line-height: 12px;
+	}
+
+	.item-info__size {
+		margin-bottom: 20px;
+	}
+	.item-info__name {
+    margin-bottom: 10px;
+	}
+
+	.item-info__color-item:nth-child(n+9) {
+		display: none;
+	}
+
+	.item-info__color {
+    margin-bottom: 30px;
+	}
+
+	.item-info__color-item {
+		width: 34px;
+		height: 34px;
+	}
+	.item-info__price-sub-title {
+    margin-bottom: 20px;
+	}
+
+	.add-design__btn {
+		padding: 9px 0;
+	}
+	
+	.item-info__price {
+    margin-bottom: 30px;
+	}
+	.item-info__descrip {
+    margin-bottom: 30px;
+	}
+	.item-reviews__sub-title {
+    margin-bottom: 23px;
+	}
+	.item-reviews__item-title {
+		font-size: 14px;
+	}
+	.item-reviews__item {
+		padding: 20px;
+	}
+
+	.item-reviews__wrapper {
+    margin-bottom: 40px;
+	}
+	.item-slider__mob-arrows .slick-next {
+		right: -20px;
+	}
+
+	.item-slider-wrapper__mob {
+    position: relative;
+    right: 10px;
+	}
 	.manufacturing-img__mob {
 		display: block;
 	}
@@ -469,7 +565,8 @@
 	.item-slider-wrapper__mob {
 		display: block;
 	}
-	.item-slider-wrapper__desktop {
+	
+	.item-slider-wrapper__desk {
 		display: none;
 	}
 

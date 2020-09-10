@@ -85,24 +85,10 @@ a{
 	margin-bottom: 30px;
 }
 .first-section	.first-section__column .first-section__button{
-	font-family: 'Gotham Pro Bold';
-	font-size: 16px;
 	letter-spacing: 0;
-	line-height: 45px;
-	text-align: center;
-	color: #FFFFFF;
 	width: 100%;
 	max-width: 216px;
-	border-radius: 4px;
-	background-color: #FF6953;
-	padding: 18px 43px;
-	text-transform: uppercase;
-}
-.first-section	.first-section__column .first-section__button:hover{
-	background-color: #ff4b1f;
-}
-.first-section	.first-section__column .first-section__button:active{
-	background-color: #ff9b82;
+	padding: 18px 0;
 }
 .first-section .first-section__plants{
 	margin: 60px 0 50px 0;
@@ -615,6 +601,32 @@ a{
 	margin-bottom: 12px;
 } 
 
+.red-btn {
+	background: #FF6953;
+	font-family: 'Gotham Pro Bold';
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+}
+
+.red-btn:hover{
+	background-color: #ff4b1f;
+}
+
+.red-btn:active{
+	background-color: #ff9b82;
+}
+
+.blue-bg {
+	background: #F4F8FC;
+}
+ 
 /*Label NEW*/
 .new-label {
 	position: absolute;
@@ -632,8 +644,8 @@ a{
 	text-align: center;
 	text-transform: uppercase;
 }
-/*Label coming soon*/
 
+/*Label coming soon*/
 .coming-soon-label{
 	position: absolute;
 	top:20px;

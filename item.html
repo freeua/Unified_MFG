@@ -96,7 +96,7 @@
       </div>
     </div>
   </header>
-  <header class="header header__mobile">
+  <header class="header header__mobile" id="item-info__overview">
     <div class="header__mobile-top-section">
       <div class="header__mobile-top-section-help">
         <span class="header__mobile-top-section-help-text">24h online Help: </span>
@@ -136,7 +136,7 @@
   </header>
 
   <!-- Breadcrumbs -->
-  <section class="breadcrumbs-section">
+  <section class="breadcrumbs-section breadcrumbs-section__item-page">
     <div class="collection__breadcrumbs-wrapper item-breadcrumbs-wrapper">
       <nav class="collection__breadcrumb" aria-label="breadcrumb">
         <ol class="collection__breadcrumb">
@@ -152,91 +152,73 @@
     <!-- Information about item -->
     <div class="item-info">
       <div class="item-info__left">
+        <!-- DESKTOP SLIDER(first slider) -->
+        <!-- Full image -->
         <div class="item-slider-wrapper__desk">
-          <!-- Slider with thumbnails -->
-          <div class="item__thumbnail-slider">
-            <div class="item__thumbnail-slide" data-open="1"><img src="img/item-img-3.png"></div>
-            <div class="item__thumbnail-slide" data-open="2"><img src="img/item-img-2.png"></div>
-            <div class="item__thumbnail-slide" data-open="3"><img src="img/item-img-3.png"></div>
-            <div class="item__thumbnail-slide" data-open="4"><img src="img/item-img-2.png"></div>
-            <div class="item__thumbnail-slide" data-open="5"><img src="img/item-img-3.png"></div>
-            <div class="item__thumbnail-slide" data-open="6"><img src="img/item-img-2.png"></div>
+          <div class="slider-nav">
+            <div class="thumbnail-image">
+              <img src="img/item-img-2.png">
+            </div>
+            <div class="thumbnail-image blue-bg">
+              <img src="img/item-img3-transp-bg.png">
+            </div>
+            <div class="thumbnail-image">
+              <img src="img/item-img-2.png">
+            </div>
+            <div class="thumbnail-image blue-bg">
+              <img src="img/item-img3-transp-bg.png">
+            </div>
+            <div class="thumbnail-image">
+              <img src="img/item-img-1.png">
+            </div>
           </div>
-          <!-- Block with full image. By clicking on the thumbnail, the corresponding large picture is displayed -->
-          <div class="item__full-img-wrapper">
-            <div class="item__full-img_active"><img src="img/item-img-1.png"></div>
-            <div><img src="img/item-img-1.png"></div>
-            <div><img src="img/item-img-1.png"></div>
-            <div><img src="img/item-img-1.png"></div>
-            <div><img src="img/item-img-1.png"></div>
-            <div><img src="img/item-img-1.png"></div>
+          <!-- Thumbnail slides -->
+          <div class="slider-for">
+            <div class="item__full-img blue-bg">
+              <img src="img/item-img1-transp-bg.png">
+            </div>
+            <div class="item__full-img blue-bg">
+              <img src="img/item-img1-transp-bg.png">
+            </div>
+            <div class="item__full-img blue-bg">
+              <img src="img/item-img1-transp-bg.png">
+            </div>
+            <div class="item__full-img blue-bg">
+              <img src="img/item-img1-transp-bg.png">
+            </div>
+            <div class="item__full-img blue-bg">
+              <img src="img/item-img1-transp-bg.png">
+            </div>
           </div>
+          <!-- Nav arrows for first slider desktop -->
+          <div class="item__thumbnail-arrows"></div>
         </div>
         <!-- end of item-slider-wrapper__desk -->
 
-
-
-        <div class="item-slider-wrapper__desktop">
-          <!--start-->
-          <div id="thumbnail-slider" style="float:left;">
-            <div class="inner">
-              <ul>
-                <li>
-                  <a class="thumb" href="img/item-img-2.png"></a>
-                </li>
-                <li>
-                  <a class="thumb" href="img/item-img-3.png"></a>
-                </li>
-                <li>
-                  <a class="thumb" href="img/item-img-2.png"></a>
-                </li>
-                <li>
-                  <a class="thumb" href="img/item-img-3.png"></a>
-                </li>
-                <li>
-                  <a class="thumb" href="img/item-img-2.png"></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div id="ninja-slider" style="float:left;">
-            <div class="slider-inner">
-              <ul class="slider-inner-wrapper">
-                <li><a class="ns-img" href="img/item-img-1.png"></a></li>
-                <li><a class="ns-img" href="img/item-img-1.png"></a></li>
-                <li><a class="ns-img" href="img/item-img-1.png"></a></li>
-                <li><a class="ns-img" href="img/item-img-1.png"></a></li>
-                <li><a class="ns-img" href="img/item-img-1.png"></a></li>
-
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!--end of item-slider-wrapper-desktop-->
-        <div style="clear:both;"></div>
-        <!--end-->
-
+        <!-- MOBILE SLIDER(first slider) -->
         <div class="item-slider-wrapper__mob">
           <div class="item-slider__mob">
-            <div class="item-slider__mob-img">
-              <img src="img/item-img-1.png" alt="">
+            <div class="item-slider__mob-img blue-bg">
+              <img src="img/item-img1-transp-bg.png" alt="">1
             </div>
-            <div class="item-slider__mob-img">
-              <img src="img/item-img-1.png" alt="">
+            <div class="item-slider__mob-img blue-bg">
+              <img src="img/item-img3-transp-bg.png" alt="">
             </div>
-            <div class="item-slider__mob-img">
-              <img src="img/item-img-1.png" alt="">
+            <div class="item-slider__mob-img blue-bg">
+              <img src="img/item-img1-transp-bg.png" alt="">
             </div>
-            <div class="item-slider__mob-img">
-              <img src="img/item-img-1.png" alt="">
+            <div class="item-slider__mob-img blue-bg">
+              <img src="img/item-img3-transp-bg.png" alt="">
             </div>
-            <div class="item-slider__mob-img">
-              <img src="img/item-img-1.png" alt="">
+            <div class="item-slider__mob-img blue-bg">
+              <img src="img/item-img1-transp-bg.png" alt="">
             </div>
-            <div class="item-slider__mob-img">
-              <img src="img/item-img-1.png" alt="">
+            <div class="item-slider__mob-img blue-bg">
+              <img src="img/item-img3-transp-bg.png" alt="">
             </div>
           </div>
+          <!-- Nav arrows for first slider mobile -->
+          <div class="item-slider__mob-arrows"></div>
         </div>
         <!--end of item-slider-wrapper-mob-->
       </div>
@@ -244,13 +226,14 @@
 
       <div class="item-info__right">
         <ul class="item-info__anchors">
-          <li><a class="item-info__anchor item-info__anchor_active" href="#item-info__name">overview</a></li>
+          <li class="item-info__anchor_active"><a class="item-info__anchor " href="#item-info__overview">overview</a>
+          </li>
           <li><a class="item-info__anchor" href="#item-info__descrip">description</a></li>
           <li><a class="item-info__anchor" href="#item-reviews">reviews<span class="reviews-count">12</span></a></li>
         </ul>
 
         <div class="item-info__name-wrapper">
-          <p class="item-info__name" id="item-info__name">
+          <p class="item-info__name">
             <span class="item-info__firm">Hanes</span>
             <span class="item-info__descr">50/50 Hoodie</span>
             <span class="new-label item-info__new-label">new</span>
@@ -306,6 +289,11 @@
             <div class="item-info__color-item color-dirty-lilac"></div>
             <div class="item-info__color-item color-red"></div>
           </div><!-- item-info__colors-wrapper -->
+          <div class="load-colors__btn-wrapper">
+            <input type="checkbox" id="load-colors__btn">
+            <label class="load-colors__btn-label" for="load-colors__btn">load more</label>
+          </div>
+
         </div><!-- item-info__color -->
 
         <div class="item-info__material">
@@ -331,7 +319,7 @@
             <p>Starting at:</p>
             <p class="item-info__price-number">$7.91</p>
           </div>
-          <button class="add-design__btn">add design</button>
+          <button class="red-btn add-design__btn">add design</button>
         </div>
 
         <div class="item-info__descrip item-info__border-bottom" id="item-info__descrip">
@@ -447,7 +435,7 @@
       <div class="item__recommended__products">
         <div class="item__recommended__products-desk">
           <div class="collection__single-product">
-            <div class="collection__single-product-inner-wrapper">
+            <a href="#" class="collection__single-product-inner-wrapper">
               <div class="collection__single-product-image"><img src="img/collection/Hoodie-brown.png"></div>
               <div class="collection__single-product-info">
                 <div class="collection__single-product-price">
@@ -458,11 +446,11 @@
                   Hanes <span>50/50 Hoodie</span>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="collection__single-product">
-            <div class="collection__single-product-inner-wrapper">
+            <a href="#" class="collection__single-product-inner-wrapper">
               <div class="collection__single-product-image"><img src="img/collection/Hoodie-gray.png"></div>
               <div class="collection__single-product-info">
                 <div class="collection__single-product-price">
@@ -473,11 +461,11 @@
                   Jerzees <span>50/50 Hoodie</span>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="collection__single-product">
-            <div class="collection__single-product-inner-wrapper">
+            <a href="#" class="collection__single-product-inner-wrapper">
               <div class="collection__single-product-image"><img src="img/collection/Hoodie-beige.png"></div>
               <div class="collection__single-product-info">
                 <div class="collection__single-product-price">
@@ -488,11 +476,11 @@
                   Hanes <span>50/50 Hoodie</span>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="collection__single-product">
-            <div class="collection__single-product-inner-wrapper">
+            <a href="#" class="collection__single-product-inner-wrapper">
               <div class="collection__single-product-image"><img src="img/collection/Hoodie-blue.png"><span
                   class="new-label">NEW</span></div>
               <div class="collection__single-product-info">
@@ -503,11 +491,11 @@
                   Gildan <span>50/50 Hoodie</span>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div class="collection__single-product">
-            <div class="collection__single-product-inner-wrapper">
+            <a href="#" class="collection__single-product-inner-wrapper">
               <div class="collection__single-product-image"><img src="img/collection/Hoodie-melange.png"><span
                   class="new-label">NEW</span></div>
               <div class="collection__single-product-info">
@@ -518,13 +506,13 @@
                   Hanes <span>50/50 Hoodie</span>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </div><!-- end of item__recommended__products-desk -->
         <div class="item__recommended__products-mob">
           <div class="item__recommended__products-slider">
             <div class="collection__single-product">
-              <div class="collection__single-product-inner-wrapper">
+              <a href="#" class="collection__single-product-inner-wrapper">
                 <div class="collection__single-product-image "><img src="img/collection/Hoodie-brown.png"></div>
                 <div class="collection__single-product-info">
                   <div class="collection__single-product-price">
@@ -535,11 +523,11 @@
                     Hanes <span>50/50 Hoodie</span>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div class="collection__single-product">
-              <div class="collection__single-product-inner-wrapper">
+              <a href="#" class="collection__single-product-inner-wrapper">
                 <div class="collection__single-product-image "><img src="img/collection/Hoodie-gray.png"></div>
                 <div class="collection__single-product-info">
                   <div class="collection__single-product-price">
@@ -550,11 +538,11 @@
                     Jerzees <span>50/50 Hoodie</span>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div class="collection__single-product">
-              <div class="collection__single-product-inner-wrapper">
+              <a href="#" class="collection__single-product-inner-wrapper">
                 <div class="collection__single-product-image "><img src="img/collection/Hoodie-beige.png"></div>
                 <div class="collection__single-product-info">
                   <div class="collection__single-product-price">
@@ -565,11 +553,11 @@
                     Hanes <span>50/50 Hoodie</span>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div class="collection__single-product">
-              <div class="collection__single-product-inner-wrapper">
+              <a href="#" class="collection__single-product-inner-wrapper">
                 <div class="collection__single-product-image"><img src="img/collection/Hoodie-blue.png"><span
                     class="new-label">NEW</span></div>
                 <div class="collection__single-product-info">
@@ -580,11 +568,11 @@
                     Gildan <span>50/50 Hoodie</span>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div class="collection__single-product">
-              <div class="collection__single-product-inner-wrapper">
+              <a href="#" class="collection__single-product-inner-wrapper">
                 <div class="collection__single-product-image"><img src="img/collection/Hoodie-melange.png"><span
                     class="new-label">NEW</span></div>
                 <div class="collection__single-product-info">
@@ -595,7 +583,7 @@
                     Hanes <span>50/50 Hoodie</span>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div><!-- end of item__recommended__products-slider -->
         </div><!-- end of item__recommended__products-mob -->

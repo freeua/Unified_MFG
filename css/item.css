@@ -118,7 +118,7 @@
 .item-info__anchors {
 	display: flex;
 	border-bottom: 1px solid #D8D8D8;
-	margin-bottom: 33px;
+	margin-bottom: 36px;
 }
 
 .item-info__anchors li:not(:last-child) {
@@ -148,12 +148,12 @@
 }
 
 
-.item-info__anchor_active, 
-.item-info__anchor:hover {
+.item-info__anchor_active a, 
+.item-info__anchor:hover  {
 	color: #009DE6;
 }
 
-.item-info__anchor_active:after, 
+.item-info__anchor_active a:after, 
 .item-info__anchor:hover:after {
 	display: block;
 }
@@ -229,6 +229,8 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+
+
 
 .item-info__color {
 	margin-bottom: 50px;
@@ -312,6 +314,12 @@
 	left: 0;
 	opacity: 0;
 	cursor: pointer;
+	text-indent: -130px;
+}
+
+#file-upload-button {
+	z-index: -10;
+	cursor: pointer;
 }
 
 .item-info__custom-print {
@@ -332,20 +340,9 @@
 }
 
 .add-design__btn {
-	background: #FF6953;
-	font-family: 'Gotham Pro Bold';
-	font-size: 16px;
-	line-height: 45px;
 	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
 	padding: 16px 0;
-	text-transform: uppercase;
-	border: none;
-	outline: none;
-	border-radius: 4px;
+	line-height: 45px;
 }
 
 .item-info__price {
@@ -525,33 +522,153 @@
 .item__recommended__products .collection__single-product {
 	margin-right: 10px !important;
 	display: inline-block;
+	cursor: pointer;
+}
+
+.collection__single-product-inner-wrapper {
+	display: block;
 }
 
 .item__recommended__products-desk .collection__single-product:last-child {
 	margin-right: 0 !important;
 }
+
+/*first slider desktop version*/
+.item-slider-wrapper__desk {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.item-slider-wrapper__desk .thumbnail-image {
+	margin-bottom: 8px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: flex-end;
+	height: 270px;
+}
+
+.item-slider-wrapper__desk .thumbnail-image img {
+	width: 100%;
+}
+
+.item__thumbnail-arrows {
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+
+.item__thumbnail-arrows .slick-prev:hover:before,
+.item__thumbnail-arrows .slick-prev:focus:before {
+	content: url(../img/arrow-left-white.svg);
+}
+
+.item__thumbnail-arrows .slick-next:hover:before,
+.item__thumbnail-arrows .slick-next:focus:before {
+	content: url(../img/arrow-right-white.svg);
+}
+
+.item__thumbnail-arrows .slick-next {
+	right: 0;
+}
+
+.item__thumbnail-arrows .slick-prev {
+	right: 48px;
+	left: initial;
+}
+
+.item-slider-wrapper__desk .slider-for {
+	width: 440px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.item-slider-wrapper__desk .slider-for,
+.item-slider-wrapper__desk .slider-for .slick-list,
+.item-slider-wrapper__desk .slider-for .slick-track {
+	height: 550px;
+}
+
+.item-slider-wrapper__desk .slider-for .item__full-img {
+	display: flex !important;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.item-slider-wrapper__desk .slider-for .item__full-img img {
+	height: 100%;
+}
+
+.item-slider-wrapper__desk .slider-nav {
+	width: 190px;
+	margin-right: 10px;
+}
+/*end first slider desktop version*/
+
+
+/*first slider mobile version*/
 .item-slider-wrapper__mob {
 	display: none;
+	width: 100%;
 }
+
 .item-slider__mob-img {
 	width: 265px;
 	height: 330px;
 	margin-right: 10px;
+	border-radius: 4px;
+	overflow: hidden;
 }
+
 .item-slider__mob-img img {
-	width: 100%;
+	height: 100%;
 }
-/* 
-.item-slider__desk-slide {
-	width: 230px !important;
-	height: 270px !important;
-} */
 
-.item-slider-wrapper__desk {
+.item-slider__mob-arrows {
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.item-slider__mob-arrows .slick-prev {
+	left: 0;
+}
+
+.item-slider__mob-arrows .slick-next {
+	right: 0;
+}
+
+.item-colors_hidden_mob {
 	display: flex;
-	justify-content: flex-start;
 }
 
-.item__thumbnail-slider img {
-	width: 230px;
+.load-colors__btn-label {
+	background: transparent;
+	border: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #3C3D41;
+	opacity: 0.3;
+	font-family: 'Gotham Pro Medium';
+	display: flex;
+	cursor: pointer;
 }
+
+.load-colors__btn-wrapper {
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.load-colors__btn-wrapper:hover .load-colors__btn-label {
+	opacity: 1;
+}
+
+#load-colors__btn {
+	opacity: 0;
+}
+
+
+/*end first slider mobile version*/
+
