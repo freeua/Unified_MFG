@@ -1,5 +1,5 @@
 .collection__first-section{
-	padding: 32px 0 57px 0;
+	padding: 0 20px 57px 20px;
 }
 .collection__search-filter-wrapper{
 	width: 100%;
@@ -36,60 +36,7 @@
 	font-family: 'Gotham Pro Regular';
 	color: #AFAFAF;
 }
-.collection__breadcrumbs-wrapper{
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: space-between;
-	justify-content: space-between;
-	-webkit-align-items: center;
-	align-items: center;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin-bottom: 36px;
-}
-.collection__breadcrumb{
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: space-between;
-	justify-content: space-between;
-	-webkit-align-items: center;
-	align-items: center;	
-}
-.collection__breadcrumb-item{
-	padding: 0 8px;
-}
-.collection__breadcrumb-item:first-child{
-	padding-left: 0;
-}
-.collection__breadcrumb-item:last-child{
-	padding-right: 0;
-}
-.collection__breadcrumb-item:after{
-	content: '/';
-	padding-left: 8px;
-	font-family: 'Gotham Pro Medium';
-	opacity: 0.3;
-	color: #3C3D41;
-	font-size: 14px;	
-	letter-spacing: 0;
-	line-height: 13px;
-}
-.collection__breadcrumb-item:last-child:after{
-	display: none;
-}
-.collection__breadcrumb-item a,
-.collection__breadcrumb-item span{
-	font-family: 'Gotham Pro Medium';
-	opacity: 0.3;
-	color: #3C3D41;
-	font-size: 14px;
-	letter-spacing: 0;
-	line-height: 13px;
-	text-transform: uppercase;	
-}
-.collection__breadcrumb-item span{
-	opacity: 1;
-}
+
 .collection__count-products{
 	font-family: 'Gotham Pro Medium';
 	opacity: 0.3;

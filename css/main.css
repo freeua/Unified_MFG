@@ -42,10 +42,10 @@ a{
 }*/
 
 .breadcrumbs-section {
-	width: 100%;
+	/* width: 100%; */
 	max-width: 980px;
 	margin: 32px auto 40px;
-
+	padding: 0 20px;
 }
 
 .first-section .first-section__column:first-child{
@@ -597,8 +597,8 @@ a{
 	text-decoration: underline;
 }
 
-.margin_bottom--12 {
-	margin-bottom: 12px;
+.margin_bottom--8 {
+	margin-bottom: 8px;
 } 
 
 .red-btn {
@@ -626,7 +626,87 @@ a{
 .blue-bg {
 	background: #F4F8FC;
 }
- 
+/*Breadcrumbs*/
+.breadcrumbs-wrapper{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.breadcrumb{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	align-items: center;	
+}
+.breadcrumb-item{
+	padding: 0 8px;
+}
+.breadcrumb-item:first-child{
+	padding-left: 0;
+}
+.breadcrumb-item:last-child{
+	padding-right: 0;
+}
+.breadcrumb-item:after{
+	content: '/';
+	padding-left: 8px;
+	font-family: 'Gotham Pro Medium';
+	opacity: 0.3;
+	color: #3C3D41;
+	font-size: 14px;	
+	letter-spacing: 0;
+	line-height: 13px;
+}
+.breadcrumb-item:last-child:after{
+	display: none;
+}
+.breadcrumb-item a,
+.breadcrumb-item span{
+	font-family: 'Gotham Pro Medium';
+	opacity: 0.3;
+	color: #3C3D41;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 13px;
+	text-transform: uppercase;	
+}
+.breadcrumb-item span{
+	opacity: 1;
+}
+
+/*Navigation back btn. Link to previous page*/
+.back-btn {
+	background: #F4F8FC;
+	padding: 7px 14px 7px 26px;
+	color: #3C3D41;
+	font-size: 12px;
+	line-height: 12px;
+	font-family: 'Gotham Pro Medium';
+	border-radius: 4px;
+	margin-right: 30px;
+	position: relative;
+}
+.back-btn:before {
+	content: "";
+	background-image: url(../img/arrow-black.svg);
+	left: 8px;
+	top: 8px;
+	width: 16px;
+	height: 16px;
+	background-size: 10px 10px;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+.back-btn:hover {
+	background: #e5e7e9;
+}
 /*Label NEW*/
 .new-label {
 	position: absolute;
