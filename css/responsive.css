@@ -91,6 +91,13 @@
 }
 
 @media(max-width: 1100px) {
+	.faq-acticle__questions {
+    min-width: 320px;
+	}
+
+	.faq-acticle__wrapper {
+		max-width: 780px;
+	}
 	.first-section__desktop{
 		padding: 75px 0 140px 0;
 	}
@@ -552,6 +559,18 @@
 }
 
 @media(max-width: 767px) {
+	.faq-acticle__desktop {
+		display: none;
+	}
+
+	.faq-acticle__mob {
+		display: block;
+	}
+
+	.faq-acticle__wrapper {
+		max-width: 100%;
+		padding: 0;
+	}
 	.homepage__print-custom-section .print-custom-section__images {
     top: 110px;
 	} 

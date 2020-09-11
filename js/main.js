@@ -299,6 +299,29 @@ $(document).ready(function () {
 		$(this).parent().addClass('item-info__anchor_active');
 	})
 
+	// change active class for question and answer when user clicks question(FAQ Article page)
+	$('.faq-acticle__one-question').click(function () {
+		// change active class for clicked question
+		$('.faq-acticle__one-question').removeClass('faq-acticle__question_active');
+		$(this).addClass('faq-acticle__question_active');
+
+		var clickedQuestionID = $(this).find('a').attr("href").slice(1);
+		console.log(`clickedQuestionID = ${clickedQuestionID}`);
+		$('.faq-acticle__one-answer').removeClass('faq-acticle__one-answer_active');
+		$('.faq-acticle__one-answer').each(function () {
+			if ($(this).attr('id') == clickedQuestionID) {
+				console.log(`sovpadaet s ${$(this).attr('id')}`);
+				$(this).addClass('faq-acticle__one-answer_active');
+
+			}
+		})
+
+	})
+	$('.faq-acticle__one-question').click(function () {
+		$(this).parent().find('.faq-acticle__one-answer-text').slideToggle();
+	})
+
+
 	// custom "download file" input. show file name of code user selected file
 	$(document).on("change", ".custom-print__input-file", function () {
 		if ($(this).val()) {
