@@ -298,7 +298,19 @@
 }
 
 .faq-categ__first-section {
+	max-width: 980px;
+	margin: auto;
 	margin-bottom: 50px;
+	padding: 0 20px;
+}
+
+.faq-categ__questions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: auto;
+	max-width: 980px;
+	padding: 0 20px;
 }
 
 .faq-categ__first-section .faq-categ-h1 {
@@ -314,11 +326,6 @@
 	max-width: 490px;
 }
 
-.faq-categ__questions .main-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
 
 .faq-categ__questions-block {
 	width: calc((100% - 20px)/2);
