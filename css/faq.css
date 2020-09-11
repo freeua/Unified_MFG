@@ -265,7 +265,7 @@
     -webkit-line-clamp: unset;
 }
 
-.print-custom-section.print-custom-section-desktop{
+.faq__print-custom-section {
 	margin-bottom: 135px;
 }
 
@@ -378,7 +378,7 @@
 
 .faq-categ__disclaimer {
 	margin-bottom: 85px;
-	padding: 20px;
+	padding: 0 20px;
 }
 
 .faq-categ__disclaimer .main-container {
@@ -412,3 +412,15 @@
 	margin-bottom: 35px;
 }
 
+.faq__categ-nav-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.faq__categ-nav-wrapper .faq__single-column:last-child {
+	margin-right: 0;
+}
+
+.faq__categ-nav-wrapper .faq-payment__single-column {
+	display: none;
+}
