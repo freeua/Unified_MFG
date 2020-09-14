@@ -130,6 +130,112 @@ $(document).ready(function () {
 		]
 	});
 
+
+	// Swaggin page. Testimonials. Testimonials text slider.
+	$('.swaggin-testimonials-section__testimonials-slider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: true,
+		speed: 300,
+		asNavFor: '.swaggin-testimonials-section__logos'
+	});
+
+	// Swaggin page. Testimonials. Testimonials logos slider.
+	// $('.swaggin-testimonials-section__logos').slick({
+	// 	slidesToShow: 7,
+	// 	slidesToScroll: 1,
+	// 	speed: 300,
+	// 	infinite: true,
+	// 	asNavFor: '.swaggin-testimonials-section__testimonials-slider',
+	// 	dots: false,
+	// 	centerMode: true,
+	// 	focusOnSelect: true,
+	// 	appendArrows: ".swaggin-testimonials-arrows",
+	// 	responsive: [
+	// 		{
+	// 			breakpoint: 1450,
+	// 			settings: {
+	// 				slidesToShow: 5,
+	// 				slidesToScroll: 1
+	// 			}
+	// 		},
+	// 		{
+	// 			breakpoint: 769,
+	// 			settings: {
+	// 				slidesToShow: 3,
+	// 				slidesToScroll: 1
+	// 			}
+	// 		},
+	// 		{
+	// 			breakpoint: 767,
+	// 			settings: {
+	// 				slidesToShow: 3,
+	// 				slidesToScroll: 1,
+	// 				centerMode: false,
+	// 			}
+	// 		}
+	// 	]
+	// });
+
+
+	function setProgress2(index) {
+		const calc = ((index + 1) / ($slider2.slick('getSlick').slideCount)) * 100;
+
+		$progressBar2
+			.css('background-size', `${calc}% 100%`)
+			.attr('aria-valuenow', calc);
+	}
+
+	const $slider2 = $('.swaggin-testimonials-section__logos');
+	const $progressBar2 = $('.swaggin-testimonials-progress');
+
+	$slider2.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+		setProgress2(nextSlide);
+	});
+
+	$slider2.slick({
+		slidesToShow: 7,
+		slidesToScroll: 1,
+		speed: 300,
+		infinite: true,
+		asNavFor: '.swaggin-testimonials-section__testimonials-slider',
+		dots: false,
+		centerMode: true,
+		focusOnSelect: true,
+		appendArrows: ".swaggin-testimonials-arrows",
+		responsive: [
+			{
+				breakpoint: 1450,
+				settings: {
+					slidesToShow: 5,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 769,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					centerMode: false,
+				}
+			}
+		]
+	});
+
+	setProgress2(0);
+
+
+
+
+
 	// Item page. First slider. Desktop. Full picture slider
 	$('.item-slider-wrapper__desk .slider-for').slick({
 		slidesToShow: 1,
@@ -200,6 +306,32 @@ $(document).ready(function () {
 			}
 		]
 	});
+
+	// Swaggin page carousel with progress bar. Why partner with SWAGGIN’ block 
+	function setProgress(index) {
+		const calc = ((index + 1) / ($slider.slick('getSlick').slideCount)) * 100;
+
+		$progressBar
+			.css('background-size', `${calc}% 100%`)
+			.attr('aria-valuenow', calc);
+	}
+
+	const $slider = $('.swaggin-why__carousel');
+	const $progressBar = $('.swaggin-why__progress');
+
+	$slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+		setProgress(nextSlide);
+	});
+
+	$slider.slick({
+		appendArrows: ".swaggin-why__slider-arrows",
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		focusOnSelect: true,
+	});
+
+	setProgress(0);
 
 
 	// slider

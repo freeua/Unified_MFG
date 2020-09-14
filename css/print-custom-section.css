@@ -67,7 +67,15 @@
 	background: #00B3FF;
 	-webkit-box-shadow: 0px 4px 7px 0 rgba(169,182,218,0.5);
 	-moz-box-shadow: 0px 4px 7px 0 rgba(169,182,218,0.5);
-	box-shadow: 0px 4px 7px 0 rgba(169,182,218,0.5)s;
+	box-shadow: 0px 4px 7px 0 rgba(169,182,218,0.5);
+}
+
+.print-custom-section_item-purple {
+	color: #fff;
+	background: #80A9FC;
+	-webkit-box-shadow: 0px 4px 7px 0 rgba(134,142,175,0.4);
+	-moz-box-shadow: 0px 4px 7px 0 rgba(134,142,175,0.4);
+	box-shadow: 0px 4px 7px 0 rgba(134,142,175,0.4);
 }
 
 .print-custom-section__images img{

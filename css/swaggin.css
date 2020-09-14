@@ -1,0 +1,415 @@
+@import "header.css";
+@import "footer.css";
+@import "products-section.css";
+@import "how-it-works-section.css";
+@import "integrate-with-section.css";
+@import "print-custom-section.css";
+@import "testimonials-section.css";
+
+
+.swaggin-page__title {
+	font-size: 30px;
+	line-height: 36px;
+	color: #000;
+	font-family: 'Gotham Pro Black';
+	text-align: center;
+}
+
+.swaggin__products-section .swaggin-page__title  {
+	margin-bottom: 50px;
+}
+.swaggin-banner {
+	background: #6B96ED;
+	border-radius: 37px;
+	margin: 0 23px 80px 23px;
+}
+
+.swaggin__products-section .products-section__single-product a {
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 0px 22px -7px rgba(143,146,198,0.16);
+	-moz-box-shadow: 0px 0px 22px -7px rgba(143,146,198,0.16);
+	box-shadow: 0px 7px 23px -8px rgba(143,146,198,0.4);
+}
+
+.swaggin-products-section__button {
+	border-radius: 10px;
+	max-width: 150px;
+}
+
+.swaggin-banner__wrapper {
+	width: 980px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.swaggin-banner__title {
+	font-size: 100px;
+	line-height: 85px;
+	font-family: 'Lalezar-Regular';
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.swaggin-banner__text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 18px;
+	line-height: 22px;
+	color: #fff;
+	max-width: 360px;
+	margin-bottom: 35px;
+}
+
+.swaggin-banner__left {
+	padding-top: 105px;
+}
+
+.swaggin-banner__btn {
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Gotham Pro Bold';
+	padding: 20px 43px;
+	background: #000;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.swaggin-banner__btn:hover {
+	background: rgba(0,0,0,.7);
+}
+
+.swaggin-banner__product {
+	width: 230px;
+	height: 260px;
+	border-radius: 34px;
+	padding: 30px;
+	position: relative;
+}
+
+.swaggin-banner__product-price {
+	display: flex;
+}
+
+.swaggin-banner__product-price {
+}
+
+.swaggin-banner__product-info {
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+}
+
+.swaggin-banner__product--red-bg {
+	background: #FF6953;
+}
+
+.swaggin-banner__product--white-bg {
+	background: #fff;
+}
+
+
+.swaggin__products-section .products-section__columns .products-section__single-product:nth-child(5n) {
+	margin-right: 20px;
+}
+
+.swaggin__products-section .products-section__columns .products-section__single-product:nth-child(4n) {
+	margin-right: 0;
+}
+
+.swaggin__products-section {
+	padding-bottom: 85px;
+}
+
+.swaggin-why {
+	background: #F3F5FC;
+	padding: 84px 20px 95px 20px;
+	margin-bottom: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center
+
+}
+
+.swaggin-why__title {
+	font-size: 30px;
+	line-height: 46px;
+	color: #000;
+	font-family: 'Gotham Pro Black';
+	margin-bottom: 35px;
+}
+
+.swaggin-why__text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+	margin-bottom: 40px;
+	max-width: 785px;
+	text-align: center;
+}
+
+.swaggin-why__carousel .slick-list {
+	border-radius: 20px;
+}
+
+.swaggin-why__bottom-title {
+	font-size: 18px;
+	font-family: 'Gotham Pro Medium';
+	line-height: 22px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.swaggin-why__bottom-text {
+	font-size: 14px;
+	font-family: 'Gotham Pro Regular';
+	line-height: 22px;
+	text-align: center;
+	max-width: 470px;
+}
+
+.swaggin-why__carousel {
+	width: 790px;
+	height: 440px;
+	margin-bottom: 50px;
+}
+
+.swaggin-why__carousel-wrapper {
+	position: relative;
+}
+
+.swaggin-why__slider-arrows .slick-prev {
+	right: 90px;
+	left: initial;
+	bottom: 4px;
+	top: initial;
+}
+
+.swaggin-why__slider-arrows .slick-next {
+	right: 20px;
+	bottom: 4px;
+	top: initial;
+}
+
+.swaggin-why__slider-arrows .slick-arrow {
+	background: #fff;
+}
+
+.swaggin-why__slider-arrows .slick-next:before {
+	content: url(../img/arrow-right-black.svg);
+}
+
+.swaggin-why__slider-arrows .slick-prev:before {
+	content: url(../img/arrow-left-black.svg);
+}
+
+.swaggin-progress {
+	display: block;
+	width: calc(100% - 190px);
+	height: 3px;
+	overflow: hidden;
+	background-color: #DDE2F2;
+	background-image: linear-gradient(to right, #FF6953, #FF6953);
+	background-repeat: no-repeat;
+	background-size: 0 100%;
+	transition: background-size 0.4s ease-in-out;
+	margin-left: 25px;
+	margin-bottom: 40px;
+}
+
+.swaggin__how-it-works .how-it-works-section{
+	padding-top: 0;
+	background-color: #fff;
+}
+
+.swaggin__how-it-works.how-it-works-section .swaggin-page__title {
+	margin-bottom: 75px;
+}
+
+.how-it-works-section__subtitle {
+	text-transform: none;
+}
+
+.how-it-works-section__subtitle span:nth-child(1) {
+	color: #000;
+}
+
+.how-it-works-section__subtitle span:nth-child(2) {
+	color: #FF3B1C;
+}
+
+.swaggin__how-it-works .how-it-works-section__button {
+	border-radius: 10px;
+}
+
+.swaggin__print-custom-section {
+	border-radius: 28px;
+	background: #6B96ED;
+	padding: 65px 60px;
+	margin-bottom: 60px;
+}
+
+.swaggin__print-custom-section .print-custom-section__title {
+	font-family: 'Gotham Pro Black';
+	font-size: 34px;
+	line-height: 34px;
+	text-transform: none;
+}
+
+.swaggin-testimonials {
+	padding: 80px 0 55px 0;
+	background: #F3F5FC;
+}
+
+.swaggin-testimonials .testimonials-section__all-testimonials-wrapper {
+	border-radius: 30px;
+}
+
+.swaggin-testimonials__inner {
+	width: 980px;
+	margin: auto;
+}
+
+.testimonials-section__title.swaggin-page__title {
+	text-transform: none;
+}
+
+.swaggin-testimonials .testimonials-section__all-testimonials-wrapper {
+	background:#fff;
+	border: none;
+}
+
+.swaggin-testimonials-section__testimonials-slider blockquote {
+	max-width: 700px;
+}
+
+.swaggin-testimonials-section__logos {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.swaggin-testimonials-section__logos .slick-track{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swaggin-testimonials-section__logos .testimonials-section__single-logo{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swaggin-testimonials-arrows {
+	position: relative;
+}
+
+.swaggin-testimonials-arrows .slick-prev {
+	right: 90px;
+	left: initial;
+	bottom: -39px;
+	top: initial;
+}
+
+.swaggin-testimonials-arrows .slick-next {
+	right: 20px;
+	bottom: -39px;
+	top: initial;
+}
+
+.swaggin-testimonials .testimonials-section__title-row {
+	padding: 0 60px 35px 60px;
+}
+
+.swaggin-testimonials-section__logos .slick-list.draggable {
+	padding: 0 !important;
+}
+
+.swaggin-testimonials-wrapper {
+	position: relative;
+}
+.swaggin-testimonials-wrapper .testimonials-section__blue-selection {
+	bottom: -14px;
+}
+
+.swaggin-banner-img__desktop {
+	position: relative;
+	top: 30px;
+	left: 100px;
+}
+
+.swaggin__send-merch {
+	padding: 0 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.swaggin__send-merch-text {
+	width: 750px;
+}
+
+.swaggin__send-merch-title {
+	text-align: center;
+	margin-bottom: 25px;
+	max-width: 650px;
+}
+
+.swaggin__send-merch-title span{
+	display: block;
+}
+
+.swaggin__send-merch-text {
+	text-align: center;
+}
+
+.swaggin-integrate {
+	padding: 0;
+	margin-bottom: 120px;
+}
+
+.swaggin-integrate .swaggin-page__title {
+	margin-bottom: 30px;
+}
+
+.swaggin-integrate  .integrate-with-section__images-wrapper {
+	margin: 0 auto 0;
+}
+.swaggin-integrate__wrapper {
+	padding: 50px 0;
+	max-width: 980px;
+	background: #F3F5FC;
+	border-radius: 20px;
+}
+
+.swaggin-integrate .integrate-with-section__images-wrapper {
+	max-width: 600px;
+	justify-content: space-evenly;
+}
+
+.swaggin__how-it-works {
+	background-color: #fff;
+	padding: 0;
+	margin-bottom: 130px;
+}
+
+.swaggin-footer {
+	padding: 0 23px !important;
+	background: #F3F5FC;
+}
+
+.swaggin-footer__wrapper {
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	background-color: #2E2E30;
+	padding: 64px 0 73px;
+	color: #fff;
+}

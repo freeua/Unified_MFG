@@ -59,7 +59,8 @@
 	padding-top: 10px;
 	position: relative;
 }
-.testimonials-section__all-testimonials-wrapper blockquote::before{
+.testimonials-section__all-testimonials-wrapper blockquote::before,
+.swaggin-testimonials-section__testimonials-slider blockquote::before {
 	content: "‘’";
 	font-family: 'Gotham Pro Medium';
 	color: #8FA3B6;

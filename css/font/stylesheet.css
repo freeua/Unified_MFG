@@ -142,3 +142,15 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Lalezar-Regular';
+    src: 
+        url('GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Lalezar-Regular.woff2') format('woff2'),
+        url('Lalezar-Regular.woff') format('woff'),
+        url('Lalezar-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
