@@ -71,9 +71,15 @@
 	display: flex;
 	align-items: center;
 	-webkit-align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
+	-webkit-justify-content: center;
+	justify-content: center;
 }
+
+.single-product-image--absolute img {
+	position: absolute;
+	top: 0;
+}
+
 .products-section__slider-wrapper{
     margin: 0 auto;
     /* max-width: 944px;	 */

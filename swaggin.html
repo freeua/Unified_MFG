@@ -17,43 +17,29 @@
 </head>
 
 <body>
-  <header class="header header__desktop">
+  <header class="header header__desktop swaggin-header">
     <div class="header__top-section">
       <div class="header__top-section-main-container homepage__header-top-section-main-container">
-        <div class="header__top-section-start">
+        <div class="header__top-section-start header__top-section-start--inline">
           <div class="header__top-section-start-label">Start here:</div>
           <div class="header__top-section-start-main-text">INSTANT QUOTE</div>
         </div>
-        <div class="header__top-section-phone">
+        <div class="header__top-section-phone header__top-section-phone--inline">
           <div class="header__top-section-phone-label">24h online help:</div>
-          <div class="header__top-section-phone-value"><a href="tel:18554219767">1 855-421-9767</a></div>
-        </div>
-        <div class="header__top-section-logo">
-          <a href="index.html"><img src="img/logo.png"></a>
-        </div>
-        <div class="header__top-section-signIn">
-          <a href="#">
-            <!-- <i class="fas fa-user"></i> -->
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px"
-              height="16px" viewBox="0 0 16 16" version="1.1">
-              <g id="--" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="01_FAQ-PAYMENT-PLACING-&amp;-ORDER" transform="translate(-1089.000000, -37.000000)"
-                  fill="#FFFFFF" fill-rule="nonzero">
-                  <g id="Header">
-                    <g id="Sign_In" transform="translate(1089.000000, 37.000000)">
-                      <path
-                        d="M8,8 C10.21,8 12,6.21 12,4 C12,1.79 10.21,0 8,0 C5.79,0 4,1.79 4,4 C4,6.21 5.79,8 8,8 Z M8,10 C5.33,10 0,11.34 0,14 L0,16 L16,16 L16,14 C16,11.34 10.67,10 8,10 Z"
-                        id="User" />
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg> SIGN IN</a>
+          <a href="#" class="header__mobile-top-section-chat-link"><i class="fas fa-comment-dots"
+              aria-hidden="true"></i> Live
+            Chat</a>
+          <div class="header__top-section-phone-value header__top-section-phone-value--inline">
+            <span>or</span><a class="header__contact-us" href="tel:18554219767">Contact Us</a><a
+              href="tel:18554219767">1
+              855-421-9767</a>
+          </div>
         </div>
       </div>
     </div>
-    <div class="header__main-nav-wrapper">
+    <div class="header__main-nav-wrapper header__main-nav-wrapper--no-shadow">
       <div class="header__main-container homepage__header-main-container">
+        <div class="header-logo"><img src="img/logo-transp-bg.png"></div>
         <nav class="header__main-nav">
           <li class="header__main-nav-item">
             <a class="header__main-nav-link  header__main-nav_link_active" href="сatalogue-main.html">PRODUCTS &
@@ -78,23 +64,23 @@
             <a class="header__main-nav-link" href="#">BLOG</a>
           </li>
         </nav>
-        <div class="header__main-nav_search">
-          <i class="fas fa-search"></i>
+        <div class="header__main-sign-in">
+          <a href="#" class="header-sign-in__btn">Sign in</a>
         </div>
       </div>
     </div>
   </header>
-  <header class="header header__mobile">
+  <header class="header header__mobile swaggin-header_mob">
     <div class="header__mobile-top-section">
       <div class="header__mobile-top-section-help">
         <span class="header__mobile-top-section-help-text">24h online Help: </span>
       </div>
       <div class="header__mobile-top-section-chat">
-        <a class="header__mobile-top-section-chat-link"><i class="fas fa-comment-dots"></i> Live Chat</a>
+        <a href="#" class="header__mobile-top-section-chat-link"><i class="fas fa-comment-dots"></i> Live Chat</a>
       </div>
       <div class="header__mobile-top-section-contact-us">
         <span class="header__mobile-top-section-contact-us-text">or&nbsp;&nbsp;</span>
-        <a class="header__mobile-top-section-contact-us-link">Contact Us</a>
+        <a href="#" class="header__mobile-top-section-contact-us-link">Contact Us</a>
       </div>
     </div>
     <div class="header__mobile-menu-wrapper">
@@ -117,6 +103,9 @@
       <div class="header__mobile-logo">
         <a href="index.html"><img src="img/mobile-logo.png"></a>
       </div>
+      <a href="#" class="header__mobile-top-section-chat-link"><i class="fas fa-comment-dots" aria-hidden="true"></i>
+        Live
+        Chat</a>
       <div class="header__sign-link">
         <a href="#">SIGN IN</a>
       </div>
@@ -133,7 +122,7 @@
       </div>
       <div class="swaggin-banner__right">
         <img class="swaggin-banner-img__desktop" src="img/swaggin-banner-desktop.png" alt="">
-        <!-- <img src="img/" alt=""> -->
+        <img class="swaggin-banner-img__mob" src="img/swaggin-banner-mob.png" alt="" alt="">
       </div>
       <!--end swaggin-banner__right -->
     </div>
@@ -143,11 +132,14 @@
 
   <!-- SEND MERCH -->
   <section class="swaggin__send-merch">
-    <h2 class="swaggin__send-merch-title swaggin-page__title">
+    <h2 class="swaggin__send-merch-title swaggin-page__title swaggin__send-merch-title-desk">
       <span>
         On-demand Merch printing,
       </span>
       <span>right where you have your albums pressed </span>
+    </h2>
+    <h2 class="swaggin__send-merch-title swaggin-page__title swaggin__send-merch-title-mob">
+      <span>On-demand Merch printing, right where you have your albums pressed</span>
     </h2>
     <p class="swaggin__send-merch-text">
       Simply send us your merch designs and once a customer buys them from your website, we will take care of everything
@@ -162,13 +154,13 @@
     <div class="swaggin-integrate__wrapper">
       <h2 class="swaggin-page__title">We link your merch directly to</h2>
       <div class="integrate-with-section__images-wrapper">
-        <div class="integrate-with-section__single-logo"><img src="img/Bandcamp.png"></div>
-        <div class="integrate-with-section__single-logo"><img src="img/Amazon.png"></div>
-        <div class="integrate-with-section__single-logo"><img src="img/Walmart.png"></div>
-        <div class="integrate-with-section__single-logo"><img src="img/shopify-logo.png"></div>
-        <div class="integrate-with-section__single-logo"><img src="img/woocommerce-logo.png"></div>
-        <div class="integrate-with-section__single-logo"><img src="img/ebay-logo.png"></div>
-        <div class="integrate-with-section__single-logo"><img src="img/etsy-logo.png"></div>
+        <div class="integrate-with-section__single-logo"><img src="img/bandcamp-transp-bg.png"></div>
+        <div class="integrate-with-section__single-logo"><img src="img/amazon-transp-bg.png"></div>
+        <div class="integrate-with-section__single-logo"><img src="img/walmart-transp-bg.png"></div>
+        <div class="integrate-with-section__single-logo"><img src="img/shopify-transp-bg.png"></div>
+        <div class="integrate-with-section__single-logo"><img src="img/woocommerce-transp-bg.png"></div>
+        <div class="integrate-with-section__single-logo"><img src="img/ebay-transp-bg.png"></div>
+        <div class="integrate-with-section__single-logo"><img src="img/etsy-transp-bg.png"></div>
       </div>
     </div>
   </section>
@@ -189,7 +181,8 @@
       </div>
       <div class="products-section__single-product">
         <a href="#">
-          <div class="products-section__single-product-image"><img src="img/military_tokens.png"></div>
+          <div class="products-section__single-product-image single-product-image--absolute"><img
+              src="img/military_tokens.png"></div>
           <div class="products-section__single-product-info">
             <p class="products-section__single-product-title">Dog Tags</p>
             <p class="products-section__single-product-price">Starting At <span
@@ -199,58 +192,60 @@
       </div>
       <div class="products-section__single-product">
         <a href="#">
-          <div class="products-section__single-product-image"><img src="img/hoodie.png"></div>
+          <div class="products-section__single-product-image"><img src="img/blue-cap.png"></div>
           <div class="products-section__single-product-info">
-            <p class="products-section__single-product-title">Hoodies</p>
+            <p class="products-section__single-product-title">Headwear</p>
             <p class="products-section__single-product-price">Starting At <span
-                class="products-section__single-product-price-value">$12.95</span></p>
+                class="products-section__single-product-price-value">$5.95</span></p>
           </div>
         </a>
       </div>
       <div class="products-section__single-product">
         <a href="#">
-          <div class="products-section__single-product-image"><img src="img/military_tokens.png"></div>
+          <div class="products-section__single-product-image"><img src="img/ski-mask.png"></div>
           <div class="products-section__single-product-info">
-            <p class="products-section__single-product-title">Dog Tags</p>
+            <p class="products-section__single-product-title">Ski Masks</p>
             <p class="products-section__single-product-price">Starting At <span
-                class="products-section__single-product-price-value">$15.95</span></p>
+                class="products-section__single-product-price-value">$12.50</span></p>
           </div>
         </a>
       </div>
       <div class="products-section__single-product">
         <a href="#">
-          <div class="products-section__single-product-image"><img src="img/hoodie.png"></div>
+          <div class="products-section__single-product-image"><img src="img/band-buttons.png"></div>
           <div class="products-section__single-product-info">
-            <p class="products-section__single-product-title">Hoodies</p>
+            <p class="products-section__single-product-title">Band Buttons</p>
             <p class="products-section__single-product-price">Starting At <span
-                class="products-section__single-product-price-value">$12.95</span></p>
+                class="products-section__single-product-price-value">$0.99</span></p>
           </div>
         </a>
       </div>
       <div class="products-section__single-product">
         <a href="#">
-          <div class="products-section__single-product-image"><img src="img/military_tokens.png"></div>
+          <div class="products-section__single-product-image"><img src="img/usb-card.png"></div>
           <div class="products-section__single-product-info">
-            <p class="products-section__single-product-title">Dog Tags</p>
+            <p class="products-section__single-product-title">USB Cards</p>
             <p class="products-section__single-product-price">Starting At <span
-                class="products-section__single-product-price-value">$15.95</span></p>
+                class="products-section__single-product-price-value">$147</span></p>
           </div>
         </a>
       </div>
       <div class="products-section__single-product">
         <a href="#">
-          <div class="products-section__single-product-image"><img src="img/hoodie.png"></div>
+          <div class="products-section__single-product-image"><img src="img/face-mask.png"></div>
           <div class="products-section__single-product-info">
-            <p class="products-section__single-product-title">Hoodies</p>
+            <p class="products-section__single-product-title">Face Mask</p>
             <p class="products-section__single-product-price">Starting At <span
-                class="products-section__single-product-price-value">$12.95</span></p>
+                class="products-section__single-product-price-value">$3.75</span></p>
           </div>
         </a>
       </div>
       <div class="products-section__single-product">
         <a href="#">
           <span class="coming-soon-label">Coming soon</span>
-          <div class="products-section__single-product-image"><img src="img/poster.png"></div>
+          <div class="products-section__single-product-image single-product-image--absolute"><img
+              src="img/Poster_Printing.png">
+          </div>
           <div class="products-section__single-product-info">
             <p class="products-section__single-product-title">Posters</p>
             <p class="products-section__single-product-price">Starting At <span
@@ -326,23 +321,23 @@
           </p>
 
           <div class="how-it-works-section__logos">
-            <div class="how-it-works-section__single-logo"><img src="img/Bandcamp.png"></div>
-            <div class="how-it-works-section__single-logo"><img src="img/Amazon.png"></div>
-            <div class="how-it-works-section__single-logo"><img src="img/Walmart_logo_2.png"></div>
-            <div class="how-it-works-section__single-logo"><img src="img/shopify-logo-2.png"></div>
-            <div class="how-it-works-section__single-logo"><img src="img/woocommerce-logo-2.png"></div>
-            <div class="how-it-works-section__single-logo"><img src="img/ebay-logo-2.png"></div>
-            <div class="how-it-works-section__single-logo"><img src="img/etsy-logo-2.png"></div>
+            <div class="how-it-works-section__single-logo"><img src="img/bandcamp-transp-bg.png"></div>
+            <div class="how-it-works-section__single-logo"><img src="img/amazon-transp-bg.png"></div>
+            <div class="how-it-works-section__single-logo"><img src="img/walmart-transp-bg.png"></div>
+            <div class="how-it-works-section__single-logo"><img src="img/shopify-transp-bg.png"></div>
+            <div class="how-it-works-section__single-logo"><img src="img/woocommerce-transp-bg.png"></div>
+            <div class="how-it-works-section__single-logo"><img src="img/ebay-transp-bg.png"></div>
+            <div class="how-it-works-section__single-logo"><img src="img/etsy-transp-bg.png"></div>
           </div>
-          <a class="how-it-works-section__button" href="#">Connect Store</a>
+          <a class="how-it-works-section__button how-it-works-connect__button" href="#">Connect Store</a>
         </div>
         <div class="how-it-works-section__column how-it-works-section__column-image">
-          <img src="img/image-01-2.png">
+          <img src="img/image-01-3.png">
         </div>
       </div>
       <div class="how-it-works-section__row how-it-works-section__row-inverse">
-        <div class="how-it-works-section__column how-it-works-section__row-text how-it-works__unified-text">
-          <h3 class="how-it-works-section__subtitle">Unified Manufacturing</h3>
+        <div class="how-it-works-section__column swaggin__how-it-works-create">
+          <h3 class="how-it-works-section__subtitle">Swaggin' will create and ship your merch.</h3>
           <p>
             Once a customer places an order from your store, we will be instantly notified.
             <br /><br />
@@ -353,28 +348,27 @@
           <a class="how-it-works-section__button" href="#">About us</a>
         </div>
         <div class="how-it-works-section__column how-it-works-section__column-image how-it-works__unified-image">
-          <img src="img/image-02-2.png">
+          <img src="img/image-02-3.png">
         </div>
       </div>
       <div class="how-it-works-section__row how-it-works-section__row-customers">
         <div class="how-it-works__customers-bg-mob">
         </div>
-        <div class="how-it-works-section__column how-it-works-section__row-text how-it-works__your-customers">
+        <div class="how-it-works-section__column swaggin__how-it-works-customers">
           <h3 class="how-it-works-section__subtitle">Your customers</h3>
           <p>
             We will ship your merch items to your customers.
             <br /><br />
-            We will add a bit of TLC to make it look like you shipped them out yourself.
+            Your customers will receive them as if you're the one shipping them
             <br /><br />
-            You can choose the packaging of your choice and we can even attach a special note from you to make it
-            extra
+            You can choose the packaging of your choice and we can even attach a special note from you to make it extra
             special.
           </p>
           <a class="how-it-works-section__button" href="#">Start a project</a>
           <a class="how-it-works-section__mobile-button" href="#">Start a projects</a>
         </div>
-        <div class="how-it-works-section__column how-it-works-section__column-image">
-          <img class="manufacturing-img__desk" src="img/image-03-2.png">
+        <div class="how-it-works-section__column swaggin__how-it-works-customers-image">
+          <img class="manufacturing-img__desk" src="img/image-03-3.png">
           <img class="manufacturing-img__mob" src="img/image-03-2-mob.png">
         </div>
       </div>
@@ -479,46 +473,48 @@
             </blockquote>
           </div>
         </div>
+        <div class="swaggin-testimonials-outer">
+          <div class="swaggin-testimonials-wrapper">
+            <div class="testimonials-section__blue-selection"></div>
+            <div class="swaggin-testimonials-section__logos">
+              <div class="testimonials-section__single-logo">
+                <img src="img/zombie-logo.png">
+              </div>
+              <div class="testimonials-section__single-logo">
+                <img src="img/magnum-logo.png">
+              </div>
+              <div class="testimonials-section__single-logo">
+                <img src="img/dhl-logo.png">
+              </div>
+              <div class="testimonials-section__single-logo">
+                <img src="img/marvel-logo.png">
+              </div>
+              <div class="testimonials-section__single-logo">
+                <img src="img/ringo-logo.png">
+              </div>
+              <div class="testimonials-section__single-logo">
+                <img src="img/activision-logo.png">
+              </div>
+              <div class="testimonials-section__single-logo">
+                <img src="img/monster-logo.png">
+              </div>
+              <div class="testimonials-section__single-logo">
+                <img src="img/ringo-logo.png">
+              </div>
+              <div class="testimonials-section__single-logo">
+                <img src="img/activision-logo.png">
+              </div>
+              <div class="testimonials-section__single-logo">
+                <img src="img/monster-logo.png">
+              </div>
+            </div><!-- swaggin-testimonials-section__logos -->
+          </div><!-- end of swaggin-testimonials-wrapper -->
+          <!-- <div class="swaggin-testimonials-arrows-mob"></div> -->
+          <div class="swaggin-testimonials-arrows"></div>
+          <div class="swaggin-progress swaggin-testimonials-progress" role="progressbar" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
 
-        <div class="swaggin-testimonials-wrapper">
-          <div class="testimonials-section__blue-selection"></div>
-          <div class="swaggin-testimonials-section__logos">
-            <div class="testimonials-section__single-logo">
-              <img src="img/zombie-logo.png">
-            </div>
-            <div class="testimonials-section__single-logo">
-              <img src="img/magnum-logo.png">
-            </div>
-            <div class="testimonials-section__single-logo">
-              <img src="img/dhl-logo.png">
-            </div>
-            <div class="testimonials-section__single-logo">
-              <img src="img/marvel-logo.png">
-            </div>
-            <div class="testimonials-section__single-logo">
-              <img src="img/ringo-logo.png">
-            </div>
-            <div class="testimonials-section__single-logo">
-              <img src="img/activision-logo.png">
-            </div>
-            <div class="testimonials-section__single-logo">
-              <img src="img/monster-logo.png">
-            </div>
-            <div class="testimonials-section__single-logo">
-              <img src="img/ringo-logo.png">
-            </div>
-            <div class="testimonials-section__single-logo">
-              <img src="img/activision-logo.png">
-            </div>
-            <div class="testimonials-section__single-logo">
-              <img src="img/monster-logo.png">
-            </div>
-          </div><!-- swaggin-testimonials-section__logos -->
-        </div><!-- end of swaggin-testimonials-wrapper -->
-
-        <div class="swaggin-testimonials-arrows"></div>
-        <div class="swaggin-progress swaggin-testimonials-progress" role="progressbar" aria-valuemin="0"
-          aria-valuemax="100"></div>
 
       </div>
     </div><!-- end of swaggin-testimonials__inner-->

@@ -43,7 +43,7 @@
 	letter-spacing: 0;
 	line-height: 12px;
 	color: #BCC6CA;
-	opacity: 0.4;
+	opacity: 0.6;
 	margin-bottom: 6px;
 	font-family: 'Gotham Pro Medium';
 }
@@ -142,5 +142,16 @@
 }
 .header__main-nav-wrapper .header__main-container .header__main-nav_search .fa-search{
 	opacity: 0.3;
-    color: #2E2E30;	
+	color: #2E2E30;	
+}
+.header__mobile-top-section-chat-link{
+	border: 0.5px solid #009cec80;
+	border-radius: 6px;
+	font-family: 'Gotham Pro Bold';
+	font-size: 13px;
+	letter-spacing: 0;
+	line-height: 12px;
+	padding: 4px 5px;
+	color: #009CEC !important;
+	background: #fff;
 }

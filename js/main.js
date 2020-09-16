@@ -135,50 +135,24 @@ $(document).ready(function () {
 	$('.swaggin-testimonials-section__testimonials-slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		arrows: false,
+		arrows: true,
 		fade: true,
 		speed: 300,
-		asNavFor: '.swaggin-testimonials-section__logos'
+		asNavFor: '.swaggin-testimonials-section__logos',
+		appendArrows: ".swaggin-testimonials-arrows-mob",
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					appendArrows: ".swaggin-testimonials-arrows",
+					infinite: false
+
+				}
+			}
+		]
 	});
 
-	// Swaggin page. Testimonials. Testimonials logos slider.
-	// $('.swaggin-testimonials-section__logos').slick({
-	// 	slidesToShow: 7,
-	// 	slidesToScroll: 1,
-	// 	speed: 300,
-	// 	infinite: true,
-	// 	asNavFor: '.swaggin-testimonials-section__testimonials-slider',
-	// 	dots: false,
-	// 	centerMode: true,
-	// 	focusOnSelect: true,
-	// 	appendArrows: ".swaggin-testimonials-arrows",
-	// 	responsive: [
-	// 		{
-	// 			breakpoint: 1450,
-	// 			settings: {
-	// 				slidesToShow: 5,
-	// 				slidesToScroll: 1
-	// 			}
-	// 		},
-	// 		{
-	// 			breakpoint: 769,
-	// 			settings: {
-	// 				slidesToShow: 3,
-	// 				slidesToScroll: 1
-	// 			}
-	// 		},
-	// 		{
-	// 			breakpoint: 767,
-	// 			settings: {
-	// 				slidesToShow: 3,
-	// 				slidesToScroll: 1,
-	// 				centerMode: false,
-	// 			}
-	// 		}
-	// 	]
-	// });
-
-
+	/*Swaggin page. Testimonials logos slider with progress bar*/
 	function setProgress2(index) {
 		const calc = ((index + 1) / ($slider2.slick('getSlick').slideCount)) * 100;
 
@@ -225,6 +199,9 @@ $(document).ready(function () {
 					slidesToShow: 3,
 					slidesToScroll: 1,
 					centerMode: false,
+					infinite: false,
+					arrows: false,
+
 				}
 			}
 		]
@@ -325,7 +302,6 @@ $(document).ready(function () {
 
 	$slider.slick({
 		appendArrows: ".swaggin-why__slider-arrows",
-		infinite: false,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		focusOnSelect: true,
@@ -334,8 +310,15 @@ $(document).ready(function () {
 	setProgress(0);
 
 
-	// slider
+	// Homepage.Products section. Desktop slider 
 	$slick_slider = $('.products-section__columns');
+	if ($(location).attr('href').includes("swaggin", 1)) {
+		var infiniteScroll = false;
+	}
+	else {
+		var infiniteScroll = true;
+	}
+
 	settings_slider = {
 		dots: false,
 		arrows: true,
@@ -344,12 +327,12 @@ $(document).ready(function () {
 		slidesToShow: 2,
 		slidesToScroll: 1,
 		speed: 300,
-		infinite: true,
+		infinite: infiniteScroll,
 		variableWidth: true,
 	}
 	slick_on_mobile($slick_slider, settings_slider);
 
-	// slick on mobile
+	// Homepage. Products section. Mobile slider 
 	function slick_on_mobile(slider, settings) {
 		$(window).on('load resize', function () {
 			if ($(window).width() >= 768) {
