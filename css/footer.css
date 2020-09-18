@@ -80,3 +80,16 @@
 .footer__contact-info .footer__socials a:last-child{
 	margin-right: 0;	
 }
+/*footer view2 with round corners and #000 bg*/
+.footer-view2 {
+	padding: 0 23px !important;
+	background-color: #F3F5FC;
+}
+
+.footer-view2__wrapper {
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	background-color: #000;
+	padding: 64px 0 73px;
+	color: #fff;
+}

@@ -1,0 +1,43 @@
+.banner__btn {
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Gotham Pro Bold';
+	padding: 18px 39px;
+	background: #000;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.banner__btn:hover {
+	background: rgba(0,0,0,.7);
+}
+.banner {
+	background: #6B96ED;
+	border-radius: 37px;
+}
+.banner__wrapper {
+	width: 980px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.banner__title {
+	font-family: 'Lalezar-Regular';
+	color: #fff;
+}
+
+.banner__text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 18px;
+	line-height: 22px;
+	color: #fff;
+}
+
+.banner__label {
+	font-family: 'Gotham Pro Black';
+	font-size: 18px;
+	color: #FF6953;
+	text-transform: uppercase;
+}

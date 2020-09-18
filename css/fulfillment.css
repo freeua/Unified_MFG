@@ -1,0 +1,192 @@
+@import "header.css";
+@import "footer.css";
+@import "products-section.css";
+@import "how-it-works-section.css";
+@import "integrate-with-section.css";
+@import "print-custom-section.css";
+@import "testimonials-section.css";
+
+.fulfillment-banner {
+	margin: 0 23px 117px 23px;
+}
+
+.fulfillment-banner__title-mob {
+	display: none;
+}
+
+.fulfillment-banner__title {
+	font-size: 50px;
+	line-height: 56px;
+}
+
+.fulfillment-banner__text {
+	max-width: 485px;
+	margin-bottom: 35px;
+}
+
+.fulfillment-banner__title {
+	margin-bottom: 35px;
+}
+
+.fulfillment-banner__label {
+	margin-bottom: 35px;
+}
+
+.fulfillment-banner__wrapper {
+	max-width: 980px;
+	margin: auto;
+}
+
+.fulfillment-banner__wrapper {
+	padding: 75px 0 86px;
+}
+
+.fulfillment__pricing {
+	padding: 0 20px;
+}
+
+.fulfillment__pricing-wrapper {
+	max-width: 980px;
+	margin: auto;
+}
+
+.fulfillment__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.fulfillment__column {
+	color: #000;
+	width: calc((100% - 130px)/3);
+}
+
+.fulfillment__item-title {
+	font-size: 18px;
+	font-family: 'Gotham Pro Medium';
+	margin-bottom: 30px;
+}
+
+.fulfillment__item-text {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Regular';
+}
+.fulfillment__advantages {
+	margin-bottom: 100px;
+}
+
+.fulfillment__advantages-wrapper {
+	max-width: 980px;
+	margin: auto;
+}
+.fulfillment__advantages .fulfillment__row:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.fulfillment__how .h2__title {
+	margin-bottom: 40px;
+}
+
+.fulfillment__partner {
+	margin-bottom: 145px;
+}
+
+.fulfillment__partner-wrapper {
+	max-width: 980px;
+	margin: auto;
+}
+.fulfillment__partner .h2__title {
+	margin-bottom: 60px;
+}
+
+.fulfillment__advantages .h2__title-mob {
+	display: none;
+}
+
+.fulfillment__advantages .h2__title-desk {
+	margin-bottom: 70px;
+}
+
+.fulfillment__shipping {
+	margin-bottom: 122px;
+}
+
+.fulfillment__shipping .h3__title {
+	margin-bottom: 20px;
+}
+
+.fulfillment__shipping-text {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Regular';
+	color: #000;
+	max-width: 650px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 36px;
+}
+
+
+.shipping-table__desk-wrapper {
+	width: 100%;
+	border-radius: 16px;
+	background: #F3F5FC;
+	padding: 20px 45px 20px 70px ;
+}
+
+.shipping-table__desk {
+	width: 100%;
+}
+
+.shipping-table__mob-wrapper {
+	display: none;
+}
+
+.shipping-table__desk th {
+	font-size: 14px;
+	line-height: 16px;
+	font-family: 'Gotham Pro Medium';
+	color: #BBC1D2;
+	padding: 20px 0 25px 0;
+}
+
+.shipping-table__desk th:not(:last-child) {
+	border-right: 2px solid #E8EAF2;
+}
+
+.shipping-table__desk tr:not(:last-child):not(:first-child){
+	border-bottom: 2px solid #E8EAF2;
+}
+
+.shipping-table__desk th:first-child {
+	text-align: left;
+}
+
+.shipping-table__desk tr td:nth-child(1) {
+	font-size: 22px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Medium';
+	color: #000;
+	padding: 25px 0 25px 3px;
+}
+
+.shipping-table__desk tr td:not(:last-child) {
+	border-right: 2px solid #E8EAF2;
+}
+
+.shipping-table__desk tr td:nth-child(2),
+.shipping-table__desk tr td:nth-child(3) {
+	font-size: 22px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Bold';
+	color: #6B96ED;
+	text-align: center;
+	padding: 25px;
+}
+
+.shipping-table__mob-wrapper {
+	width: 100%;
+	border-radius: 16px;
+	background: #F3F5FC;
+	padding: 20px 20px;
+}

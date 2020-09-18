@@ -783,76 +783,18 @@ a{
 .margin_bottom--0 {
 	margin-bottom: 0 !important;
 }
-.header__top-section-start--inline {
-	display: flex;
-	width: initial !important;
-	align-items: flex-end;
-}
 
-.header__top-section-phone--inline {
-	display: flex;
-	width: initial !important;
-	align-items: center;
-}
-
-.header__top-section-phone-value--inline span {
-	font-family: 'Gotham Pro Regular';
-	margin-right: 10px;
-	font-size: 13px;
-} 
-
-.header__top-section-phone--inline .header__top-section-phone-label {
-	margin-bottom: 0 !important;
-}
-.header__top-section-phone-value--inline {
-	display: flex;
-	margin-left: 11px;
-}
-.header__top-section-start--inline .header__top-section-start-label {
-	margin-bottom: 0 !important;
-	margin-right: 8px;
-}
-
-.header-sign-in__btn {
-	display: block;
+.h2__title {
+	font-size: 30px;
+	line-height: 36px;
+	color: #000;
+	font-family: 'Gotham Pro Black';
 	text-align: center;
-	font-family: 'Gotham Pro Bold';
-	color: #6B96ED;
-	font-size: 13px;
-	letter-spacing: 1px;
-	line-height: 12px;
-	text-transform: uppercase;
-	padding: 12px 31px;
-	border: 1px solid #6B96ED;
-	border-radius: 10px;
-	box-sizing: border-box;
 }
-
-.header-sign-in__btn:hover{
-	background-color: #6B96ED;
-	border-color:  #6B96ED;
-	color: #fff;
-}
-.header-sign-in__btn:active{
-	background-color: #008dff;
-	border-color:  #008dff;
-	color: #fff;
-}
-
-.header__top-section-phone-value--inline .header__contact-us {
-	font-family: "Gotham Pro Bold";
-	font-size: 13px;
-	line-height: 12px;
-	text-decoration: underline;
-	margin-right: 15px;
-	position: relative;
-	top: 1px;
-}
-
-.header__top-section-phone--inline .header__top-section-phone-label {
-	margin-right: 18px;
-}
-
-.header__main-nav-wrapper--no-shadow {
-	box-shadow: none !important;
+.h3__title {
+	font-size: 24px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Medium';
+	color: #000;
+	text-align: center;
 }
