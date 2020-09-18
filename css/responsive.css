@@ -66,21 +66,31 @@
 	.first-section .first-section__column__absolute img{
 		width: 60%;
 	}
+	.fulfillment-banner-img__desktop {
+		bottom: 62px;
+	}
+	.fulfillment-banner-img__desktop img:nth-child(1) {
+    width: 430px;
+	}
+	
+	.fulfillment-banner-img__desktop img:nth-child(2) {
+		width: 325px;
+		left: 72px;
+    bottom: -150px;
+	}
 }
 
 @media(max-width: 1280px){
+	.swaggin-banner__right {
+    right: 40px;
+	}
+
 	.swaggin-banner {
     padding: 30px 0;
 	}
 
-	.swaggin-banner-img__desktop {
-		left: 0;
-		top: 21px;
-		width: 350px;
-	}
-
 	.swaggin-banner__left {
-		padding-top: 0;
+		padding-top: 80px;
 		display: flex;
     flex-direction: column;
 		justify-content: center;
@@ -110,8 +120,44 @@
 		height: 100%;
 	} 
 }
+@media(max-width: 1200px) {
+
+	.fulfillment-banner-img__desktop {
+		left: calc(50% + 54px);
+	}
+}
 
 @media(max-width: 1100px) {
+	.fulfillment__how-img-wrapper {
+    height: 163px;
+	}
+
+	.fulfillment-banner-img__desktop {
+		bottom: 52px;
+	}
+
+	.fulfillment-banner__wrapper {
+		padding: 40px 0 50px;
+	}
+
+	.fulfillment-banner-img__desktop img:nth-child(1) {
+    width: 373px;
+	}
+
+	.fulfillment-banner-img__desktop img:nth-child(2) {
+    width: 287px;
+    left: 59px;
+    bottom: -130px;
+	}
+
+	.fulfillment__how-item {
+		padding: 30px 20px;
+		justify-content: start;
+	}
+	.fulfillment__how-item-text {
+		font-size: 16px;
+		line-height: 20px;
+	}
 	.shipping-table__desk-wrapper {
     padding: 20px 20px;
 	}
@@ -145,6 +191,11 @@
 	.fulfillment__advantages-wrapper {
 		max-width: 780px;
 	}
+
+	.fulfillment__how-wrapper {
+		max-width: 780px;
+	}
+
 	.banner__wrapper {
 		width: 780px;
 	}
@@ -152,13 +203,27 @@
 	.footer-view2__wrapper {
 		padding: 64px 20px 73px;
 	}
+
 	.swaggin-banner__title {
 		font-size: 70px;
 	}
+
 	.swaggin-testimonials .testimonials-section__title-row {
 		padding: 0 0 32px 0;
 		max-width: 780px;
     margin: auto;
+	}
+
+	.swaggin-banner-img__desktop {
+		width: 400px;
+	}
+
+	.swaggin-banner__right {
+		bottom: -70px;
+	}
+
+	.swaggin-banner__left {
+		padding-top: 20px;
 	}
 
 	.swaggin-banner__title {
@@ -412,22 +477,48 @@
 	    max-width: 98%;
 	}
 }
+
+@media(max-width: 960px) {
+	.fulfillment-banner-img__desktop {
+    left: initial;
+    right: 20px;
+	}
+
+	.fulfillment-banner__wrapper {
+		padding: 35px 25px 86px;
+	}
+
+	.fulfillment-banner__title-desk {
+		font-size: 40px;
+    line-height: 44px;
+	}
+	.fulfillment-banner__left {
+    width: 70%;
+	}
+
+	.fulfillment-banner__text {
+		max-width: 270px;
+	}
+}
 @media(max-width: 900px){
+	
 	.fulfillment__column {
     color: #000;
     width: calc((100% - 40px)/3);
-}
+	}
+
 	.fulfillment__partner-wrapper {
 		padding: 0 30px;
 	}
+
 	.fulfillment__advantages-wrapper {
 		padding: 0 15px;
-
 	}
+
 	.fulfillment-banner__wrapper {
-		padding: 75px 25px 86px;
 		width: 100%;
-}
+	}
+
 
 	.swaggin-banner__wrapper {
     padding: 0 23px;
@@ -448,16 +539,21 @@
 		padding-bottom: 120px;
 	}
 
+	.swaggin-banner-img__desktop {
+    width: 350px;
+	}
+
+	.swaggin-banner__right {
+    right: 20px;
+	}
+
 	.swaggin__how-it-works {
     margin-bottom: 130px;
 	}
 
-	.swaggin-banner__right {
-    right: 23px;
-	}
-
 	.swaggin-banner__left {
-    padding-right: 25px;
+		padding-right: 25px;
+		padding-top: 0;
 	}
 
 	.homepage__print-custom-section{
@@ -741,6 +837,26 @@
 }
 
 @media(max-width: 767px) {
+	.fulfillment__how-img-wrapper {
+    height: initial;
+	}
+	
+	.fulfillment__how-items-wrapper  {
+		flex-direction: column;
+    align-items: center;
+	}
+
+	.fulfillment__how-item {
+		margin-bottom: 20px;
+		width: 100%;
+		max-width: 300px;
+		padding: 60px 20px 60px 20px;
+	}
+
+	.fulfillment-banner {
+    margin: 85px 23px 117px 23px;
+	}
+
 	.fulfillment__shipping .h3__title {
 		margin-bottom: 15px;
 	}
@@ -755,7 +871,7 @@
 	.shipping-table__desk-wrapper {
 		display: none;
 	}
-	.shipping-table__mob-wrapper {
+	.shipping__mob-wrapper {
 		display: block;
 	}
 	.h2__title {
@@ -795,32 +911,20 @@
 		margin-bottom: 40px;
 	}
 
-	.fulfillment-banner__title-desk {
-		display: none;
+	.fulfillment-banner-img__desktop {
+		position: relative;
+		display: table;
+		margin: auto;
+		right: 0;
 	}
 
-	.fulfillment-banner__title-mob {
-		display: block;
-	}
-
-	.fulfillment-banner__title {
-		font-size: 24px;
-		line-height: 26px;
-		margin-bottom: 10px;
-	}
-
-	.fulfillment-banner__label { 
-		font-size: 14px;
-		margin-bottom: 20px;
+	.fulfillment-banner__left {
+    width: 100%;
 	}
 
 	.fulfillment-banner__text {
-		font-size: 14px;
-		line-height: 18px;
-
+    max-width: initial;
 	}
-
-
 
 	.swaggin-testimonials .testimonials-section__title-row {
 		max-width: 455px;
@@ -1102,9 +1206,6 @@
 		border-radius: 10px;
 		max-width: 150px;
     padding: 15px;
-	}
-	.swaggin-banner__right {
-		width: 350px;
 	}
 	.swaggin-banner__left {
 		width: calc(100% - 350px);
@@ -2214,13 +2315,36 @@
 	}
 
 }
+@media(max-width: 700px) {
 
+
+	.fulfillment__how-item:last-child {
+		margin-bottom: 0;
+	}
+
+	.fulfillment__how-item-img {
+    height: auto;
+	}
+
+	.fulfillment__how {
+    margin-bottom: 100px; 
+	}
+
+	.fulfillment__how-item-text {
+    font-size: 18px;
+    line-height: 22px;
+	}
+}
 @media(max-width: 670px) {
+
+
+
 	.swaggin-banner__left {
     width: calc(100% - 300px);
 	}
 	.swaggin-banner__right {
-    width: 300px;
+		width: 300px;
+		bottom: -60px;
 	}
 	.swaggin-banner-img__desktop {
 		width: 300px;
@@ -2232,6 +2356,8 @@
     font-size: 50px;
 		margin-bottom: 30px;
 	}
+
+	
 }
 
 @media(max-width: 580px) {
@@ -2259,19 +2385,21 @@
 		height: 280px;
 	}
 	.swaggin-banner__right {
-		position: static;
+		/* position: static; */
 		width: 100%;
 	}
 	.swaggin-banner-img__desktop {
-		width: 400px;
-		display: table;
-		margin: auto;
-		margin-top: 15px;
-}
+		display: none;
+	}
+	.swaggin-banner-img__mob {
+    display: block;
+    position: absolute;
+    bottom: -9px;
+    right: -20px;
+	} 
 	.swaggin-banner {
-		padding: 55px 25px 15px 25px;
+		padding: 55px 25px 340px 25px;
 		position: relative;
-    margin: 80px 15px 120px 15px;
 	} 
 	.swaggin-why__text {
     margin-bottom: 51px;
@@ -2310,6 +2438,7 @@
 }
 
 @media(max-width: 520px) {
+	
 	.item-info__right {
 		max-width: 100%;
 	}
@@ -2332,22 +2461,51 @@
 }
 
 @media(max-width: 500px) {
+	
+	.fulfillment-banner__wrapper {
+		padding: 35px 25px 53px;
+	}
+
+	.fulfillment-banner-img__desktop {
+		display: none;
+	}
+
+	.fulfillment-banner-img__mob {
+		display: inline-block;
+	}
+
+	.fulfillment-banner__title-desk {
+		display: none;
+	}
+
+	.fulfillment-banner__title-mob {
+		display: block;
+	}
+
+	.fulfillment-banner__title {
+		font-size: 24px;
+		line-height: 26px;
+		margin-bottom: 10px;
+	}
+
+	.fulfillment-banner__label { 
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+
+	.fulfillment-banner__text {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
 	.fulfillment__advantages .h2__title-mob {
     text-align: left;
 	}
-	.swaggin-banner {
-		padding: 55px 25px 366px 25px;
-		position: relative;
-		
-	} 
-	.swaggin-banner-img__mob {
-		display: block;
-		position: absolute;
-		bottom: -65px;
-		right: 0px;
-	} 
-	.swaggin-banner-img__desktop {
-		display: none;
+
+	.fulfillment-banner .banner__btn {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
 	}
 }
 
@@ -2402,17 +2560,24 @@
 	}
 }
 
-/* @media(max-width: 388px){
-	.print-custom-section__mobile-images img{
-		top: 53px;
-	}
-} */
 @media(max-width: 390px) {
+	.fulfillment-banner-img__mob img:nth-child(1) {
+		width: 295px;
+	}
+
 	.print-custom-section .print-custom-section__title {
 		width: 290px;
     margin-right: 36px;
 	}
+
+	.fulfillment-banner-img__mob img:nth-child(2) {
+    position: absolute;
+    left: 39px;
+    top: 113px;
+    width: 231px;
+	}
 }
+
 @media(max-width: 380px) {
 	.homepage__print-custom-section .print-custom-section_item {
     width: calc((100% - 50px)/2);
@@ -2425,16 +2590,34 @@
 		padding: 0 30px;
 	}
 }
+
 @media(max-width: 370px) {
 	.swaggin-banner-img__mob {
-		width: calc(100% - 30px);
-		bottom: -55px;
+		width: calc(100% - 25px);
+    bottom: 2px;
+    right: -20px;
 	}
 	.swaggin-banner {
-		padding: 55px 25px 340px 25px;
+		padding: 55px 25px 330px 25px;
 	}
 }
+
+@media(max-width: 360px) {
+	.fulfillment-banner-img__mob img:nth-child(1) {
+    width: 255px;
+	}
+	.fulfillment-banner-img__mob img:nth-child(2) {
+    position: absolute;
+    left: 21px;
+    top: 84px;
+    width: 228px;
+	}
+}
+
 @media(max-width: 350px){
+	.swaggin-banner {
+		padding: 55px 25px 310px 25px;
+	}
 	/* .print-custom-section__mobile-images img{
 		top: 53px;
 	} */

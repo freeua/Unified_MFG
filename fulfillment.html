@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fulfillment Unified MFG</title>
   <link rel="icon" href="img/mobile-logo.png" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/6585df3e31.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://kit.fontawesome.com/6585df3e31.js" crossorigin="anonymous"></script> -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/slick.css">
   <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
@@ -134,14 +134,19 @@
         <a href="" class="fulfillment-banner__btn banner__btn">Check Prices</a>
       </div>
       <!--end fulfillment-banner__left -->
-
-      <div class="fulfillment-banner__right">
-        <img class="fulfillment-banner-img__desktop" src="" alt="">
-        <img class="fulfillment-banner-img__mob" src="" alt="">
-      </div>
-      <!--end fulfillment-banner__right -->
     </div>
     <!--end fulfillment-banner__wrapper -->
+    <div class="fulfillment-banner__right">
+      <div class="fulfillment-banner-img__desktop">
+        <img src="img/fulfillment-banner-img1.png" alt="">
+        <img src="img/fulfillment-banner-img2.png" alt="">
+      </div>
+      <div class="fulfillment-banner-img__mob">
+        <img src="img/fulfillment-banner-img1-mob.png" alt="">
+        <img src="img/fulfillment-banner-img2-mob.png" alt="">
+      </div>
+    </div>
+    <!--end fulfillment-banner__right -->
   </section>
   <!--end fulfillment banner -->
 
@@ -149,6 +154,40 @@
   <section class="fulfillment__how">
     <div class="fulfillment__how-wrapper">
       <h2 class="h2__title">How it works</h2>
+      <p class="fulfillment__how-text">
+        We know you guys are giggin’ and hustlin’ hard so allow us to do the dirty work when it comes to your merch! We
+        will take care of everything — from storing, assembling, packing, to shipping your items so you won’t have to
+        stress & sweat with every order.
+      </p>
+      <div class="fulfillment__how-items-wrapper">
+        <!--How it works item -->
+        <div class="fulfillment__how-item">
+          <div class="fulfillment__how-img-wrapper">
+            <img src="img/fulfillment-img1.png" alt="" class="fulfillment__how-item-img">
+          </div>
+          <p class="fulfillment__how-item-text">Send us your items (Or we make them for you)</p>
+        </div>
+        <!--end fulfillment__how-item -->
+
+        <!--How it works item -->
+        <div class="fulfillment__how-item">
+          <div class="fulfillment__how-img-wrapper">
+            <img src="img/fulfillment-img2.png" alt="" class="fulfillment__how-item-img">
+          </div>
+          <p class="fulfillment__how-item-text">We stock your items in our warehouse</p>
+        </div>
+        <!--end fulfillment__how-item -->
+
+        <!--How it works item -->
+        <div class="fulfillment__how-item">
+          <div class="fulfillment__how-img-wrapper">
+            <img src="img/fulfillment-img3.png" alt="" class="fulfillment__how-item-img">
+          </div>
+          <p class="fulfillment__how-item-text">We ship your items to your fans</p>
+        </div>
+        <!--end fulfillment__how-item -->
+      </div>
+      <!--end fulfillment__how-items-wrapper -->
     </div>
     <!--end fulfillment__how-wrapper -->
 
@@ -316,151 +355,198 @@
           <!--end shipping-table__desk-wrapper-->
 
           <!-- SHIPPING MOBILE TABLE -->
-          <div class="shipping-table__mob-wrapper">
-            <table class="shipping-table__mob">
-              <tr>
-                <td>Shirt</td>
-              </tr>
-              <tr>
-                <td>
-                  <p>FIRST PRODUCT</p>
-                  <p>$3.99</p>
-                </td>
-                <td>
-                  <p>ADDITIONAL PRODUCTS</p>
-                  <p>$0.95</p>
-                </td>
-              </tr>
+          <div class="shipping__mob-wrapper">
+            <div class="shipping__mob">
+              <p class="shipping__mob-title">MERCH ITEM</p>
+              <!-- One shipping mobile item -->
+              <div class="shipping__mob-item">
+                <div class="shipping__mob-prod-name">
+                  Shirt
+                </div>
+                <div class="shipping__mob-price-wrapper">
+                  <div>
+                    <p class="shipping__mob-prod-type">FIRST PRODUCT</p>
+                    <p class="shipping__mob-price">$3.99</p>
+                  </div>
+                  <div>
+                    <p class="shipping__mob-prod-type">ADDITIONAL PRODUCTS</p>
+                    <p class="shipping__mob-price">$0.95</p>
+                  </div>
+                </div>
+              </div>
+              <!--end shipping__mob-item-->
 
-              <tr>
-                <td>Hoodies & Jackets</td>
-              </tr>
-              <tr>
-                <td>
-                  <p>FIRST PRODUCT</p>
-                  <p>$6.50</p>
-                </td>
-                <td>
-                  <p>ADDITIONAL PRODUCTS</p>
-                  <p>$2.00</p>
-                </td>
-              </tr>
+              <!-- One shipping mobile item -->
+              <div class="shipping__mob-item">
+                <div class="shipping__mob-prod-name">
+                  Hoodies & Jackets
+                </div>
+                <div class="shipping__mob-price-wrapper">
+                  <div>
+                    <p class="shipping__mob-prod-type">FIRST PRODUCT</p>
+                    <p class="shipping__mob-price">$6.50</p>
+                  </div>
+                  <div>
+                    <p class="shipping__mob-prod-type">ADDITIONAL PRODUCTS</p>
+                    <p class="shipping__mob-price">$2.00</p>
+                  </div>
+                </div>
+              </div>
+              <!--end shipping__mob-item-->
 
-              <tr>
-                <td>Face Masks</td>
-              </tr>
-              <tr>
-                <td>
-                  <p>FIRST PRODUCT</p>
-                  <p>$3.99</p>
-                </td>
-                <td>
-                  <p>ADDITIONAL PRODUCTS</p>
-                  <p>$1.25</p>
-                </td>
-              </tr>
+              <!-- One shipping mobile item -->
+              <div class="shipping__mob-item">
+                <div class="shipping__mob-prod-name">
+                  Face Masks
+                </div>
+                <div class="shipping__mob-price-wrapper">
+                  <div>
+                    <p class="shipping__mob-prod-type">FIRST PRODUCT</p>
+                    <p class="shipping__mob-price">$3.99</p>
+                  </div>
+                  <div>
+                    <p class="shipping__mob-prod-type">ADDITIONAL PRODUCTS</p>
+                    <p class="shipping__mob-price">$1.25</p>
+                  </div>
+                </div>
+              </div>
+              <!--end shipping__mob-item-->
 
-              <tr>
-                <td>Dog Tags</td>
-              </tr>
-              <tr>
-                <td>
-                  <p>FIRST PRODUCT</p>
-                  <p>$3.99</p>
-                </td>
-                <td>
-                  <p>ADDITIONAL PRODUCTS</p>
-                  <p>$3.99</p>
-                </td>
-              </tr>
+              <!-- One shipping mobile item -->
+              <div class="shipping__mob-item">
+                <div class="shipping__mob-prod-name">
+                  Dog Tags
+                </div>
+                <div class="shipping__mob-price-wrapper">
+                  <div>
+                    <p class="shipping__mob-prod-type">FIRST PRODUCT</p>
+                    <p class="shipping__mob-price">$3.99</p>
+                  </div>
+                  <div>
+                    <p class="shipping__mob-prod-type">ADDITIONAL PRODUCTS</p>
+                    <p class="shipping__mob-price">$3.99</p>
+                  </div>
+                </div>
+              </div>
+              <!--end shipping__mob-item-->
 
-              <tr>
-                <td>Hats</td>
-              </tr>
-              <tr>
-                <td>
-                  <p>FIRST PRODUCT</p>
-                  <p>$3.99</p>
-                </td>
-                <td>
-                  <p>ADDITIONAL PRODUCTS</p>
-                  <p>$1.25</p>
-                </td>
-              </tr>
+              <!-- One shipping mobile item -->
+              <div class="shipping__mob-item">
+                <div class="shipping__mob-prod-name">
+                  Hats
+                </div>
+                <div class="shipping__mob-price-wrapper">
+                  <div>
+                    <p class="shipping__mob-prod-type">FIRST PRODUCT</p>
+                    <p class="shipping__mob-price">$3.99</p>
+                  </div>
+                  <div>
+                    <p class="shipping__mob-prod-type">ADDITIONAL PRODUCTS</p>
+                    <p class="shipping__mob-price">$1.25</p>
+                  </div>
+                </div>
+              </div>
+              <!--end shipping__mob-item-->
 
-              <tr>
-                <td>Bags (drawstrings, fanny packs)</td>
-              </tr>
-              <tr>
-                <td>
-                  <p>FIRST PRODUCT</p>
-                  <p>$3.99</p>
-                </td>
-                <td>
-                  <p>ADDITIONAL PRODUCTS</p>
-                  <p>$1.25</p>
-                </td>
-              </tr>
 
-              <tr>
-                <td>Phone Cases</td>
-              </tr>
-              <tr>
-                <td>
-                  <p>FIRST PRODUCT</p>
-                  <p>$3.25</p>
-                </td>
-                <td>
-                  <p>ADDITIONAL PRODUCTS</p>
-                  <p>$0.75</p>
-                </td>
-              </tr>
+              <!-- One shipping mobile item -->
+              <div class="shipping__mob-item">
+                <div class="shipping__mob-prod-name">
+                  Bags (drawsdivings, fanny packs)
+                </div>
+                <div class="shipping__mob-price-wrapper">
+                  <div>
+                    <p class="shipping__mob-prod-type">FIRST PRODUCT</p>
+                    <p class="shipping__mob-price">$3.99</p>
+                  </div>
+                  <div>
+                    <p class="shipping__mob-prod-type">ADDITIONAL PRODUCTS</p>
+                    <p class="shipping__mob-price">$1.25</p>
+                  </div>
+                </div>
+              </div>
+              <!--end shipping__mob-item-->
 
-              <tr>
-                <td>Posters (18x24 or smaller)</td>
-              </tr>
-              <tr>
-                <td>
-                  <p>FIRST PRODUCT</p>
-                  <p>$4.99</p>
-                </td>
-                <td>
-                  <p>ADDITIONAL PRODUCTS</p>
-                  <p>$0.40</p>
-                </td>
-              </tr>
 
-              <tr>
-                <td>Posters (24x36+)</td>
-              </tr>
-              <tr>
-                <td>
-                  <p>FIRST PRODUCT</p>
-                  <p>$5.99</p>
-                </td>
-                <td>
-                  <p>ADDITIONAL PRODUCTS</p>
-                  <p>$0.40</p>
-                </td>
-              </tr>
+              <!-- One shipping mobile item -->
+              <div class="shipping__mob-item">
+                <div class="shipping__mob-prod-name">
+                  Phone Cases
+                </div>
+                <div class="shipping__mob-price-wrapper">
+                  <div>
+                    <p class="shipping__mob-prod-type">FIRST PRODUCT</p>
+                    <p class="shipping__mob-price">$3.25</p>
+                  </div>
+                  <div>
+                    <p class="shipping__mob-prod-type">ADDITIONAL PRODUCTS</p>
+                    <p class="shipping__mob-price">$0.75</p>
+                  </div>
+                </div>
+              </div>
+              <!--end shipping__mob-item-->
 
-              <tr>
-                <td>USB Cards</td>
-              </tr>
-              <tr>
-                <td>
-                  <p>FIRST PRODUCT</p>
-                  <p>$3.99</p>
-                </td>
-                <td>
-                  <p>ADDITIONAL PRODUCTS</p>
-                  <p>$3.99</p>
-                </td>
-              </tr>
-            </table>
+
+              <!-- One shipping mobile item -->
+              <div class="shipping__mob-item">
+                <div class="shipping__mob-prod-name">
+                  Posters (18x24 or smaller)
+                </div>
+                <div class="shipping__mob-price-wrapper">
+                  <div>
+                    <p class="shipping__mob-prod-type">FIRST PRODUCT</p>
+                    <p class="shipping__mob-price">$4.99</p>
+                  </div>
+                  <div>
+                    <p class="shipping__mob-prod-type">ADDITIONAL PRODUCTS</p>
+                    <p class="shipping__mob-price">$0.40</p>
+                  </div>
+                </div>
+              </div>
+              <!--end shipping__mob-item-->
+
+
+              <!-- One shipping mobile item -->
+              <div class="shipping__mob-item">
+                <div class="shipping__mob-prod-name">
+                  Posters (24x36+)
+                </div>
+                <div class="shipping__mob-price-wrapper">
+                  <div>
+                    <p class="shipping__mob-prod-type">FIRST PRODUCT</p>
+                    <p class="shipping__mob-price">$5.99</p>
+                  </div>
+                  <div>
+                    <p class="shipping__mob-prod-type">ADDITIONAL PRODUCTS</p>
+                    <p class="shipping__mob-price">$0.40</p>
+                  </div>
+                </div>
+              </div>
+              <!--end shipping__mob-item-->
+
+
+              <!-- One shipping mobile item -->
+              <div class="shipping__mob-item">
+                <div class="shipping__mob-prod-name">
+                  USB Cards
+                </div>
+                <div class="shipping__mob-price-wrapper">
+                  <div>
+                    <p class="shipping__mob-prod-type">FIRST PRODUCT</p>
+                    <p class="shipping__mob-price">$3.99</p>
+                  </div>
+                  <div>
+                    <p class="shipping__mob-prod-type">ADDITIONAL PRODUCTS</p>
+                    <p class="shipping__mob-price">$3.99</p>
+                  </div>
+                </div>
+              </div>
+              <!--end shipping__mob-item-->
+
+            </div>
           </div>
 
-          <!--end shipping-table__mob-wrapper-->
+          <!--end shipping__mob-wrapper-->
 
         </div>
         <!--end fulfillment__pricing-wrapper-->
