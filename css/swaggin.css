@@ -264,6 +264,12 @@
 }
 .swaggin__how-it-works .how-it-works-section__button:hover {
 	background:#6B96ED;
+	border-color:#6B96ED;
+	color: #fff;
+}
+.swaggin__how-it-works .how-it-works-section__button:active {
+	background:#5888ea;
+	border-color:#5888ea;
 	color: #fff;
 }
 

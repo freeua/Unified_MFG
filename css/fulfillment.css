@@ -131,10 +131,23 @@
 	margin: auto;
 }
 
+.fulfillment__pricing-wrapper .h2__title {
+	margin-bottom: 50px;
+}
+
+.fulfillment__warehousing {
+	margin-bottom: 125px;
+}
+
+.fulfillment__warehousing .h3__title {
+	margin-bottom: 40px;
+}
+
 .fulfillment__row {
 	display: flex;
 	justify-content: space-between;
 }
+
 
 .fulfillment__column {
 	color: #000;
@@ -333,3 +346,299 @@
 	color:#BBC1D2;
 	margin-bottom: 5px;
 }
+
+.fulfillment__locations .h2__title {
+	padding: 0 20px;
+}
+
+.fulfillment__locations-img {
+	max-height: 700px;
+	width: auto;
+	margin: auto;
+	display: table;
+	max-width: 100%;
+}
+
+.fulfillment__locations-wrapper {
+	max-width: 980px;
+	margin: auto;
+	margin-bottom: 130px;
+	padding: 0 20px;
+
+}
+
+.fulfillment_all-locations {
+	/* padding-top: 500px; */
+}
+
+.fulfillment_locations-block:nth-child(1) {
+	margin-bottom: 30px;
+}
+
+.fulfillment_locations-block-title {
+	font-size: 18px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Medium';
+	color: #000;
+	margin-bottom: 28px;
+}
+
+.fulfillment_locations-block-outer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.fulfillment_locations-block-outer:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.fulfillment_one-location {
+	border-radius: 11px;
+	background: #6B96ED;
+	background:#F3F5FC;
+	padding: 16px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Medium';
+	color: #000;
+	width: 170px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	cursor: pointer;
+}
+
+.fulfillment_one-location:hover {
+	background: #6B96ED;
+	color: #fff;
+}
+
+.fulfillment_one-location:active{
+	background-color: #5888ea;
+	border-color: #5888ea;
+	color: #fff;
+}
+
+.fulfillment_one-location .fa-map-marker-alt {
+	color: #FF6953;
+	position: absolute;
+	top: -9px;
+	font-size: 22px;
+}
+
+.fulfillment__pricing__btn {
+	border-radius: 10px;
+	border: 3px solid #6B96ED;
+	color:#6B96ED;
+	width: 100%;
+	font-family: 'Gotham Pro Bold';
+	text-transform: uppercase;
+	width: 100%;
+	padding: 15px 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.fulfillment__pricing__btn:hover {
+	background: #6B96ED;
+	color: #fff;
+}
+
+.fulfillment__pricing__btn:active{
+	background: #5888ea;
+	border-color: #5888ea;
+	color: #fff;
+}
+
+.fulfillment_warehousing-wrapper {
+	display: flex;
+	height: 397px;
+	background: #F3F5FC;
+	border-radius: 16px;
+	/* padding-top: 20px; */
+	display: flex;
+}
+
+.fulfillment__pricing-item {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 65px 18px 25px 18px;
+	cursor: pointer;
+	position: relative;
+	align-items: center;
+}
+
+.fulfillment__pricing-item__units-number {
+	font-size: 22px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Medium';
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.fulfillment__pricing-item_active .fulfillment__pricing-item__units-number {
+	color: #6B96ED;
+}
+
+.fulfillment__pricing-item_active .fulfillment__pricing-item__price {
+	color: #6B96ED;
+}
+
+.fulfillment__pricing-item__units-text {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Regular';
+	color: #000;
+	opacity: .4;
+	margin-bottom: 56px;
+}
+
+.fulfillment__pricing-item-dollar {
+	font-size: 22px;
+	
+}
+
+.fulfillment__pricing-item__price {
+	font-size: 42px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Bold';
+	color: #000;
+	margin-bottom: 29px;
+}
+
+.fulfillment__pricing-item__descrip {
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Regular';
+	color: #000;
+	opacity: .4;
+	margin-bottom: 48px;
+	max-width: 200px;
+}
+.fulfillment__pricing-item_active {
+	padding: 40px 18px 25px 18px;
+	position: relative;
+	top: 25px;
+	background: #fff;
+	border-radius: 16px;
+	-webkit-box-shadow: -1px 4px 25px 0px rgba(0,0,0,0.10);
+	-moz-box-shadow: -1px 4px 25px 0px rgba(0,0,0,0.10);
+	box-shadow: -1px 4px 25px 0px rgba(0,0,0,0.10);
+	height: calc(100% - 12px);
+}
+
+.fulfillment__pricing-item_active .fulfillment__pricing__btn {
+	background: #FF6953;
+	color: #fff;
+	border: 3px solid #FF6953;
+}
+
+.fulfillment__pricing-item_active .fulfillment__pricing__btn:hover {
+	background-color: #ff4b1f;
+	border-color: #ff4b1f;
+}
+
+.fulfillment__pricing-item_active .fulfillment__pricing__btn:active {
+	background-color: #ff9b82;
+	border-color: #ff9b82;
+}
+
+.fulfillment_warehousing-wrapper .fulfillment__pricing-item:not(:last-child):not(.fulfillment__pricing-item_active):after,
+.fulfillment__info-wrapper .fulfillment__pricing-item:not(:last-child):not(.fulfillment__pricing-item_active):after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 44px;
+	width: 3px;
+	background: #E8EAF2;
+	height: calc(100% - 88px);
+}
+
+.fulfillment__pricing-item--no-border:after {
+	display: none !important;
+}
+
+.fulfillment__info-wrapper {
+	display: flex;
+	background: #F3F5FC;
+	border-radius: 16px;
+	height: 335px;
+}
+
+.fulfillment__info .h3__title {
+	margin-bottom: 45px;
+}
+
+.fulfillment__info {
+	margin-bottom: 125px;
+}
+
+.fulfillment__info-wrapper .fulfillment__pricing-item{
+	width: 33.3%;
+}
+
+.fulfillment__info-wrapper .fulfillment__pricing-item-title {
+	font-family: 'Gotham Pro Medium';
+	font-size: 22px;
+	line-height: 20px;
+	max-width: 190px;
+	text-align: center;
+	margin-bottom: 14px;
+}
+
+.fulfillment__pricing-item_active .fulfillment__pricing-item-title {
+	color:#6B96ED;
+}
+.fulfillment__pricing-item-free {
+	font-family: 'Gotham Pro Bold';
+	font-size: 22px;
+	line-height: 20px;
+	color: #000;
+	margin-bottom: 67px;
+}
+
+.fulfillment__info-wrapper  .fulfillment__pricing-item-units {
+	font-family: 'Gotham Pro Regular';
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+	opacity: .4;
+	margin-bottom: 55px;
+}
+.fulfillment__info-wrapper .fulfillment__pricing-item_active .fulfillment__pricing-item-units {
+	margin-bottom: 55px;
+}
+.fulfillment__info-wrapper .fulfillment__pricing-item:nth-child(3) .fulfillment__pricing-item-title {
+	margin-bottom: 52px;
+	line-height: 25px;
+}
+
+.fulfillment__info-wrapper .fulfillment__pricing-item__price {
+	margin-bottom: 53px;
+}
+
+.fulfillment__info-wrapper .fulfillment__pricing-item_active .fulfillment__pricing-item__price {
+	margin-bottom: 53px;
+}
+
+/* .fulfillment__info-wrapper .fulfillment__pricing-item:after {
+	display: none !important;
+} */
+
+.fulfillment__info-wrapper .fulfillment__pricing__btn {
+	max-width: 207px;
+}
+
+.fulfillment__info-wrapper .fulfillment__pricing-item_active .fulfillment__pricing__btn {
+	max-width: 270px;
+}
+
+/* .fulfillment__pricing-item-processing {
+max-width: 270px;
+} */
