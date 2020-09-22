@@ -924,7 +924,13 @@
 	.fulfillment__pricing-wrapper {
 		flex-wrap: wrap;
 		height: initial;
-    padding: 16px 0 16px 0;
+	}
+	.fulfillment_warehousing-wrapper {
+		padding: 0 0 25px 0;
+	}
+
+	.fulfillment__info-wrapper {
+		padding: 16px 0 16px 0;
 	}
 
 	.fulfillment__info-wrapper .fulfillment__pricing-item_active {
@@ -2620,6 +2626,10 @@
 }
 
 @media(max-width: 450px) {
+	.fulfillment_warehousing-wrapper {
+		padding: 16px 0 16px 0;
+	}
+
 	.fulfillment_warehousing-wrapper .fulfillment__pricing-item {
 		width: calc(100% - 50px);
 		margin: auto;
@@ -2718,6 +2728,18 @@
 	.how-it-works__your-customers {
 		padding: 0 30px;
 	}
+}
+
+@media(max-width: 375px) {
+	.fulfillment_one-location {
+		padding: 14px 10px;
+		font-size: 13px;
+	}
+	
+	.fulfillment_one-location {
+		width: calc((100% - 12px)/2);
+	}
+
 }
 
 @media(max-width: 370px) {
