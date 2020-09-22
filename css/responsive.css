@@ -128,6 +128,11 @@
 }
 
 @media(max-width: 1100px) {
+	.fulfillment_all-locations {
+		padding: 0 15px;
+		margin-top: -110px;
+	}
+
 	.fulfillment_warehousing-wrapper {
 		height: 413px;
 	}
@@ -516,7 +521,7 @@
 	
 	.fulfillment__column {
     color: #000;
-    width: calc((100% - 40px)/3);
+    width: calc((100% - 50px)/3);
 	}
 
 	.fulfillment__partner-wrapper {
@@ -849,6 +854,68 @@
 }
 
 @media(max-width: 767px) {
+	.fulfillment__pricing {
+    padding: 0px 15px;
+	}
+
+	.fulfillment__how {
+    padding: 0 20px;
+	}
+
+	.fulfillment__info {
+    margin-bottom: 50px;
+	}
+
+
+
+	.fulfillment__pricing-item__descrip {
+		margin-bottom: 29px;
+	}
+
+	.fulfillment__pricing-item__price {
+    margin-bottom: 18px;
+	}
+
+	.fulfillment__pricing-item__units-text {
+    margin-bottom: 39px;
+	}
+
+	.fulfillment__pricing-wrapper .h2__title {
+    margin-bottom: 19px;
+	}
+
+	.fulfillment__pricing .h3__title {
+    margin-bottom: 33px;
+		font-size: 16px;
+	}
+	.fulfillment__warehousing {
+    margin-bottom: 51px;
+	}
+	.fulfillment__locations-wrapper {
+    margin-bottom: 58px;
+	}
+
+	.fulfillment_one-location {
+		margin-bottom: 26px;
+	}
+
+	.fulfillment__how .h2__title {
+    margin-bottom: 20px;
+	}
+
+	.fulfillment__how-text {
+		margin-bottom: 50px;
+
+	}
+	.fulfillment__locations-img-desk {
+		display: none;
+	}
+	.fulfillment__locations-img-mob {
+		display: block;
+	}
+	.fulfillment_all-locations {
+    margin-top: -28px;
+	}
 	.fulfillment__info-wrapper .fulfillment__pricing-item {
 		width: calc(100% - 50px);
 		margin: auto;
@@ -857,14 +924,16 @@
 	.fulfillment__pricing-wrapper {
 		flex-wrap: wrap;
 		height: initial;
-		padding: 20px 0;
+    padding: 16px 0 16px 0;
 	}
+
 	.fulfillment__info-wrapper .fulfillment__pricing-item_active {
 		padding: 50px 18px 25px 18px;
 	}
+
 	.fulfillment__info-wrapper .fulfillment__pricing__btn {
     max-width: initial;
-}
+	}
 
 	.fulfillment_warehousing-wrapper .fulfillment__pricing-item {
 		width: 50%;
@@ -883,7 +952,8 @@
 	
 	.fulfillment__how-items-wrapper  {
 		flex-direction: column;
-    align-items: center;
+		align-items: center;
+		padding: 0 10px;
 	}
 
 	.fulfillment__how-item {
@@ -894,7 +964,7 @@
 	}
 
 	.fulfillment-banner {
-    margin: 85px 23px 117px 23px;
+    margin: 85px 15px 140px 15px;
 	}
 
 	.fulfillment__shipping .h3__title {
@@ -906,7 +976,7 @@
 	}
 	
 	.fulfillment__shipping {
-		margin-bottom: 90px;
+		margin-bottom: 40px;
 	}
 	.shipping-table__desk-wrapper {
 		display: none;
@@ -2530,12 +2600,12 @@
 
 	.fulfillment-banner__label { 
 		font-size: 14px;
-		margin-bottom: 20px;
+		margin-bottom: 17px;
 	}
 
 	.fulfillment-banner__text {
 		font-size: 14px;
-		line-height: 18px;
+		line-height: 23px;
 	}
 
 	.fulfillment__advantages .h2__title-mob {

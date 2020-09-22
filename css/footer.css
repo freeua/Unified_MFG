@@ -83,7 +83,7 @@
 /*footer view2 with round corners and #000 bg*/
 .footer-view2 {
 	padding: 0 23px !important;
-	background-color: #F3F5FC;
+	/* background-color: #F3F5FC; */
 }
 
 .footer-view2__wrapper {
@@ -92,4 +92,12 @@
 	background-color: #000;
 	padding: 64px 0 73px;
 	color: #fff;
+}
+
+.fulfillment__footer {
+	background: #fff !important;
+}
+
+.swaggin__footer {
+	background: #F3F5FC !important;
 }
