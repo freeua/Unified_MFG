@@ -7,9 +7,8 @@
 @import "testimonials-section.css";
 
 .comparison__table-desk {
-	margin: 100px 0;
+	margin-bottom: 104px;
 	width: 100%;
-	
 }
 
 .comparison__table-desk tr td:nth-child(1) {
@@ -23,7 +22,7 @@
 
 .comparison__table-desk td {
 	vertical-align: middle;
-	padding: 22px 0;
+	padding: 18px 0;
 }
 
 .comparison__table-desk th {
@@ -40,15 +39,16 @@
 	margin-left: 10px;
 	border-radius: 100%;
 	border: 1px solid #CACDD4;
-	color: #CACDD4;
-	width: 20px;
-	min-width: 20px;
-	height: 20px;
+	color: #7b808d;
+	width: 18px;
+	min-width: 18px;
+	height: 18px;
 	display: flex;
+	font-size: 12px;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-	font-family: 'Gotham Pro Bold';
+	font-family: 'Gotham Pro Regular';
 }
 
 .comparison__option-tooltip-icon:hover {
@@ -179,12 +179,12 @@
 
 .comparison__option-values-wrapper {
 	display: flex;
-	margin-bottom: 20px;
+	margin: 20px 0;
 }
 
 .comparison__option-value {
 	width: 50%;
-	padding: 10px 10px;
+	padding: 9px 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -192,12 +192,12 @@
 }
 
 .comparison__table-mob .comparison__option-text {
-	padding: 15px 36px;
+	padding: 13px 36px 0 36px;
 	border-top: 1px solid #BBBEC7;
 	text-align: center;
 	position: relative;
+	font-size: 12px;
 }
-
 
 .comparison__table-mob .comparison__option-tooltip-icon {
 	position: absolute;
@@ -243,19 +243,19 @@
 
 .comparison__faq {
 	background: #F3F8FC;
-	padding-top: 110px;
-	padding-bottom: 95px;
+	padding-top: 115px;
+	padding-bottom: 33px;
 }
 
 .comparison__faq-item {
-	margin-bottom: 60px;
+	margin-bottom: 65px;
 }
 
 .comparison__faq-question {
 	font-family: 'Gotham Pro Medium';
 	font-size: 16px;
 	line-height: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .comparison__faq-answer {
@@ -264,7 +264,6 @@
 	line-height: 20px;
 	color: #797979;
 }
-
 
 .comparison__faq-answer a {
 	color:#0080FF;
@@ -300,7 +299,7 @@
 	text-align: center;
 	margin: auto;
 	max-width: 700px;
-	margin-bottom: 100px;
+	margin-bottom: 68px;
 }
 
 .comparison__table-title-red {
@@ -342,8 +341,8 @@
 
 .comparison__info-item-top {
 	background: #F4F8FC;
-	padding: 50px;
-	height: 272px;
+	padding: 38px 50px 38px 50px;
+	height: 235px;
 }
 
 .comparison__info-item-title {
@@ -351,7 +350,7 @@
 	font-size: 30px;
 	line-height: 52px;
 	color: #000;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	text-transform: uppercase;
 }
 
@@ -375,16 +374,43 @@
 	font-size: 14px;
 	line-height: 20px;
 	color: #000;
+	height: 160px;
+	box-sizing: border-box;
 }
 
 .comparison__banner {
-	padding: 135px 115px;
-	background: #F3F8FC;
+	padding: 135px 0 115px 0;
+	background: url(../img/music-desk.png)no-repeat right #F3F8FC;
 	margin-bottom: 70px;
+}
+
+.comparison__banner-icons img:not(:last-child) {
+	margin-right: 25px;
 }
 
 .comparison__banner-social {
 	display: none;
+	padding-bottom: 30px;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 380px;
+}
+
+.comparison__banner-social p {
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	line-height: 34px;
+	color: #000;
+	opacity: 0.5;
+}
+
+.comparison__banner-social a {
+	color: #000;
+	font-size: 22px;
+}
+
+.comparison__banner-social a:not(:last-child) {
+	margin-right: 34px;
 }
 
 .comparison__banner-title {
