@@ -446,18 +446,16 @@ $(document).ready(function () {
 
 
 	// comparison page. Show tooltip after user hover on tooltip icon.
-	$('.comparison__option-tooltip-icon').on('mouseenter', function () {
-		$(this).addClass('comparison__option-tooltip-icon_active');
-		$('.comparison__option-tooltip').slideUp('fast');
-		$(this).parent().find('.comparison__option-tooltip').slideDown('fast');
-	})
-	$('.comparison__option-tooltip-icon').on('mouseleave', function () {
-		$(this).removeClass('comparison__option-tooltip-icon_active');
-		$(this).parent().find('.comparison__option-tooltip').slideUp('fast');
-	})
-	// $('.comparison__option-tooltip-icon').on('click', function () {
-	// 	$(this).parent().find('.comparison__option-tooltip').slideToggle('fast');
+	// $('.comparison__option-tooltip-icon').on('mouseenter', function () {
+	// 	$(this).addClass('comparison__option-tooltip-icon_active');
+	// 	$('.comparison__option-tooltip').slideUp('fast');
+	// 	$(this).parent().find('.comparison__option-tooltip').slideDown('fast');
 	// })
+	// $('.comparison__option-tooltip-icon').on('mouseleave', function () {
+	// 	$(this).removeClass('comparison__option-tooltip-icon_active');
+	// 	$(this).parent().find('.comparison__option-tooltip').slideUp('fast');
+	// })
+
 
 
 	// custom "download file" input. show file name of code user selected file

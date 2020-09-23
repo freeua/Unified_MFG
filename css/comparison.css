@@ -51,6 +51,15 @@
 	font-family: 'Gotham Pro Bold';
 }
 
+.comparison__option-tooltip-icon:hover {
+	background: #CACDD4;
+	color: #fff;
+}
+
+.comparison__option-tooltip-icon:hover + .comparison__option-tooltip {
+	display: block;
+}
+
 .comparison__option-tooltip-icon_active {
 	background: #CACDD4;
 	color: #fff;
@@ -124,7 +133,7 @@
 	line-height: 16px;
 }
 
-.comparison__option-tooltip p:not(:last-child){
+.comparison__option-tooltip p:not(:last-of-type) {
 	margin-bottom: 22px;
 }
 
@@ -183,17 +192,19 @@
 }
 
 .comparison__table-mob .comparison__option-text {
-	padding-top: 15px;
-	margin-bottom: 15px;
+	padding: 15px 36px;
 	border-top: 1px solid #BBBEC7;
 	text-align: center;
 	position: relative;
 }
 
+
 .comparison__table-mob .comparison__option-tooltip-icon {
 	position: absolute;
 	right: 0;
-	bottom: -5px;
+	top: 12px;
+	bottom: initial;
+	margin: 0;
 }
 
 .comparison__option-value:nth-child(1) {
@@ -227,6 +238,7 @@
 	right: 0;
 	left: 0;
 	margin: auto;
+	top: 50px
 }
 
 .comparison__faq {
@@ -266,4 +278,133 @@
 .comparison__faq-container {
 	max-width: 710px;
 	margin: auto;
+}
+
+.comparison__table-section h2 {
+	font-family: 'Gotham Pro Bold';
+	font-size: 30px;
+	line-height: 34px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	max-width: 760px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.comparison__table-description {
+	font-family: 'Gotham Pro Regular';
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+	text-align: center;
+	margin: auto;
+	max-width: 700px;
+	margin-bottom: 100px;
+}
+
+.comparison__table-title-red {
+	color: #FF5C48;
+}
+
+.comparison__table-title-grey {
+	color: #A6A6A6;
+}
+
+.comparison__tooltip-close {
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	background: #CACDD4;
+	border-radius: 100%;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	top: -13px;
+	right: -14px;
+	font-size: 15px;
+}
+
+.comparison__info {
+	margin-bottom: 150px;
+}
+
+.comparison__info .main-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.comparison__info-item {
+	width: calc((100% - 20px)/2);
+}
+
+.comparison__info-item-top {
+	background: #F4F8FC;
+	padding: 50px;
+	height: 272px;
+}
+
+.comparison__info-item-title {
+	font-family: 'Gotham Pro Medium';
+	font-size: 30px;
+	line-height: 52px;
+	color: #000;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.comparison__info-item-text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+	opacity: .5;
+}
+
+.comparison__info-item-bottom {
+	background: #F4F8FC;
+	padding: 0 4px 4px 4px;
+}
+
+.comparison__info-item-descrip {
+	background: #fff;
+	padding: 40px 46px;
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+}
+
+.comparison__banner {
+	padding: 135px 115px;
+	background: #F3F8FC;
+	margin-bottom: 70px;
+}
+
+.comparison__banner-social {
+	display: none;
+}
+
+.comparison__banner-title {
+	font-family: 'Gotham Pro Bold';
+	font-size: 34px;
+	line-height: 36px;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.comparison__banner-title-red {
+	color:#FF5C48;
+}
+
+.comparison__banner-text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 18px;
+	line-height: 26px;
+	color: #000;
+	margin-bottom: 60px;
+	max-width: 380px;
 }

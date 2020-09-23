@@ -798,3 +798,13 @@ a{
 	color: #000;
 	text-align: center;
 }
+
+.green-checkmark {
+	margin: auto;
+	content: url(../img/green-checkmark.svg);
+}
+
+.red-cross {
+	margin: auto;
+	content: url(../img/red-cross.svg);
+}
