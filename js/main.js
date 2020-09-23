@@ -455,6 +455,9 @@ $(document).ready(function () {
 		$(this).removeClass('comparison__option-tooltip-icon_active');
 		$(this).parent().find('.comparison__option-tooltip').slideUp('fast');
 	})
+	// $('.comparison__option-tooltip-icon').on('click', function () {
+	// 	$(this).parent().find('.comparison__option-tooltip').slideToggle('fast');
+	// })
 
 
 	// custom "download file" input. show file name of code user selected file

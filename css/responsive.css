@@ -854,6 +854,18 @@
 }
 
 @media(max-width: 767px) {
+	.comparison__faq {
+    padding: 70px 20px 60px 20px;
+	}
+
+	.comparison__table-mob {
+		display: block;
+	}
+
+	.comparison__table-desk {
+		display: none;
+	}
+
 	.fulfillment__pricing {
     padding: 0px 15px;
 	}

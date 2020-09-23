@@ -7,12 +7,23 @@
 @import "testimonials-section.css";
 
 .comparison__table-desk {
-	margin: 100px 0 ;
+	margin: 100px 0;
 	width: 100%;
+	
+}
+
+.comparison__table-desk tr td:nth-child(1) {
+	width: 30%;
+}
+
+.comparison__table-desk tr td:nth-child(2),
+.comparison__table-desk tr td:nth-child(3) {
+	width: 35%;
 }
 
 .comparison__table-desk td {
-	padding: 20px 0;
+	vertical-align: middle;
+	padding: 22px 0;
 }
 
 .comparison__table-desk th {
@@ -26,10 +37,12 @@
 
 .comparison__option-tooltip-icon {
 	margin-right: 10px;
+	margin-left: 10px;
 	border-radius: 100%;
 	border: 1px solid #CACDD4;
 	color: #CACDD4;
 	width: 20px;
+	min-width: 20px;
 	height: 20px;
 	display: flex;
 	justify-content: center;
@@ -79,14 +92,17 @@
 	font-family: 'Gotham Pro Medium';
 	color: #000;
 	font-size: 13px;
-	line-height: 12px;
+	line-height: 16px;
 }
 
 .comparison__option {
+	position: relative;
+}
+
+.comparison__option-inner {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	position: relative;
 }
 
 .comparison__option-tooltip {
@@ -121,14 +137,133 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 12px;
 	margin: auto;
 }
 
 .comparison__cross-icon {
 	background: #E65D5D;
+	font-size: 11px;
 }
 
 .comparison__checkmark-icon {
 	background:#76D584;
+	font-size: 11px;
+}
+
+.comparison__cross-icon .fas {
+	position: relative;
+	bottom: 1px;
+}
+
+.comparison__checkmark-icon .fas {
+	position: relative;
+	top: -1px;
+}
+
+.comparison__option-description {
+	font-family: 'Gotham Pro Bold';
+	color: #92A5BB;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0 10px;
+}
+
+.comparison__option-values-wrapper {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.comparison__option-value {
+	width: 50%;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.comparison__table-mob .comparison__option-text {
+	padding-top: 15px;
+	margin-bottom: 15px;
+	border-top: 1px solid #BBBEC7;
+	text-align: center;
+	position: relative;
+}
+
+.comparison__table-mob .comparison__option-tooltip-icon {
+	position: absolute;
+	right: 0;
+	bottom: -5px;
+}
+
+.comparison__option-value:nth-child(1) {
+	border-right: 1px solid #BBBEC7;
+}
+
+.comparison__table-mob-title {
+	font-family: 'Gotham Pro Medium';
+	color: #000;
+	opacity: 0.3;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+}
+
+.comparison__table-mob-title--red {
+	color: #FF4B3B;
+	opacity: 1;
+}
+
+.comparison__table-mob {
+	display: none;
+}
+
+.comparison__table-mob .comparison__option-description {
+	padding: 0;
+	text-align: center;
+}
+
+.comparison__table-mob .comparison__option-tooltip {
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+.comparison__faq {
+	background: #F3F8FC;
+	padding-top: 110px;
+	padding-bottom: 95px;
+}
+
+.comparison__faq-item {
+	margin-bottom: 60px;
+}
+
+.comparison__faq-question {
+	font-family: 'Gotham Pro Medium';
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+.comparison__faq-answer {
+	font-family: 'Gotham Pro Regular';
+	font-size: 14px;
+	line-height: 20px;
+	color: #797979;
+}
+
+
+.comparison__faq-answer a {
+	color:#0080FF;
+	text-decoration: underline;
+}
+
+.comparison__faq-answer p:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.comparison__faq-container {
+	max-width: 710px;
+	margin: auto;
 }
