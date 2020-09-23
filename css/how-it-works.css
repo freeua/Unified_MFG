@@ -1,0 +1,62 @@
+.how-page__banner {
+  background: #ECEEFA;
+  padding: 131px 0 131px 0;
+  margin-bottom: 200px;
+}
+
+.how-page__banner h1 {
+	font-family: 'Gotham Pro Bold';
+	color: #000;
+	font-size: 34px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.how-page__banner-text {
+	font-family: 'Gotham Pro Regular';
+	color: #000;
+	font-size: 18px;
+  line-height: 24px;
+  width: 530px;
+  margin-bottom: 40px;
+}
+
+.how-page__banner-btn {
+  max-width: 200px;
+  padding: 17px;
+  box-sizing: border-box;
+}
+
+.how-page__info-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-page__info-item-text p {
+  font-family: 'Gotham Pro Regular';
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.how-page__info-item-text p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.how-page__info-item-title {
+  text-transform: uppercase;
+  font-family: 'Gotham Pro Medium';
+  color: #000;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.how-page__info-item-wrapper {
+  max-width: 410px;
+}
+
+.how-it-works-section__logos {
+  margin-top: 30px;
+}
