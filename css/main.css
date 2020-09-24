@@ -414,11 +414,11 @@ a{
 }
 
 .unified-manufacturing-section__slider-navigation .slick-prev.slick-disabled:before {
-	content: url(../img/arrow-left-dark-gray.svg);
+	content: url(../img/arrow-left-dark-gray.svg) !important
 }
 
 .unified-manufacturing-section__slider-navigation .slick-next.slick-disabled:before {
-	content: url(../img/arrow-right-dark-gray.svg);
+	content: url(../img/arrow-right-dark-gray.svg) !important;
 }
 
 
@@ -461,6 +461,12 @@ a{
 	height: 295px;
 	position: relative;
 	margin-right: 20px;
+}
+.unified-manufacturing-section__single-product-text {
+	font-family: 'Gotham Pro Medium';
+	color: #000;
+	font-size: 12px;
+	line-height: 20px;
 }
 .unified-manufacturing-section__single-product a{
 	height: 100%;

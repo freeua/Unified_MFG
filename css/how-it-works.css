@@ -87,5 +87,77 @@
 }
 
 .how-page__info {
-  margin-bottom: 160px;
+  margin-bottom: 189px;
+}
+
+.how-page__print-section {
+  max-width: 980px;
+  margin: auto;
+  margin-bottom: 119px;
+}
+.how-page__your-client {
+  margin-bottom: 90px;
+}
+
+.how-page__your-client-top {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  background: #F3F8FC;
+  padding: 60px 40px;
+  display: flex;
+}
+.how-page__your-client-left {
+  position: relative;
+  width: 50%;
+}
+.how-page__your-client-left img {
+  position: absolute;
+  width: 350px;
+  left: -21px;
+  right: 0;
+  margin: auto;
+  bottom: 28px;
+}
+.how-page__your-client-right {
+  width: 50%;
+  padding-left: 41px;
+}
+.how-page__your-client-title {
+  text-transform: uppercase;
+  font-family: 'Gotham Pro Medium';
+  color: #000;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 27px;
+}
+
+.how-page__your-client-text {
+  font-family: 'Gotham Pro Regular';
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.how-page__your-client-text p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.how-page__your-client-bottom {
+  background: #e5ecf4;
+  padding: 26px 0;
+}
+
+.how-page__your-client-bottom .red-btn {
+  max-width: 260px;
+  margin: auto;
+  padding: 18px;
+}
+
+.how-page__products .unified-manufacturing-section__title-row {
+  margin-right: 22px;
+}
+
+.how-page__products.unified-manufacturing-section {
+  padding: 0;
+  margin-bottom: 78px;
 }
