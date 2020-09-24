@@ -1,5 +1,5 @@
 .how-page__banner {
-  background: #ECEEFA;
+  background: #ECEEFA url(../img/red-instrument-desk.png) no-repeat right bottom;
   padding: 131px 0 131px 0;
   margin-bottom: 200px;
 }
@@ -33,6 +33,23 @@
   justify-content: space-between;
 }
 
+.how-page__info-item:nth-child(1) .how-page__info-item-img img {
+  width: 487px;
+  position: relative;
+  bottom: 43px;
+  right: 37px;
+}
+
+.how-page__info-item:nth-child(2) .how-page__info-item-wrapper {
+  padding-top: 136px;
+}
+
+.how-page__info-item:nth-child(2) .how-page__info-item-img img {
+  width: 550px;
+  position: relative;
+  left: 61px;
+}
+
 .how-page__info-item-text p {
   font-family: 'Gotham Pro Regular';
   color: #000;
@@ -41,7 +58,7 @@
 }
 
 .how-page__info-item-text p:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 19px;
 }
 
 .how-page__info-item-title {
@@ -58,5 +75,17 @@
 }
 
 .how-it-works-section__logos {
-  margin-top: 30px;
+  margin-top: 35px;
+}
+
+.how-page__info-item:nth-child(2) .how-page__info-item-img{
+  order: 2;
+}
+
+.how-page__info-item:nth-child(1) {
+  margin-bottom: 8px;
+}
+
+.how-page__info {
+  margin-bottom: 160px;
 }

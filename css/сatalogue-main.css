@@ -86,13 +86,22 @@
 .сatalogue-main__single-gray-color{
 	background-color: #F4F8FC;
 }
+.сatalogue-main__single-poster {
+	position: relative;
+}
+.сatalogue-main__single-poster img {
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+
 .сatalogue-main__single-category-part{width: 50%;}
 .сatalogue-main__single-category-left-part{
 	padding: 0 0 30px 30px;
-	width: 45%;
+	width: 50%;
 }
 .сatalogue-main__single-category-right-part{
-	width: 55%;
+	width: 50%;
 	text-align: right;
 }
 .сatalogue-main__single-category-right-part img{
