@@ -15,8 +15,8 @@
 	letter-spacing: 0.3px;
 	line-height: 13px;
 	padding-bottom: 29px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #c4c4c699;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #c4c4c699;
 }
 .сatalogue-main__search-form input[type="text"]::-webkit-input-placeholder {
 	font-family: 'Gotham Pro Regular';

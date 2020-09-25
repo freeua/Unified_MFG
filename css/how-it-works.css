@@ -41,13 +41,13 @@
 }
 
 .how-page__info-item:nth-child(2) .how-page__info-item-wrapper {
-  padding-top: 136px;
+  padding-top: 115px;
 }
 
 .how-page__info-item:nth-child(2) .how-page__info-item-img img {
-  width: 550px;
+  width: 455px;
   position: relative;
-  left: 61px;
+  left: 0px;
 }
 
 .how-page__info-item-text p {
@@ -83,7 +83,7 @@
 }
 
 .how-page__info-item:nth-child(1) {
-  margin-bottom: 8px;
+  margin-bottom: 31px;
 }
 
 .how-page__info {

@@ -59,7 +59,7 @@ $(document).ready(function () {
 
 	$('.unified-manufacturing-section__products-wrapper').slick({
 		slidesToShow: 4,
-		slidesToScroll: 4,
+		slidesToScroll: 2,
 		dots: false,
 		speed: 300,
 		infinite: false,

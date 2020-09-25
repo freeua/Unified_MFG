@@ -1,6 +1,6 @@
 .footer{
 	background-color: #2E2E30;
-	padding: 64px 0 73px;
+	padding: 69px 0 80px;
 	color: #fff;
 }
 .footer__row{
@@ -12,10 +12,11 @@
 	justify-content: space-between;	
 }
 .footer__row .footer__menu-wrapper{
-	width: 24%;
+	width: 25%;
+	padding-top: 10px;
 }
 .footer__row .footer__contact-info{
-	width: 48%;
+	width: 50%;
 	text-align: right;
 }
 .footer__menu-wrapper .footer__menu-title{
