@@ -181,8 +181,8 @@
 .faq__single-column-link::after{
 	content:'\02FF';
 	font-size: 30px;
-    top: 12px;
-    margin-left: 5px;
+	top: 13px;
+	margin-left: 7px;
 	position: absolute;
 	-moz-transform: rotate(180deg);
 	-webkit-transform: rotate(180deg);

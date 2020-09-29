@@ -1,0 +1,198 @@
+@import "faq.css";
+
+.about__h2-title {
+	color: #000;
+	font-size: 30px;
+	line-height: 34px;
+	font-family: 'Gotham Pro Medium';
+}
+
+.about__services {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background: #F4F8FC;
+}
+
+.about__services-h2-title {
+	max-width: 420px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.about__services-h2-title--blue {
+	color: #11B2FE;
+}
+
+.about__features {
+	margin-bottom: 66px;
+}
+
+.about__features .faq__single-column:nth-child(3) {
+	margin-right: 0;
+}
+
+.about__features .faq__single-column:last-child {
+	margin-right: 0;
+}
+
+.about__features .faq__double-column-with-rating {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about__features .faq__double-column-right p {
+	color: #4AE380;
+	font-size: 30px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Bold';
+}
+
+.about__features .faq__double-column-with-rating .faq__single-column-text {
+	max-width: 170px;
+	-webkit-line-clamp: initial;
+}
+
+.about__features-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about__services-item {
+	border-radius: 4px;
+	width: 442px;
+}
+
+.about__services-item:nth-child(1) .about__services-item-top:before {
+	content: url(../img/headphones-grey.png);
+	position: absolute;
+	top: -23px;
+	right: 32px;
+}
+
+.about__services-items-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.about__services-item-top {
+	position: relative;
+	background: #d7e2f3;
+	padding: 75px 40px 40px 40px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.about__services-item-bottom {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.about__services-item-bottom {
+	padding: 55px 65px 25px 65px;
+	background: #fff;
+}
+
+.about__services-item-title {
+	font-size: 24px;
+	line-height: 26px;
+	font-family: 'Gotham Pro Bold';
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.about__services-item-deskrip {
+	font-size: 13px;
+	line-height: 12px;
+	font-family: 'Gotham Pro Medium';
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.about__services-item-features-wrapper {
+	margin-bottom: 55px;
+}
+
+.about__services-item-btn {
+	color: #C1D0E7;
+	width: 100%;
+	padding: 16px 0;
+	border-radius: 9px;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: 'Gotham Pro Bold';
+	border: 2px solid #C1D0E7;
+	display: flex;
+	justify-content: center;
+}
+
+.about__services-item-feature  {
+	margin-bottom: 20px;
+	color: #829cc2;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: 'Gotham Pro Medium';
+
+}
+.about__services-item-feature .fa-check {
+	margin-right: 20px;
+	color:#829CC2;
+	opacity: .3;
+}
+.about__services-item-label {
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 13px;
+	font-family: 'Gotham Pro Bold';
+	color: #11B2FE;
+	padding: 7px;
+	border-radius: 4px;
+	background: #fff;
+	display: inline-block;
+	margin-bottom: 55px;
+}
+
+/* ACTIVE BLUE ITEM */
+.about__services-item_active {
+	width: 480px;
+	-webkit-box-shadow: 1px -1px 19px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px -1px 19px -5px rgba(0,0,0,0.75);
+	box-shadow: 1px -1px 19px -5px rgba(0,0,0,0.75);
+}
+.about__services-item_active .about__services-item-top {
+	background: #009dec;
+}
+
+.about__services-item_active .about__services-item-bottom {
+	background:#11B2FE;
+}
+
+.about__services-item_active .about__services-item-btn {
+	background: #fff;
+	color: #11B2FE;
+	border: 2px solid #fff;
+}
+
+.about__services-item_active .about__services-item-feature {
+	color: #fff;
+}
+
+.about__services-item_active .about__services-item-feature .fa-check {
+	color: #fff;
+	opacity: .5;
+}
+
+.about__services-item_active .about__services-item-deskrip {
+	opacity: .65;
+}
+
+.about__services-item_active .about__services-item-top {
+	padding: 40px 40px 40px 40px;
+}
+
+.about__services-item_active .about__services-item-bottom {
+	padding: 55px 75px 50px 75px;
+}
+
+/* end of active blue item */

@@ -148,12 +148,18 @@
 }
 
 
-.item-info__anchor_active a, 
+.item-info__anchor_active a {
+	color: #009DE6;
+}
+
+.item-info__anchor_active a:after{  
+	display: block;
+}
+
 .item-info__anchor:hover  {
 	color: #009DE6;
 }
 
-.item-info__anchor_active a:after, 
 .item-info__anchor:hover:after {
 	display: block;
 }

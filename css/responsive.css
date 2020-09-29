@@ -125,9 +125,27 @@
 	.fulfillment-banner-img__desktop {
 		left: calc(50% + 54px);
 	}
+	.fulfillment__locations-img-desk {
+		position: static;
+	}
 }
 
 @media(max-width: 1100px) {
+	.fulfillment__locations-wrapper {
+		max-width: 780px;
+	}
+	.fulfillment__how {
+    margin-bottom: 150px;
+	}
+
+	.fulfillment-banner__wrapper.banner__wrapper {
+    width: 780px;
+	}
+
+	.fulfillment_one-location:nth-child(5) {
+    margin-right: 0;
+	}
+
 	.how-page__print-section .print-custom-section__images {
     top: 21px;
 	}
@@ -220,17 +238,13 @@
 		margin-top: -110px;
 	}
 
-	.fulfillment_warehousing-wrapper {
-		height: 413px;
-	}
-
 	.fulfillment__pricing-item {
 		padding: 50px 18px 25px 18px;
 	}
 
-	.fulfillment__pricing-item_active {
+	/* .fulfillment__pricing-item_active {
 		padding: 25px 18px 25px 18px;
-	}
+	} */
 
 	.fulfillment__how-img-wrapper {
     height: 163px;
@@ -592,19 +606,23 @@
 }
 
 @media(max-width: 960px) {
+	.fulfillment-banner__title {
+    font-size: 32px;
+    max-width: 300px;
+	}
 	.fulfillment-banner-img__desktop {
     left: initial;
     right: 20px;
 	}
 
-	.fulfillment-banner__wrapper {
+	/* .fulfillment-banner__wrapper {
 		padding: 35px 25px 86px;
-	}
+	} */
 
-	.fulfillment-banner__title-desk {
+	/* .fulfillment-banner__title-desk {
 		font-size: 40px;
     line-height: 44px;
-	}
+	} */
 	.fulfillment-banner__left {
     width: 70%;
 	}
@@ -614,6 +632,7 @@
 	}
 }
 @media(max-width: 900px) {
+
 	.how-page__print-section.print-custom-section {
 		padding: 65px 50px 150px 50px;
 	}
@@ -659,9 +678,9 @@
 		padding: 0 15px;
 	}
 
-	.fulfillment-banner__wrapper {
+	/* .fulfillment-banner__wrapper {
 		width: 100%;
-	}
+	} */
 
 
 	.swaggin-banner__wrapper {
@@ -739,6 +758,10 @@
 	}
 }
 @media(max-width: 850px){
+	.fulfillment__info-wrapper .fulfillment__pricing-item-title {
+		font-size: 19px;
+	}
+
 	.swaggin-why__carousel-wrapper {
 		width: 100%;
 	}
@@ -751,6 +774,10 @@
 
 }
 @media(max-width: 812px) {
+
+	.fulfillment-banner__wrapper {
+    padding: 40px 0 90px;
+	}
 	.how-page__products.unified-manufacturing-section {
     padding: 0 20px;
 	}
@@ -992,13 +1019,101 @@
 }
 
 @media(max-width: 767px) {
+	.fulfillment__info-wrapper .fulfillment__pricing-item-title {
+		font-size: 22px;
+		line-height: 20px;
+		
+	}
+	.fulfillment__info-wrapper .fulfillment__pricing-item-title {
+    text-transform: none;
+	}
 
+	.fulfillment__advantages .fulfillment__item-title {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	
+	.fulfillment__advantages  .fulfillment__item-text {
+    font-size: 18px;
+    line-height: 26px;
+	}
+
+	.fulfillment__shipping {
+    margin-bottom: 80px;
+	}
+	
+	.fulfillment_warehousing-wrapper .fulfillment__pricing-item,
+	.fulfillment__info-wrapper .fulfillment__pricing-item {
+    padding: 50px 18px 50px 18px;
+	}
+	.fulfillment_warehousing-wrapper .fulfillment__pricing-item_active,
+	.fulfillment__info-wrapper .fulfillment__pricing-item_active {
+    padding: 40px 18px 40px 18px;
+	}
+
+	.fulfillment__pricing-wrapper {
+    max-width: 500px;
+	}
+	.fulfillment__shipping .fulfillment__h2-title {
+		padding: 0 15px;
+	}
+
+	.fulfillment__shipping-text {
+		padding: 0 15px;
+	}
+
+	.fulfillment__info .fulfillment__h2-title {
+		padding: 0 15px;
+
+	}
+	.fulfillment__warehousing .fulfillment__h2-title {
+		padding: 0 15px;
+
+	}
+	.fulfillment__partner-wrapper {
+    padding: 0;
+	}
+
+	.fulfillment-banner__title {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 15px;
+	}
+
+	.fulfillment-banner__text {
+		font-size: 14px;
+		line-height: 22px;
+		max-width: 500px;
+		margin-bottom: 25px;
+	}
+
+	.fulfillment__pricing__btn {
+    max-width: 255px;
+	}
+	
+	.fulfillment__shipping-text {
+		font-size: 14px;
+		line-height: 22px;
+		/* padding: 0 15px; */
+		max-width: 400px;
+	}
+	.fulfillment__item-title {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.fulfillment__item-text {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.about__features .faq__single-column:not(:first-child) {
+		width: calc((100% - 20px)/2);
+	}
+	
 	
 	.how-page__print-section.homepage__print-custom-section .print-custom-section__images {
     top: 150px;
 	}
-
-
 
 	.how-page__your-client-title {
 		text-align: center;
@@ -1217,11 +1332,12 @@
 	}
 
 	.fulfillment__pricing {
-    padding: 0px 15px;
+    padding: 0;
 	}
 
 	.fulfillment__how {
-    padding: 0 20px;
+		padding: 0 20px;
+		margin-bottom: 100px;
 	}
 
 	.fulfillment__info {
@@ -1234,12 +1350,21 @@
 		margin-bottom: 29px;
 	}
 
-	.fulfillment__pricing-item__price {
-    margin-bottom: 18px;
+	.fulfillment__info-wrapper .fulfillment__pricing-item__price {
+    margin-bottom: 33px;
+	}
+
+	.fulfillment_warehousing-wrapper .fulfillment__pricing-item__price {
+		margin-bottom: 22px;
 	}
 
 	.fulfillment__pricing-item__units-text {
-    margin-bottom: 39px;
+		margin-bottom: 39px;
+		opacity: .6;
+	}
+	.fulfillment__info-wrapper .fulfillment__pricing-item-units {
+		opacity: .6;
+		margin-bottom: 46px;
 	}
 
 	.fulfillment__pricing-wrapper .h2__title {
@@ -1251,7 +1376,7 @@
 		font-size: 16px;
 	}
 	.fulfillment__warehousing {
-    margin-bottom: 51px;
+    margin-bottom: 65px;
 	}
 	.fulfillment__locations-wrapper {
     margin-bottom: 58px;
@@ -1266,8 +1391,11 @@
 	}
 
 	.fulfillment__how-text {
-		margin-bottom: 50px;
-
+		max-width: 400px;
+		margin-bottom: 36px;
+		font-size: 14px;
+		line-height: 22px;
+		/* padding: 0 20px; */
 	}
 	.fulfillment__locations-img-desk {
 		display: none;
@@ -1278,13 +1406,30 @@
 	.fulfillment_all-locations {
     margin-top: -28px;
 	}
+
+	.fulfillment__info-wrapper {
+    border-radius: 0;
+	}
+	
+	.fulfillment__h2-title {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+
+	.fulfillment__how .fulfillment__h2-title {
+		margin-bottom: 16px;
+	}
+	
 	.fulfillment__info-wrapper .fulfillment__pricing-item {
-		width: calc(100% - 50px);
+		width: 100%;
+
 		margin: auto;
 		position: static;
 	}
 	.fulfillment__pricing-wrapper {
-		flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 		height: initial;
 	}
 	.fulfillment_warehousing-wrapper {
@@ -1292,19 +1437,34 @@
 	}
 
 	.fulfillment__info-wrapper {
-		padding: 16px 0 16px 0;
-	}
-
-	.fulfillment__info-wrapper .fulfillment__pricing-item_active {
-		padding: 50px 18px 25px 18px;
+		padding: 0;
+		max-width: 500px;
 	}
 
 	.fulfillment__info-wrapper .fulfillment__pricing__btn {
-    max-width: initial;
+		max-width: 255px;
+		padding: 15px 0;
+		letter-spacing: 1px;
 	}
 
+	.fulfillment__info-wrapper .fulfillment__pricing-item:nth-child(3) .fulfillment__pricing-item-title {
+    margin-bottom: 36px;
+	}
+
+	.fulfillment__pricing-item-free {
+		margin-bottom: 36px;
+	}
+
+	.fulfillment_warehousing-wrapper .fulfillment__pricing-item_active .fulfillment__pricing__btn {
+		letter-spacing: 1px;
+
+	}
+	.fulfillment__info-wrapper .fulfillment__pricing-item_active .fulfillment__pricing__btn {
+		max-width: 255px;
+		letter-spacing: 1px;
+	}
 	.fulfillment_warehousing-wrapper .fulfillment__pricing-item {
-		width: 50%;
+		width: 100%;
 	}
 	.fulfillment_warehousing-wrapper .fulfillment__pricing-item:after {
 		display: none !important;
@@ -1332,7 +1492,7 @@
 	}
 
 	.fulfillment-banner {
-    margin: 85px 15px 140px 15px;
+		margin: 64px 0 129px 0px;
 	}
 
 	.fulfillment__shipping .h3__title {
@@ -1343,9 +1503,7 @@
 		margin-bottom: 60px;
 	}
 	
-	.fulfillment__shipping {
-		margin-bottom: 40px;
-	}
+
 	.shipping-table__desk-wrapper {
 		display: none;
 	}
@@ -1359,15 +1517,22 @@
 	.fulfillment__row {
 		flex-direction: column;
 	}
+	.fulfillment__item {
+		background-position: top center;
+	}
 	.fulfillment__column {
 		width: 100%;
+		max-width: 400px;
+    margin: auto;
+    text-align: center;
 	}
 	.fulfillment__partner .h2__title{
 		margin-bottom: 40px;
 		
 	}
 	.fulfillment__partner {
-    margin-bottom: 90px;
+		margin-bottom: 90px;
+		padding: 0 20px;
 	}
 	.fulfillment__partner .fulfillment__column:not(:last-child) {
 		margin-bottom: 50px;
@@ -1386,7 +1551,7 @@
 		display: block;
 	}
 	.fulfillment__advantages .fulfillment__column:not(:last-child) {
-		margin-bottom: 40px;
+		margin-bottom: 61px;
 	}
 
 	.fulfillment-banner-img__desktop {
@@ -1398,10 +1563,6 @@
 
 	.fulfillment-banner__left {
     width: 100%;
-	}
-
-	.fulfillment-banner__text {
-    max-width: initial;
 	}
 
 	.swaggin-testimonials .testimonials-section__title-row {
@@ -2981,6 +3142,98 @@
 }
 
 @media(max-width: 500px) {
+	
+	.fulfillment-banner__btn {
+    width: 100%;
+    box-sizing: border-box;
+		text-align: center;
+		padding: 16px 39px;
+	}
+	.fulfillment__locations .fulfillment__h2-title {
+		margin-bottom: 51px;
+	}
+	.fulfillment__partner .fulfillment__h2-title {
+    margin: auto;
+    max-width: 290px;
+	}
+	.fulfillment__info-wrapper .fulfillment__pricing-item-title {
+		max-width: 200px;
+	}
+
+	.fulfillment__advantages-wrapper h2 {
+    margin-bottom: 50px;
+	}
+
+	.fulfillment__h2-title-desk {
+		display: none;
+	}
+
+	.fulfillment__h2-title-mob {
+		display: block;
+	}	
+	.shipping__mob-title {
+    padding: 0 35px;
+	}
+
+	.fulfillment__shipping-text {
+		margin-bottom: 42px;
+	}
+
+	.shipping__mob-price-wrapper {
+		padding: 0 35px;
+	}
+
+	.shipping__mob-prod-name {
+		padding: 0 35px;
+	}
+	.fulfillment__shipping .fulfillment__h2-title {
+    margin-bottom: 9px;
+	}
+	.fulfillment__info {
+    margin-bottom: 77px;
+	}
+	.fulfillment__info .fulfillment__h2-title {
+    margin-bottom: 22px;
+}
+	.fulfillment__warehousing .fulfillment__h2-title {
+    margin-bottom: 9px;
+	}
+
+	.fulfillment_partner-h2-title {
+    margin-bottom: 30px !important;
+	}
+
+	.fulfillment__partner .fulfillment__item-title {
+    margin-bottom: 22px;
+	}
+	.fulfillment__partner {
+		margin-bottom: 80px;
+	}
+
+	.fulfillment__how {
+    margin-bottom: 80px;
+	}
+	.fulfillment__h2-title {
+    margin: auto;
+	}
+
+	.fulfillment__locations-wrapper {
+    margin-bottom: 79px;
+	}
+
+	.about__features .faq__double-column-with-rating .faq__single-column-text {
+    -webkit-line-clamp: 3;
+	}
+	.about__features .faq__double-column-right {
+		display: none;
+	}
+	.about__features .faq__single-column {
+		margin-bottom: 10px;
+	}
+	.about__features .faq__single-column:not(:first-child) {
+		width: calc((100% - 10px)/2);
+	}
+	
 	.how-page__info {
     margin-bottom: 107px;
 	}
@@ -3005,7 +3258,7 @@
 	}
 	
 	.fulfillment-banner__wrapper {
-		padding: 35px 25px 53px;
+		padding: 39px 20px 39px;
 	}
 
 	.fulfillment-banner-img__desktop {
@@ -3014,6 +3267,7 @@
 
 	.fulfillment-banner-img__mob {
 		display: inline-block;
+		right: 39px
 	}
 
 	.fulfillment-banner__title-desk {
@@ -3024,21 +3278,13 @@
 		display: block;
 	}
 
-	.fulfillment-banner__title {
-		font-size: 24px;
-		line-height: 26px;
-		margin-bottom: 10px;
-	}
+
 
 	.fulfillment-banner__label { 
 		font-size: 14px;
-		margin-bottom: 17px;
+		margin-bottom: 14px;
 	}
 
-	.fulfillment-banner__text {
-		font-size: 14px;
-		line-height: 23px;
-	}
 
 	.fulfillment__advantages .h2__title-mob {
     text-align: left;
@@ -3103,16 +3349,17 @@
 	}
 
 	.fulfillment_warehousing-wrapper .fulfillment__pricing-item {
-		width: calc(100% - 50px);
+		width: 100%;
 		margin: auto;
 		position: static;
 	}
 	.fulfillment_warehousing-wrapper .fulfillment__pricing-item:after {
 		display: none !important;
 	}
-	.fulfillment__pricing-item {
-    padding: 50px 18px 25px 18px;
-	}
+
+
+
+	
 	.fulfillment_locations-block-outer {
 		justify-content: space-between;
 	}
@@ -3161,6 +3408,10 @@
 }
 
 @media(max-width: 400px) {
+	.fulfillment__advantages .fulfillment__item-text {
+		width: 295px;
+		margin: auto;
+	}
 	.how-page__your-client-bottom .red-btn {
     max-width: calc(100% - 40px);
 	}
@@ -3171,9 +3422,15 @@
 		min-height: initial;
 		margin: 0 0 30px;
 	}
+
 }
 
 @media(max-width: 390px) {
+
+	.fulfillment_locations-block-title {
+    margin: 0 0 36px 17px;
+	}
+
 	.how-page__print-section.print-custom-section .print-custom-section__title {
     padding: 0 20px;
     max-width: 100%;
@@ -3183,7 +3440,7 @@
 	}
 
 	.fulfillment-banner-img__mob img:nth-child(1) {
-		width: 295px;
+		width: 353px;
 	}
 
 	.print-custom-section .print-custom-section__title {
@@ -3193,13 +3450,18 @@
 
 	.fulfillment-banner-img__mob img:nth-child(2) {
     position: absolute;
-    left: 39px;
-    top: 113px;
-    width: 231px;
+    left: 57px;
+    top: 129px;
+    width: 284px;
+	}
+	.fulfillment-banner__right {
+		padding-bottom: 14px;
 	}
 }
 
 @media(max-width: 380px) {
+	
+
 	.how-page__print-section .homepage__print-custom-section .print-custom-section_item {
     width: calc((100% - 50px)/2);
 	}
@@ -3220,18 +3482,20 @@
 
 @media(max-width: 375px) {
 	.fulfillment_one-location {
-		padding: 14px 10px;
-		font-size: 13px;
+		font-size: 14px;
 	}
 	
 	.fulfillment_one-location {
-		width: calc((100% - 12px)/2);
+		width: calc((100% - 13px)/2);
 	}
 
 }
 
 @media(max-width: 370px) {
-
+	.fulfillment_one-location {
+		padding: 18px 13px;
+	}
+	
 	.swaggin-banner-img__mob {
 		width: calc(100% - 25px);
     bottom: 2px;
@@ -3275,6 +3539,10 @@
 }
 
 @media(max-width: 350px){
+	.fulfillment_one-location {
+		font-size: 12px;
+	}
+
 	.swaggin-banner {
 		padding: 55px 25px 310px 25px;
 	}
