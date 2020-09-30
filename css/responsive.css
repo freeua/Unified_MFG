@@ -131,6 +131,36 @@
 }
 
 @media(max-width: 1100px) {
+	.about__start-project-text {
+    padding-top: 0;
+	}
+
+	.about__services-item-bottom {
+		padding: 55px 45px 25px 45px;
+	}
+	
+	.about__services-item_active .about__services-item-bottom {
+    padding: 55px 45px 50px 45px;
+	}
+	
+	#about__contact-submit-btn {
+    padding: 17px 20px;
+	}
+	.about__contact-right img {
+		width: 250px;
+	}
+
+	.about__contact-text {
+    max-width: 350px;
+	}
+
+	.about__services-item {
+    width: calc((100% - 20px)/2);
+	}
+
+	.about__services-item_active {
+    width: calc((100% - 20px)/2);
+	}
 	.fulfillment__locations-wrapper {
 		max-width: 780px;
 	}
@@ -1019,6 +1049,139 @@
 }
 
 @media(max-width: 767px) {
+	.about__promise-text {
+		font-family: 'Gotham Pro Regular';
+    font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
+	.about__advantages {
+    margin-bottom: 80px;
+	}
+
+	.about__advantages-and-promise {
+		padding-top: 30px;
+	}
+	.about__history {
+		display: none;
+	}
+
+	.about__history-mob {
+		display: block;
+		max-width: 500px;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+
+	.about__info-h2-title {
+    font-family: 'Gotham Pro Medium';
+    font-size: 24px;
+		line-height: 28px;
+	}
+
+	.about__info {
+		max-width: 500px;
+    margin: auto;
+	}
+
+	.about__promise {
+		max-width: 500px;
+    margin: auto;
+	}
+
+	.about__info .about__quote {
+		margin-bottom: 30px;
+	}
+	
+	.about__promise .about__quote {
+    margin-bottom: 80px;
+}
+	.about__quote {
+		background: transparent;
+		padding: 0;
+		font-family: 'Gotham Pro Regular';
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.about__start-project-text {
+		margin-bottom: 30px;
+		font-family: 'Gotham Pro Regular';
+    font-size: 14px;
+		line-height: 20px;
+	}
+	.about__start-project {
+    flex-direction: column;
+    align-items: flex-start;
+	}
+
+	.about__advantages-item {
+		width: 100%;
+		max-width: 500px;
+		margin: auto;
+	}
+	.about__advantages-item:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.about__advantages {
+    flex-direction: column;
+	}
+	.about__services {
+		padding-bottom: 44px;
+	}
+	.about__contact-title {
+		font-family: "Gotham Pro Bold";
+		margin-bottom: 20px;
+		font-size: 24px;
+		text-transform: uppercase;
+		line-height: 32px;
+	}
+
+	.about__contact-text {
+		font-family: 'Gotham Pro Regular';
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 30px;
+		max-width: 500px;
+	}
+
+	#about__contact-email {
+    box-sizing: border-box;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	
+	#about__contact-submit-btn {
+		width: 100%;
+	}
+
+	.about__contact .main-container {
+    justify-content: center;
+	}
+	.about__contact {
+    padding: 55px 0 50px 0;
+	}
+	.about__contact-right {
+		display: none;
+	}
+	.about__services .main-container {
+		max-width: 500px;
+	}
+	.about__services-item {
+		width: 100%;
+		/* max-width: 500px; */
+		margin: auto;
+	}
+	.about__services-item:not(:last-child) {
+		margin-bottom: 63px;
+	}
+	.about__services-item_active {
+		width: 100%;
+	}
+	.about__services-items-wrapper {
+    flex-direction: column;
+	}
+
 	.fulfillment__info-wrapper .fulfillment__pricing-item-title {
 		font-size: 22px;
 		line-height: 20px;
@@ -3142,7 +3305,8 @@
 }
 
 @media(max-width: 500px) {
-	
+
+
 	.fulfillment-banner__btn {
     width: 100%;
     box-sizing: border-box;
@@ -3171,8 +3335,9 @@
 	.fulfillment__h2-title-mob {
 		display: block;
 	}	
+
 	.shipping__mob-title {
-    padding: 0 35px;
+    padding: 0 20px;
 	}
 
 	.fulfillment__shipping-text {
@@ -3180,15 +3345,17 @@
 	}
 
 	.shipping__mob-price-wrapper {
-		padding: 0 35px;
+		padding: 0 20px;
 	}
 
 	.shipping__mob-prod-name {
-		padding: 0 35px;
+		padding: 0 20px;
 	}
+
 	.fulfillment__shipping .fulfillment__h2-title {
     margin-bottom: 9px;
 	}
+
 	.fulfillment__info {
     margin-bottom: 77px;
 	}
@@ -3257,18 +3424,11 @@
 		margin-bottom: 31px;
 	}
 	
-	.fulfillment-banner__wrapper {
+	/* .fulfillment-banner__wrapper {
 		padding: 39px 20px 39px;
-	}
+	} */
 
-	.fulfillment-banner-img__desktop {
-		display: none;
-	}
 
-	.fulfillment-banner-img__mob {
-		display: inline-block;
-		right: 39px
-	}
 
 	.fulfillment-banner__title-desk {
 		display: none;
@@ -3298,6 +3458,25 @@
 }
 
 @media(max-width: 450px) {
+	.fulfillment-banner {
+		padding: 0;
+    margin: 64px 0 136px 0px;
+
+	}
+	.fulfillment-banner__left {
+    padding: 0 40px;
+	}
+
+	.fulfillment-banner-img__desktop img:nth-child(1) {
+    width: 338px;
+	}
+	
+	.fulfillment-banner-img__desktop img:nth-child(2) {
+    width: 254px;
+    left: 64px;
+    bottom: -120px;
+	}
+	
 	.how-page__print-section.print-custom-section .print-custom-section__title {
 		width: 349px;
 		font-size: 28px;
@@ -3439,28 +3618,49 @@
     margin-right: 0;
 	}
 
-	.fulfillment-banner-img__mob img:nth-child(1) {
+	/* .fulfillment-banner-img__mob img:nth-child(1) {
 		width: 353px;
-	}
+	} */
 
 	.print-custom-section .print-custom-section__title {
 		width: 290px;
     margin-right: 36px;
 	}
 
-	.fulfillment-banner-img__mob img:nth-child(2) {
+	/* .fulfillment-banner-img__mob img:nth-child(2) {
     position: absolute;
     left: 57px;
     top: 129px;
     width: 284px;
-	}
-	.fulfillment-banner__right {
+	} */
+	/* .fulfillment-banner__right {
 		padding-bottom: 14px;
-	}
+	} */
 }
 
 @media(max-width: 380px) {
-	
+	.fulfillment-banner__wrapper {
+    padding: 40px 0 42px;
+	} 
+	.fulfillment-banner-img__desktop {
+		display: none;
+	}
+
+	.fulfillment-banner-img__mob {
+    display: inline-block;
+    right: 19px;
+    width: 100%;
+	}
+	.fulfillment-banner-img__mob img:nth-child(1) {
+    width: 98%;
+	}
+
+	.fulfillment-banner-img__mob img:nth-child(2) {
+    position: absolute;
+    left: 54px;
+    top: calc(100% - 168px);
+    width: calc(100% - 85px);
+	}
 
 	.how-page__print-section .homepage__print-custom-section .print-custom-section_item {
     width: calc((100% - 50px)/2);
@@ -3516,16 +3716,16 @@
     width: 140px;
 	}
 	
-	.fulfillment-banner-img__mob img:nth-child(1) {
+	/* .fulfillment-banner-img__mob img:nth-child(1) {
     width: 255px;
-	}
+	} */
 
-	.fulfillment-banner-img__mob img:nth-child(2) {
+	/* .fulfillment-banner-img__mob img:nth-child(2) {
     position: absolute;
     left: 21px;
     top: 84px;
     width: 228px;
-	}
+	} */
 
 	.comparison__banner-icons img {
 		height: 30px;
@@ -3539,6 +3739,10 @@
 }
 
 @media(max-width: 350px){
+	.fulfillment-banner {
+		padding: 0;
+    margin: 64px 0 100px 0px;
+	}
 	.fulfillment_one-location {
 		font-size: 12px;
 	}
