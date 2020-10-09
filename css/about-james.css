@@ -1,0 +1,149 @@
+.about-james__red-title {
+	font-family: 'Gotham Pro Bold';
+	color: #FF4B3B;
+	text-transform: uppercase;
+}
+
+.about-james__contact .about__contact-title {
+	text-transform: uppercase;
+	font-size: 34px;
+	margin-bottom: 20px;
+}
+
+.about-james__contact .about__contact-text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 40px;
+}
+
+.about-james__contact #about__contact-email {
+	padding: 10px 20px;
+}
+
+.about-james__contact #about__contact-submit-btn {
+	padding: 12px 54px;
+}
+
+.about-james__beginning-wrapper {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+}
+.about-james__beginning-label {
+	font-family: 'Gotham Pro Regular';
+	font-size: 14px;
+	line-height: 13px;
+	margin-bottom: 56px;
+	color: #000;
+	opacity: .5;
+}
+
+.about-james__beginning-left-title {
+	font-size: 24px;
+	line-height: 34px;
+}
+
+.about-james__beginning-left {
+	width: 50%;
+}
+
+.about-james__beginning-right {
+	width: 50%;
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	line-height: 26px;
+	color: #000;
+	padding-bottom: 295px;
+	max-width: 470px;
+}
+
+.about-james__beginning-right p:not(:last-child) {
+	margin-bottom: 35px;
+}
+
+.about-james__beginning-img {
+	position: absolute;
+	left: -193px;
+	bottom: 0;
+}
+
+.about-james__beginning-img--mob {
+	display: none;
+}
+
+.about-james__instruments {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 77px;
+}
+
+.about-james__instruments img {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+
+.about-james__teen {
+	margin-bottom: 202px;
+	overflow: hidden;
+}
+
+.about-james__teen-left {
+	font-size: 30px;
+	line-height: 28px;
+	width: 52%;
+}
+
+.about-james__teen-right {
+	width: 48%;
+}
+
+.about-james__teen .main-container {
+	border-bottom: 2px solid #000;
+	position: relative;
+}
+
+.about-james__teen .about-james__teen-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-james__teen-info:nth-child(1) {
+	padding-top: 7px;
+	padding-bottom: 80px;
+	margin-bottom: 86px;
+	border-bottom: 2px solid #000;
+}
+
+.about-james__teen-info:nth-child(2) {
+	padding-bottom: 220px;
+}
+
+.about-james__teen-info p {
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	line-height: 26px;
+	color: #000;
+}
+
+.about-james__teen-info p:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.about-james__teen-img {
+	position: absolute;
+	bottom: 157px;
+	left: -200px;
+}
+
+.about-james__teen-img--desk {
+	display: block;
+}
+
+.about-james__teen-img--mob {
+	display: none;
+}

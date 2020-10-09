@@ -233,6 +233,9 @@
 	background: #009DEC;
 	width: 100%;
 	padding: 68px 0 75px 0;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+
 }
 
 .about__contact .main-container {
@@ -291,8 +294,8 @@
 	width: 260px;
 	background: #fff;
 	border: 2px solid #fff;
-	margin-right: 10px;
-	padding: 17px 20px;
+	margin-right: 5px;
+	padding: 15px 20px;
 }
 
 #about__contact-email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -451,3 +454,141 @@
 	line-height: 22px;
 	margin-bottom: 50px;
 }
+
+.about__founder {
+	margin-bottom: 90px;
+}
+
+.about__founder-wrapper {
+	background: #00a0f2;
+	
+}
+.about__founder-top {
+	padding: 50px 60px 60px 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about__founder-top-right {
+	padding-top: 16px;
+}
+
+.about__founder-name {
+	font-family: 'Gotham Pro Bold';
+	font-size: 50px;
+	line-height: 40px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.about__founder-position {
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	line-height: 40px;
+	color: #fff;
+	margin-bottom: 40px;
+	opacity: .66;
+}
+
+.about__founder-text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	line-height: 26px;
+	color: #fff;
+}
+
+.about__founder-text p:not(:last-child) {
+	margin-bottom: 50px;
+}
+
+.about__founder-img {
+	position: relative;
+	right: 100px;
+}
+
+.about__founder-bottom {
+	padding: 55px 60px 50px 60px;
+	background: #f4f8fc;	
+}
+
+.about__founder-bottom-info {
+	font-family: 'Gotham Pro Regular';
+	font-size: 18px;
+	line-height: 28px;
+	color: #000;
+	max-width: 450px;
+}
+.about__founder-bottom-more {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.about__founder-more-text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	line-height: 18px;
+	color: #949494;
+}
+
+.about__founder-more-btn {
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Gotham Pro Bold';
+	padding: 18px 55px;
+	background: #009CE5;
+	border-radius: 4px;
+	display: inline-block;
+	border: 2px solid #009CE5;
+}
+
+.about__founder-img-mob {
+	display: none;
+}
+
+
+.about__founder-more-btn:hover {
+    border-color: #009ce5;
+    background: #fff;
+    color: #00b6ff;
+}
+
+.about__founder-more-btn:active {
+	background-color: #008bff;
+	border-color: #008bff;
+	color: #fff;
+}
+
+.about__banner {
+	width: 100%;
+	background: #F3E6D7;
+}
+
+.about__banner-btn {
+	max-width: 200px;
+	padding: 17px;
+	box-sizing: border-box
+}
+
+.about__banner-title {
+	font-family: 'Gotham Pro Bold';
+	color: #000;
+	font-size: 34px;
+	line-height: 36px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	max-width: 520px;
+}
+
+.about__banner-title--red {
+	color: #FF6953;
+}
+
+.about__banner-text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 18px;
+	line-height: 35px;
+	color: #000;
+	margin-bottom: 30px;
+}
+

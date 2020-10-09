@@ -15,6 +15,20 @@
 .collection__single-product-image-mobile{display: none;}
 
 @media(max-width: 1450px) {
+	.about-james__teen {
+    position: relative;
+	}
+	
+	.about-james__teen-img--mob {
+		display: block;
+		left: 30px;
+		max-width: calc(50% - 70px);
+	}
+
+	.about-james__teen-img--desk {
+		display: none;
+	}
+
 	.homepage__main-container {
     max-width: 980px;
 	}
@@ -39,13 +53,20 @@
 }
 
 @media(max-width: 1400px) {
+	.about-james__instruments {
+    height: initial;
+    position: static;
+	}
+
+	.about-james__instruments img {
+    position: static;
+	}
+
 	.item__main-section {
 		max-width: initial;
 		padding: 0 20px;
 		box-sizing: border-box;
 	}
-
-
 
 	.item-info__left {
 		margin-bottom: 110px;
@@ -131,6 +152,51 @@
 }
 
 @media(max-width: 1100px) {
+	.about-james__beginning {
+		position: relative;
+	}
+
+	.about-james__beginning-wrapper {
+		position: static;
+	}
+
+	.about-james__beginning-img {
+		max-width: 375px;
+		left: 0;
+		z-index: 1;
+	}
+
+	.about-james__beginning-right {
+		padding-bottom: 195px;
+		z-index: 3;
+	}
+
+
+	.about__founder-top {
+		padding: 50px 30px 60px 30px;
+	}
+
+	.about__founder-top-right {
+    padding-top: 0;
+	}
+
+	.about__founder-top {
+		align-items: center;
+	}
+
+	.about__founder-text p:not(:last-child) {
+    margin-bottom: 30px;
+	}
+
+	.about__founder-img {
+		width: 350px;
+		right: 59px;
+	}
+
+	.about__founder-position {
+		margin-bottom: 20px;
+	}
+	
 	.about__start-project-text {
     padding-top: 0;
 	}
@@ -661,6 +727,37 @@
 		max-width: 270px;
 	}
 }
+
+@media(max-width: 950px) {
+	.about__founder-img {
+    position: static;
+	}
+	.about__founder-top {
+		flex-direction: column;
+	}
+	.about__founder-wrapper {
+    background: transparent;
+	}
+
+	.about__founder-top-right {
+		background: #00a0f2;
+		padding: 50px 60px;
+	}
+
+	.about__promise .about__quote {
+    margin-bottom: 100px;
+	}
+
+	.about__founder-top {
+    padding: 0;
+	}
+
+	.about__founder-img {
+		width: 350px;
+		margin-bottom: 50px;
+	}
+
+}
 @media(max-width: 900px) {
 
 	.how-page__print-section.print-custom-section {
@@ -1049,12 +1146,127 @@
 }
 
 @media(max-width: 767px) {
+	.about-james__teen .main-container {
+		border-bottom: 0;
+	}		
+	.about-james__teen {
+		max-width: 500px;
+    margin: auto;
+		margin-bottom: 80px;
+	}
+
+	.about-james__teen-img--mob {
+		position: static;
+		max-width: 100%;
+	}
+
+	.about-james__teen-left {
+		margin-bottom: 40px;
+    width: 100%;
+	}
+
+	.about-james__teen-info:nth-child(2) {
+    padding-bottom: 50px;
+	}
+
+	.about-james__teen .about-james__teen-wrapper {
+		flex-direction: column;
+	}
+	.about-james__teen-right {
+    width: 100%;
+	} 
+	.about-james__beginning-wrapper {
+    max-width: 500px;
+    margin: auto;
+	}
+
+	.about-james__beginning-label {
+		max-width: 500px;
+    margin: auto;
+	}
+
+	.about-james__beginning-left {
+    width: 100%;
+	}
+
+	.about-james__beginning-right {
+		width: 100%;
+		max-width: initial;
+		margin-bottom: 75px;
+	}
+
+	.about-james__beginning-label {
+		text-transform: uppercase;
+		margin-bottom: 29px;
+	}
+	.about-james__beginning-left-title {
+		margin-bottom: 30px;
+	}
+	.about-james__beginning-img--mob {
+		display: block;
+	}
+	
+	.about-james__beginning-img--desk {
+		display: none;
+	}
+
+	.about-james__beginning-right {
+    padding-bottom: 0;
+	}
+
+	.about-james__beginning-img {
+    position: static;
+	}
+
+	.about-james__beginning-wrapper {
+    flex-direction: column;
+	}
+
+	.about__founder-img-desk {
+		display: none;
+	}
+
+	.about__founder-img-mob {
+		display: block;
+	}
+
+	.about__founder-img {
+    margin-bottom: 30px;
+	}
+
+	.about__founder-bottom {
+    padding: 55px 30px 50px 30px;
+	}
+
+	.about__founder-top-right {
+    padding: 50px 30px;
+	}
+	
+	.about__founder-wrapper {
+    max-width: 500px;
+    margin: auto;
+	}
+
+	.about__founder-bottom-more {
+		flex-direction: column;
+    align-items: flex-start;
+	}
+
+	.about__founder-bottom-info {
+    margin-bottom: 30px;
+	}
+
+	.about__founder-more-text {
+		margin-bottom: 20px;		
+	}
+
 	.about__promise-text {
 		font-family: 'Gotham Pro Regular';
     font-size: 14px;
 		line-height: 24px;
 		margin-bottom: 30px;
 	}
+
 	.about__advantages {
     margin-bottom: 80px;
 	}
@@ -3305,7 +3517,72 @@
 }
 
 @media(max-width: 500px) {
+	.about-james__teen-left {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	.about-james__teen-info p {
+		font-size: 14px;
+    line-height: 20px;
+	}
+	.about-james__teen-info:nth-child(1) {
+		padding-bottom: 105px;
+		border-bottom: 1px solid #000;
+		margin-bottom: 100px;
+	}
+	.about-james__teen {
+    padding-bottom: 240px;
+	}
+	.about-james__teen-img--mob {
+    position: absolute;
+		right: 0;
+		width: calc(100% - 20px);
+		bottom: 0;
+	}
 
+	.about-james__contact {
+    padding: 49px 0 50px 0;
+	}
+
+	.about-james__contact .about__contact-title {
+		font-size: 24px;
+		line-height: 48px;
+		margin-bottom: 4px;
+	}
+
+	.about-james__contact .about__contact-text {
+    margin-bottom: 29px;
+	}
+	
+	.about-james__contact .about__contact-text {
+    font-size: 14px;
+    line-height: 18px;
+	}
+	
+	.about-james__contact #about__contact-email {
+    padding: 15px 20px;
+	}
+	.about-james__contact #about__contact-submit-btn {
+    padding: 17px 54px;
+	}
+	.about-james__beginning-right {
+		font-size: 14px;
+    line-height: 20px;
+	}
+
+	.about-james__beginning-img {
+		max-width: 100%;
+	}
+	.about__founder .main-container {
+		padding: 0;
+	}
+	.about__founder-img {
+    width: 100%;
+	}
+
+	.about__founder-img {
+    margin-bottom: 0;
+	}
 
 	.fulfillment-banner__btn {
     width: 100%;
@@ -3361,7 +3638,7 @@
 	}
 	.fulfillment__info .fulfillment__h2-title {
     margin-bottom: 22px;
-}
+	}
 	.fulfillment__warehousing .fulfillment__h2-title {
     margin-bottom: 9px;
 	}
@@ -3750,9 +4027,7 @@
 	.swaggin-banner {
 		padding: 55px 25px 310px 25px;
 	}
-	/* .print-custom-section__mobile-images img{
-		top: 53px;
-	} */
+
 	.products-section__slider .slick-next {
 		right: -10px;
 	}
@@ -3815,12 +4090,6 @@
 		padding-left: 6px;
 	}
 }
-
-/* @media(max-width: 320px){
-	.print-custom-section__mobile-images img{
-		top: 45px;
-	}
-} */
 
 /* height media for opened mobile hamburger menu */
 @media(max-height: 400px) {
