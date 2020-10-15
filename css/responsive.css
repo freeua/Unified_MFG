@@ -15,6 +15,36 @@
 .collection__single-product-image-mobile{display: none;}
 
 @media(max-width: 1450px) {
+
+	.about-james__manufacturing-left {
+		justify-content: flex-end;
+		width: 50%;
+	}
+	.about-james__manufacturing-right {
+		width: 50%;
+	}
+	.about-james__manufacturing {
+		position: relative;
+	}
+	.about-james__manufacturing-img {
+		position: absolute;
+    right: initial;
+    left: 30px;
+    top: 0;
+	}
+	.about-james__bands-wrapper:nth-child(1) {
+    margin-bottom: 50px;
+	}
+	.about-james__bands {
+		position: relative;
+		overflow: hidden;
+	}
+	.about-james__bands-img {
+		/* width: calc(50% - 116px); */
+		position: absolute;
+		left: initial;
+		right: 0;
+	}
 	.about-james__teen {
     position: relative;
 	}
@@ -102,6 +132,10 @@
 }
 
 @media(max-width: 1280px){
+	.about-james__manufacturing-img {
+    width: 450px;
+	}
+
 	.swaggin-banner__right {
     right: 40px;
 	}
@@ -142,7 +176,9 @@
 	} 
 }
 @media(max-width: 1200px) {
-
+	.about__banner-right-img {
+		position: static;
+	}
 	.fulfillment-banner-img__desktop {
 		left: calc(50% + 54px);
 	}
@@ -152,6 +188,221 @@
 }
 
 @media(max-width: 1100px) {
+	.about__founder-top-left {
+    max-width: initial;
+	}
+
+	.about__services-item:nth-child(1) .about__services-item-img {
+		top: -21px;
+    right: -17px;
+    width: 165px;
+	}
+
+	.about__services-item:nth-child(2) .about__services-item-img {
+    top: -20px;
+    right: -13px;
+    width: 165px;
+	}
+
+	.about-james__info-top {
+		padding-bottom: 0;
+		margin-bottom: 60px;
+		border-bottom: 0;
+	}
+	.about-james__info {
+		padding-top: 60px;
+    max-width: 500px;
+    margin: auto;
+	}
+
+	.about-james__socials {
+		margin-bottom: 60px;
+	}
+
+	.about-james__info-descrip {
+		margin-bottom: 60px;
+	}
+
+	.about-james__info-right {
+    width: 100%;
+    max-width: initial;
+	}
+	.about-james__info .main-container {
+    flex-direction: column;
+	}
+	.about-james-img--mob {
+		display: block;
+		margin: auto;
+	}
+	
+	.about-james-img--desk {
+		display: none;
+	}
+
+	.about-james__beginning-wrapper {
+    max-width: 500px;
+    margin: auto;
+	}
+
+	.about-james__beginning-label {
+		max-width: 500px;
+    margin: auto;
+	}
+
+	.about-james__beginning-left {
+    width: 100%;
+	}
+
+	.about-james__beginning-right {
+		width: 100%;
+		max-width: initial;
+		margin-bottom: 75px;
+	}
+
+	.about-james__beginning-label {
+		text-transform: uppercase;
+		margin-bottom: 29px;
+	}
+	.about-james__beginning-left-title {
+		margin-bottom: 30px;
+	}
+	.about-james__beginning-img--mob {
+		display: block;
+	}
+	
+	.about-james__beginning-img--desk {
+		display: none;
+	}
+
+	.about-james__beginning-right {
+    padding-bottom: 0;
+	}
+
+	.about-james__beginning-img {
+    position: static;
+	}
+
+	.about-james__beginning-wrapper {
+    flex-direction: column;
+	}
+
+	.about-james__manufacturing {
+		max-width: 500px;
+		margin: auto;
+		overflow: hidden;
+		margin-bottom: 100px;
+		padding: 0 20px;
+	}
+	.about-james__manufacturing-img--desk {
+		display: none;
+	}
+	.about-james__manufacturing-text p:not(:last-child) {
+    margin-bottom: 50px;
+	}
+	.about-james__manufacturing-img--mob {
+    display: block;
+    position: static;
+    margin: auto;
+		margin-bottom: 50px;
+		max-width: 100%;
+	}
+	.about-james__manufacturing .main-container {
+		flex-direction: column;
+		padding: 0 !important;
+	}
+
+	.about-james__manufacturing-right {
+		width: 100%;
+	}
+
+	.about-james__manufacturing-left {
+		width: 100%;
+		order: 2;
+	}
+
+	.about-james__bands-img img {
+		width: 100%;
+	}
+
+	.about-james__bands {
+    max-width: 500px;
+		margin: auto;
+		padding: 0 20px; 
+	}
+
+	.about-james__bands .main-container {
+		padding-right: 0;
+    padding-left: 0;
+	}
+
+
+	.about-james__teen-left {
+    margin-bottom: 30px;
+	}
+
+	.about-james__bands-wrapper:nth-child(2) .about-james__bands-text {
+		padding-top: 0;
+		margin-bottom: 50px;
+	}
+
+	.about-james__bands-wrapper:nth-child(1) .about-james__bands-text {
+    border-bottom: 0;
+    padding-bottom: 100px;
+	}
+	.about-james__bands-wrapper:nth-child(2) {
+		border-bottom: 0;
+	}
+	.about-james__teen {
+    max-width: 500px;
+    margin: auto;
+		margin-bottom: 130px;
+		padding: 0 20px;
+	}
+
+	.about-james__teen .main-container {
+		border-bottom: 0;
+	}
+
+	.about-james__teen-info:nth-child(2) {
+    padding-bottom: 80px;
+	}
+	.about-james__teen-info:nth-child(1) {
+    border-bottom: 1px solid #000;
+	}
+
+	.about-james__bands-text {
+    max-width: initial;
+	}
+	.about-james__bands-wrapper {
+    flex-direction: column;
+	}
+	.about-james__bands-img {
+		position: static;
+		margin: auto;
+	}
+
+	.about-james__teen .main-container {
+		padding: 0 !important;
+	}
+	.about-james__teen-img {
+		position: static;
+	}
+	.about-james__teen-img--desk {
+		display: block;
+		margin: auto;
+	}
+	.about-james__teen-img--mob {
+    display: none;
+	}
+	.about-james__teen .about-james__teen-wrapper {
+		flex-direction: column;
+	}
+	.about-james__teen-left {
+    width: 100%;
+	}
+	.about-james__teen-right {
+    width: 100%;
+}
 	.about-james__beginning {
 		position: relative;
 	}
@@ -167,7 +418,6 @@
 	}
 
 	.about-james__beginning-right {
-		padding-bottom: 195px;
 		z-index: 3;
 	}
 
@@ -221,11 +471,11 @@
 	}
 
 	.about__services-item {
-    width: calc((100% - 20px)/2);
+    width: calc((100% - 40px)/2);
 	}
 
 	.about__services-item_active {
-    width: calc((100% - 20px)/2);
+    width: calc((100% - 40px)/2);
 	}
 	.fulfillment__locations-wrapper {
 		max-width: 780px;
@@ -729,6 +979,13 @@
 }
 
 @media(max-width: 950px) {
+	/* .about-james__bands-title {
+    max-width: 300px;
+	}
+
+	.about-james__bands-text {
+    max-width: 290px;
+	} */
 	.about__founder-img {
     position: static;
 	}
@@ -1146,12 +1403,51 @@
 }
 
 @media(max-width: 767px) {
+	.about__advantages-item {
+		padding: 100px 30px 35px 30px;
+	}
+	.about__advantages-item-title {
+    margin-bottom: 16px;
+	}
+	.about__advantages-item-text {
+		line-height: 18px;
+	}
+	.about__features {
+    margin-bottom: 71px;
+	}
+	.faq__single-column-text {
+    font-size: 12px;
+    line-height: 16px;
+	}
+	.about__info-h2-title {
+		margin-bottom: 20px;
+	}
+	.about__image-section {
+    margin-bottom: 20px;
+	}
+	.about__image-section--desk {
+		display: none;
+	}
+	.about__image-section--mob {
+		display: block;
+	}
+	.about__services-item-label {
+    margin-bottom: 70px;
+	}
+	.about-james__info-top {
+    margin-bottom: 50px;
+	}
+	.about-james__info-title {
+    font-size: 40px;
+		line-height: 40px;
+	}
+	.about-james-img--mob {
+    width: 300px;
+	}
 	.about-james__teen .main-container {
 		border-bottom: 0;
 	}		
 	.about-james__teen {
-		max-width: 500px;
-    margin: auto;
 		margin-bottom: 80px;
 	}
 
@@ -1171,57 +1467,13 @@
 
 	.about-james__teen .about-james__teen-wrapper {
 		flex-direction: column;
-	}
+		max-width: 500px;
+    margin: auto;
+  }
 	.about-james__teen-right {
     width: 100%;
 	} 
-	.about-james__beginning-wrapper {
-    max-width: 500px;
-    margin: auto;
-	}
-
-	.about-james__beginning-label {
-		max-width: 500px;
-    margin: auto;
-	}
-
-	.about-james__beginning-left {
-    width: 100%;
-	}
-
-	.about-james__beginning-right {
-		width: 100%;
-		max-width: initial;
-		margin-bottom: 75px;
-	}
-
-	.about-james__beginning-label {
-		text-transform: uppercase;
-		margin-bottom: 29px;
-	}
-	.about-james__beginning-left-title {
-		margin-bottom: 30px;
-	}
-	.about-james__beginning-img--mob {
-		display: block;
-	}
 	
-	.about-james__beginning-img--desk {
-		display: none;
-	}
-
-	.about-james__beginning-right {
-    padding-bottom: 0;
-	}
-
-	.about-james__beginning-img {
-    position: static;
-	}
-
-	.about-james__beginning-wrapper {
-    flex-direction: column;
-	}
-
 	.about__founder-img-desk {
 		display: none;
 	}
@@ -1235,11 +1487,11 @@
 	}
 
 	.about__founder-bottom {
-    padding: 55px 30px 50px 30px;
+    padding: 30px 20px 30px 20px;
 	}
 
 	.about__founder-top-right {
-    padding: 50px 30px;
+    padding: 30px 20px;
 	}
 	
 	.about__founder-wrapper {
@@ -1253,17 +1505,42 @@
 	}
 
 	.about__founder-bottom-info {
-    margin-bottom: 30px;
+		margin-bottom: 15px;
+		line-height: 24px;
+		font-family: 'Gotham Pro Medium';
 	}
 
 	.about__founder-more-text {
-		margin-bottom: 20px;		
+		margin-bottom: 30px;		
+		font-size: 14px;
+	}
+	
+	.about__founder-more-btn {
+    width: 100%;
+	}
+
+	.about__founder-name {
+		font-size: 24px;
+		line-height: 24px;
+		margin-bottom: 10px;
+		text-transform: none;
+	}
+
+	.about__founder-position {
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 30px;
+	}
+
+	.about__founder-text {
+		font-size: 14px;
+    line-height: 18px;
 	}
 
 	.about__promise-text {
 		font-family: 'Gotham Pro Regular';
     font-size: 14px;
-		line-height: 24px;
+		line-height: 22px;
 		margin-bottom: 30px;
 	}
 
@@ -1284,7 +1561,7 @@
 		margin: auto;
 		margin-bottom: 50px;
 	}
-
+	
 	.about__info-h2-title {
     font-family: 'Gotham Pro Medium';
     font-size: 24px;
@@ -1300,7 +1577,18 @@
 		max-width: 500px;
     margin: auto;
 	}
+	.about__promise-h2-title {
+		font-size: 24px;
+		line-height: 32px;
+		max-width: 200px;
+		font-family: 'Gotham Pro Medium';
+		margin-bottom: 30px;
 
+	}
+	.about__banner-title {
+		font-size: 30px;
+		line-height: 35px;
+	}
 	.about__info .about__quote {
 		margin-bottom: 30px;
 	}
@@ -1317,7 +1605,7 @@
 	}
 
 	.about__start-project-text {
-		margin-bottom: 30px;
+		margin-bottom: 26px;
 		font-family: 'Gotham Pro Regular';
     font-size: 14px;
 		line-height: 20px;
@@ -1326,7 +1614,9 @@
     flex-direction: column;
     align-items: flex-start;
 	}
-
+	.about__start-project {
+		margin-bottom: 30px;
+	}
 	.about__advantages-item {
 		width: 100%;
 		max-width: 500px;
@@ -1343,12 +1633,17 @@
 	}
 	.about__contact-title {
 		font-family: "Gotham Pro Bold";
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 		font-size: 24px;
 		text-transform: uppercase;
 		line-height: 32px;
 	}
 
+	#about__contact-submit-btn {
+		font-size: 12px;
+		line-height: 12px;
+	}
+	
 	.about__contact-text {
 		font-family: 'Gotham Pro Regular';
 		font-size: 14px;
@@ -1389,11 +1684,96 @@
 	}
 	.about__services-item_active {
 		width: 100%;
+		order: -1;
+		margin-bottom: 65px;
+	}
+	.about__services-item:not(:last-child) {
+    margin-bottom: 0;
 	}
 	.about__services-items-wrapper {
     flex-direction: column;
 	}
+	.about__services-item-title {
+		font-size: 20px;
+    line-height: 22px;
+	}
+	.about__services-item_active .about__services-item-feature {
+		font-family: 'Gotham Pro Medium';
+		font-size: 16px;
+    line-height: 32px;
 
+	}
+
+	.about__services-item:nth-child(1) .about__services-item-top {
+		padding: 99px 42px 26px 27px; 
+	}
+	.about__services-item:nth-child(1) .about__services-item-bottom {
+    padding: 31px 0 20px 0px;
+	}
+
+	.about__services-item:nth-child(1) .about__services-item-features-wrapper {
+		margin-bottom: 43px;
+    padding: 0 40px 0 40px;
+	}
+
+	.about__services-item:nth-child(1) .about__services-item-btn {
+		padding: 15px 0;
+		border: 2px solid #009DEC;
+		color: #009DEC;
+		width: calc(100% - 40px);
+		margin: auto;
+	}
+
+	.about__services-item:nth-child(1) .about__services-item-btn:hover {
+		color: #fff;
+	}
+	.about__services-item:nth-child(1) .about__services-item-btn:active {
+		color: #fff;
+		border: 2px solid #008dff;
+
+	}
+	.about__services-item_active .about__services-item-top {
+    padding: 27px 40px 25px 23px;
+	}
+
+	.about__services-item_active .about__services-item-bottom {
+    padding: 0 0 20px 0;
+	}
+
+	.about__services-item_active .about__services-item-features-wrapper {
+		padding: 30px 39px 0 39px;
+    margin-bottom: 41px;
+
+	}
+	.about__services-item_active .about__services-item-btn {
+		width: calc(100% - 40px);
+		margin: auto;
+	}
+
+	.about__services-item-deskrip {
+    font-size: 12px;
+		line-height: 12px;
+	}
+
+	.about__services-item_active .about__services-item-feature {
+		font-size: 16px;
+		line-height: 32px;
+	}
+	.about__banner .main-container {
+		flex-direction: column;
+		max-width: 500px;
+		margin: auto;
+		
+	}
+	.about__banner-right {
+		justify-content: center;
+    display: flex;
+	}
+
+	.about__banner-left {
+    padding-top: 0;
+    margin-bottom: 30px;
+	}
 	.fulfillment__info-wrapper .fulfillment__pricing-item-title {
 		font-size: 22px;
 		line-height: 20px;
@@ -3517,9 +3897,239 @@
 }
 
 @media(max-width: 500px) {
+
+	.about__services {
+		padding: 170px 20px 44px 20px;
+	}
+
+	.about__features .faq__single-column-link--mob {
+		display: block;
+	}
+	.about__features .faq__single-column-link--desk {
+		display: none;
+	}
+	.about__features .faq__single-column:nth-child(n+2) .faq__single-column-text {
+		max-width: 123px;
+		-webkit-line-clamp: 3;
+	}
+	.about-james__slider-section {
+		margin-bottom: 67px;
+	}
+	.about-james__info .main-container {
+		padding: 0 !important;
+	}
+	.about-james__info-title,
+	.about-james__info-greeting,
+	.about-james__info-descrip,
+	.about-james__socials,
+	.about-james__info-bottom {
+		padding: 0 20px;
+	}
+	.about-james-img--mob {
+		padding: 0 10px;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+	}
+
+	.about-james__info-text {
+		margin-bottom: 60px;
+	}
+
+	.about-james__info {
+		padding-top: 35px;
+	}
+
+	.about-james__info-top {
+    margin-bottom: 59px;
+	}
+
+	.about-james__socials-wrapper a:last-child {
+		margin-right: 0;
+		padding-right: 0;
+	}
+	.about-james__socials-wrapper a {
+    padding: 10px 14px;
+	}
+	.about-james__socials-text {
+		font-size: 16px;
+		line-height: 34px;
+		margin-bottom: 0;
+	}
+	.about-james__socials {
+    display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.about-james__info-greeting {
+		margin-bottom: 30px;
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.about-james__info-descrip {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.about-james__info-name {
+		font-size: 24px;
+    line-height: 30px;
+	}
+	.about-james__socials {
+    margin-bottom: 106px;
+	}
+	.about-james__info-title {
+    font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 51px;
+	}
+
+	.about-james__info-text {
+    font-size: 14px;
+    line-height: 20px;
+	}
+
+	.about-james__manufacturing {
+		padding: 0;
+    margin-bottom: 50px;
+	}
+	.about-james__manufacturing-feature-title {
+    font-size: 16px;
+	}
+	.about-james__manufacturing-text {
+    font-size: 14px;
+    line-height: 20px;
+	}
+	.about-james__manufacturing-feature {
+    width: 100%;
+	}
+	.about-james__manufacturing-clients > p {
+		font-size: 14px;
+    line-height: 20px;
+	}
+	.about-james__manufacturing-logos p:nth-child(1) {
+		order: 1;
+	}
+	.about-james__manufacturing-logos p:nth-child(2) {
+		order: 2;
+	}
+	.about-james__manufacturing-logos p:nth-child(3) {
+		order: 4;
+	}
+	.about-james__manufacturing-logos p:nth-child(4) {
+		order: 3;
+	}
+	.about-james__manufacturing-logos p:nth-child(5) {
+		order: 5;
+	}
+	.about-james__manufacturing-logos p:nth-child(6) {
+		order: 6;
+	}
+	.about-james__manufacturing-logos p {
+		width: 50%;
+	}
+
+	.about-james__manufacturing-logos {
+    width: 100%;
+	}
+
+	.about-james__manufacturing-features {
+    padding: 0 20px;
+	}
+
+	.about-james__manufacturing-title {
+		padding: 0 20px;
+		font-size: 24px;
+    line-height: 28px;
+	}
+
+	.about-james__manufacturing-img {
+    width: calc(100% - 20px);
+    left: 0;
+		margin: initial;
+		margin-bottom: 40px;
+	}
+
+	.about-james__manufacturing-text p {
+    padding: 0 20px;
+	}
+
+	.about-james__manufacturing .main-container {
+    padding: 0!important;
+
+	}
+	.about-james__bands-img {
+		display: flex;
+    justify-content: flex-end;
+	}
+	.about-james__bands-img img {
+		max-width: calc(100% - 20px);
+	}
+	
+	.about-james__bands {
+    padding: 0;
+	}
+
+	.about-james__bands-wrapper:nth-child(2) {
+		padding-bottom: 0;
+    margin-bottom: 50px;
+	}
+
+	.about-james__bands .main-container {
+		padding: 0 !important;
+	}
+	.about-james__bands-wrapper:nth-child(1) {
+    position: relative;
+	}
+
+	.about-james__bands-text p {
+		padding: 0 20px;
+	}
+
+	.about-james__band--desk {
+		display: none;
+	}
+	.about-james__band--mob {
+		display: block;
+		margin-left: auto;
+    max-width: calc(100% - 20px);
+	}
+	.about-james__bands-wrapper:nth-child(1) .about-james__bands-text {
+    padding-bottom: 0;
+    margin-bottom: 40px;
+	}
+	.about-james__bands-wrapper:nth-child(1) .about-james__bands-text p:not(:last-child) {
+    margin-bottom: 40px;
+	}
+	.about-james__bands-wrapper:nth-child(2) .about-james__bands-text p:not(:last-child) {
+    margin-bottom: 30px;
+	}
+
+	.about-james__bands-title {
+		max-width: 320px;
+		margin-bottom: 38px;
+		padding: 0 20px;
+	}
+	.about-james__teen-info:nth-child(2) {
+    padding-bottom: 0;
+	}
+	.about-james__instruments {
+    margin-bottom: 41px;
+	}
+	.about-james__bands-wrapper:nth-child(2) .about-james__bands-img {
+		display: none;
+	}
+	.about-james__bands-text p {
+    font-size: 14px;
+    line-height: 20px;
+	}
+	.about-james__teen {
+		padding-bottom: 300px;
+	}
 	.about-james__teen-left {
 		font-size: 24px;
-		margin-bottom: 30px;
+		margin-bottom: 23px;
 	}
 	.about-james__teen-info p {
 		font-size: 14px;
@@ -3530,14 +4140,17 @@
 		border-bottom: 1px solid #000;
 		margin-bottom: 100px;
 	}
-	.about-james__teen {
-    padding-bottom: 240px;
+	.about-james__teen-img--desk {
+    display: none;
 	}
 	.about-james__teen-img--mob {
+		display: block;
     position: absolute;
-		right: 0;
-		width: calc(100% - 20px);
+    right: 0;
+    left: inherit;
+    width: 355px;
 		bottom: 0;
+		max-width: calc(100% - 20px);
 	}
 
 	.about-james__contact {
@@ -3565,25 +4178,58 @@
 	.about-james__contact #about__contact-submit-btn {
     padding: 17px 54px;
 	}
+	.about-james__beginning {
+		overflow: hidden;
+	}
 	.about-james__beginning-right {
 		font-size: 14px;
     line-height: 20px;
 	}
 
 	.about-james__beginning-img {
-		max-width: 100%;
+		max-width: 385px;
+		width: 101.4%;
 	}
 	.about__founder .main-container {
 		padding: 0;
 	}
-	.about__founder-img {
-    width: 100%;
+	.about__founder {
+		margin-bottom: 0;
 	}
 
-	.about__founder-img {
-    margin-bottom: 0;
+	.about__founder-bottom {
+    padding: 30px 20px 0 20px;
+	}
+	.about__banner {
+    padding: 100px 20px 12px 20px;
+	}
+	.about__banner-btn {
+		max-width: 100%;
+	}
+	.about__banner-title {
+		font-size: 24px;
+		line-height: 30px;
+		max-width: 380px;
+	}
+	.about__banner-text {
+		font-size: 14px;
+		line-height: 22px;
+		margin-bottom: 31px;
+	}
+	.about__banner-left {
+    margin-bottom: 9px;
 	}
 
+	.about__banner-right-img {
+    width: 274px;
+	}
+
+	.about__services-h2-title {
+		font-size: 24px;
+		line-height: 28px;
+		max-width: 340px;
+	}
+	
 	.fulfillment-banner__btn {
     width: 100%;
     box-sizing: border-box;
@@ -3864,6 +4510,15 @@
 }
 
 @media(max-width: 400px) {
+	.about__features .faq__single-column:nth-child(1) .faq__single-column-text {
+		max-width: 174px;
+		-webkit-line-clamp: 2;
+	}
+
+	.about__founder-img {
+		margin-bottom: 0;
+    width: 100%;
+	}
 	.fulfillment__advantages .fulfillment__item-text {
 		width: 295px;
 		margin: auto;

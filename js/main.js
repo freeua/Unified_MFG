@@ -236,6 +236,7 @@ $(document).ready(function () {
 		verticalSwiping: true,
 	});
 
+
 	// Item page. First slider. Mobile slider
 	$('.item-slider__mob').slick({
 		appendArrows: ".item-slider__mob-arrows",
@@ -283,6 +284,17 @@ $(document).ready(function () {
 			}
 		]
 	});
+
+	// About James page. Slider
+	$('.about-james__slider').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		arrows: false,
+		variableWidth: true,
+
+	});
+
 
 	// Swaggin page carousel with progress bar. Why partner with SWAGGIN’ block 
 	function setProgress(index) {

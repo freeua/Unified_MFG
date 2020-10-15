@@ -103,7 +103,7 @@
 }
 
 .about-james__teen .main-container {
-	border-bottom: 2px solid #000;
+	border-bottom: 1px solid #000;
 	position: relative;
 }
 
@@ -146,4 +146,261 @@
 
 .about-james__teen-img--mob {
 	display: none;
+}
+.about-james__bands {
+	margin-bottom: 142px;
+}
+.about-james__bands-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-james__bands-wrapper:nth-child(1) .about-james__bands-text {
+	padding-bottom: 167px;
+	border-bottom: 1px solid #000;
+}
+.about-james__bands-wrapper:nth-child(2) .about-james__bands-text {
+	padding-top: 118px;
+}
+
+.about-james__bands-wrapper:nth-child(2) {
+	border-bottom: 1px solid #000;
+	padding-bottom: 120px;
+}
+.about-james__bands-wrapper:nth-child(1) {
+	margin-bottom: 10px;
+}
+
+.about-james__bands-title {
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 26px;
+	max-width: 350px;
+}
+
+.about-james__bands-text {
+	max-width: 480px;
+}
+
+.about-james__bands-text p {
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	line-height: 26px;
+	color: #000;
+}
+
+.about-james__bands-text p:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.about-james__bands-img {
+	position: relative;
+	left: 193px;
+}
+
+.about-james__band--mob {
+	display: none;
+}
+.about-james__manufacturing {
+	margin-bottom: 100px;
+}
+.about-james__manufacturing-img--mob {
+	display: none;
+}
+.about-james__manufacturing .main-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-james__manufacturing-logos {
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+}
+
+.about-james__manufacturing-clients > p {
+	font-family: 'Gotham Pro Regular';
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 40px;
+	padding-left: 17px;
+}
+.about-james__manufacturing-logos p {
+	width: 33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.about-james__manufacturing-title {
+	font-size: 34px;
+	line-height: 44px;
+	margin-bottom: 30px;
+}
+.about-james__manufacturing-text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.about-james__manufacturing-text p:not(:last-child) {
+	margin-bottom: 30px;
+
+}
+.about-james__manufacturing-features {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.about-james__manufacturing-feature {
+	width: calc((100% - 20px)/2);
+}
+.about-james__manufacturing-feature:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.about-james__manufacturing-feature-title {
+	font-family: 'Gotham Pro Bold';
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+
+.about-james__manufacturing-feature-text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.about-james__manufacturing-left {
+	padding-top: 73px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.about-james__manufacturing-img {
+	position: relative;
+	right: 189px;
+}
+
+.about-james__socials-wrapper a {
+	color: #000;
+	font-size: 22px;
+	margin-right: 0px;
+	padding: 10px 19px;
+}
+.about-james__socials-wrapper a:first-child {
+	padding-left: 0;
+}
+.about-james__socials-wrapper a:hover {
+	color: rgba(0,0,0,0.6);
+}
+
+.about-james__socials-text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 20px;
+	line-height: 34px;
+	color: #000;
+	opacity: .5;
+	margin-bottom: 30px;
+}
+.about-james__info {
+	padding-top: 92px;
+	margin-bottom: 10px;
+}
+
+.about-james__info-title {
+	font-family: 'Gotham Pro Bold';
+	font-size: 60px;
+	line-height: 60px;
+	color: #000;
+	margin-bottom: 34px;
+}
+
+.about-james__info-title--red {
+	color: #FF6953;
+}
+
+.about-james__info .main-container {
+	display: flex;
+	justify-content: space-between;
+}
+.about-james__info-greeting {
+	margin-bottom: 25px;
+	font-size: 24px;
+	line-height: 30px;
+}
+.about-james__info-greeting p:nth-child(1){
+	font-family: 'Gotham Pro Bold';
+}
+.about-james__info-greeting p:nth-child(2){
+	font-family: 'Gotham Pro Regular';
+
+}
+.about-james__info-top {
+	padding-bottom: 77px;
+	margin-bottom: 95px;
+	border-bottom: 1px solid #000;
+}
+
+.about-james__info-descrip {
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	line-height: 26px;
+	color: #000;
+	opacity: .5;
+}
+
+.about-james__info-name {
+	font-family: 'Gotham Pro Bold';
+	font-size: 30px;
+	line-height: 35px;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.about-james__info-name--blue {
+	color: #009CE5;
+}
+
+.about-james__info-text {
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	line-height: 26px;
+	color: #000;
+}
+
+.about-james__info-right {
+	width: 50%;
+	max-width: 470px;
+}
+
+.about-james__info-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.about-james__slider-section {
+	margin-bottom: 60px;
+	overflow: hidden;
+	max-width: 100%;
+}
+.about-james__slider {
+	cursor: pointer;
+}
+
+.about-james__info-bottom {
+	padding-bottom: 90px;
+}
+
+.about-james-img--mob {
+	display: none;
+}
+
+.about-james-img--desk {
+	display: block;
 }
