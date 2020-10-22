@@ -1,0 +1,350 @@
+.sign-in__wrapper {
+	display: flex;
+	justify-content: space-between;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.sign-in__left {
+	width: 50%;
+	background: #ddd;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sign-in__left-logo {
+	margin-bottom: 40px;
+}
+
+.sign-in__left-info {
+	position: absolute;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sign-in__left-text {
+	font-family: 'Gotham Pro Bold';
+	font-size: 36px;
+	line-height: 39px;
+	color: #fff;
+}
+
+.sign-in__left-img {
+	width: 100%;
+}
+
+.sign-in__left-img.full-width {
+	width: initial;
+	position: relative;
+	right: 150px;
+	top: 110px;
+} 
+
+.sign-in__right {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sign-in__right-inner {
+	width: 308px;
+	margin: auto;
+}
+
+.sign-in__submit-btn {
+	width: 100%;
+	padding: 16px 0;
+	margin-bottom: 20px;
+}
+
+.sign-in__title--mob {
+	display: none;
+	font-family: 'Gotham Pro Bold';
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.sign-in__social-btns {
+	margin-bottom: 49px;
+}
+
+.sign-in__social-btn {
+	border-radius: 4px;
+	font-family: 'Gotham Pro Medium';
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	padding: 13px 0;
+}
+
+.sign-in__social-btn:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.sing-in__fb-btn {
+	background: #0063CA;
+	position: relative;
+	border: 2px solid #0063CA;
+}
+
+.sing-in__fb-btn:hover {
+	border-color: #0063CA;
+	background: #fff;
+	color: #0063CA;
+}
+.sing-in__fb-btn:active {
+	background-color: #005bba;
+	border-color: #005bba;
+	color: #fff;
+}
+.sing-in__fb-btn:before {
+	position: absolute;
+	content: "\f39e";
+	font-family: "Font Awesome 5 Brands";
+	left: 21px;
+}
+
+.sing-in__google-btn {
+	background: #000;
+	position: relative;
+	border: 2px solid #000;
+}
+
+.sing-in__google-btn:hover {
+	border-color: #000;
+	background: #fff;
+	color: #000;
+}
+
+.sing-in__google-btn:active {
+	background: #282828;
+	color: #fff;
+	border-color: #282828;
+
+}
+
+.sing-in__google-btn:before {
+	position: absolute;
+	content: "";
+	background: url(../img/google-icon.svg) no-repeat;
+	width: 15px;
+	height: 15px;
+	left: 19px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.form__input-wrapper {
+	position: relative;
+}
+
+.form__input-wrapper label {
+	font-family: 'Gotham Pro Medium';
+	font-size: 14px;
+	line-height: 13px;
+	color: #2E2E30;
+	margin-bottom: 14px;
+	display: block;
+}
+
+.form__input-wrapper input {
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,.5);
+	padding: 16px 19px;
+	box-sizing: border-box;
+}
+
+.sign-in__page-wrapper .form__input-wrapper:nth-child(1) {
+	margin-bottom: 17px;
+}
+.sign-in__page-wrapper .form__input-wrapper:nth-child(2) {
+	margin-bottom: 10px;
+}
+
+.form__input-wrapper input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #2E2E30;
+	opacity: .4;
+	font-size: 14px;
+	line-height: 13px;
+	font-family: "Gotham Pro Regular";
+}
+.form__input-wrapper input::-moz-placeholder { /* Firefox 19+ */
+	color: #2E2E30;
+	opacity: .4;
+	font-size: 14px;
+	line-height: 13px;
+	font-family: "Gotham Pro Regular";
+}
+.form__input-wrapper input:-ms-input-placeholder { /* IE 10+ */
+	color: #2E2E30;
+	opacity: .4;
+	font-size: 14px;
+	line-height: 13px;
+	font-family: "Gotham Pro Regular";
+}
+
+.form__input-wrapper input:-moz-placeholder { /* Firefox 18- */
+	color: #2E2E30;
+	opacity: .4;
+	font-size: 14px;
+	line-height: 13px;
+	font-family: "Gotham Pro Regular";
+}
+
+.show-password-btn {
+	color:#000;
+	position: absolute;
+	right: 17px;
+	top: 47px;
+	font-size: 12px;
+	line-height: 12px;
+	font-family: "Gotham Pro Regular";
+	color: #2E2E30;
+	opacity: .4;
+	cursor: pointer;
+	-webkit-touch-callout: none; 
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none; 
+}
+
+.show-password-btn:hover {
+	opacity: 1;
+}
+.sign-in__forgot-pass {
+	color: #000;
+}
+.sign-in__forgot-pass:hover {
+	color: #B7B7B7;
+}
+
+.sign-in__forgot-pass:focus,
+.sign-in__forgot-pass:active {
+	color:#B7B7B7;
+}
+
+.sign-up {
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: "Gotham Pro Regular";
+}
+
+.sign-in-header__mobile .header__mobile-menu-wrapper {
+	top: 0;
+}
+
+.sign-in-header__mobile .header__sign-link {
+	pointer-events: none;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.sign-up span {
+	color: #B7B7B7;
+	margin-right: 5px;
+}
+
+.sign-up a:link,
+.sign-up a:visited,
+.sign-up a:active {
+	color: #000;
+	text-decoration: underline;
+}
+
+.sign-up a:hover {
+	color: #B7B7B7;
+}
+
+#remember-checkbox {
+	position: relative;
+	visibility: hidden;
+	bottom: 1px;
+}
+
+.remember-checkbox--mob {
+	bottom: 1px !important;
+}
+
+#remember-checkbox:before {
+	position: static;
+	display: block;
+	content: "";
+	width: 11px;
+	height: 11px;
+	border: 1px solid #494949;
+	right: 0;
+	visibility: visible;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#remember-checkbox:after {
+	display: none;
+	position: absolute;
+	content: "\f00c";
+	visibility: visible;
+	font-family: "Font Awesome 5 Free";
+	cursor: pointer;
+	color: #000;
+	opacity: 1;
+	font-size: 9px;
+	font-weight: 900;
+	left: 2px;
+	top: 2px;
+	cursor: pointer;
+}
+
+.sign-in__remember-me {
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: "Gotham Pro Regular";
+	margin-bottom: 31px;
+}
+
+.sign-in__remember-me label {
+	cursor: pointer;
+}
+
+#remember-checkbox:checked:after {
+	display: block;
+}
+
+.sign-in__remember-me-inner {
+	display: flex;
+	align-items: center;
+	margin-left: 7px;
+	-webkit-touch-callout: none; 
+	-webkit-user-select: none;
+	 -khtml-user-select: none;
+		 -moz-user-select: none; 
+			-ms-user-select: none; 
+					user-select: none; 
+}
+
+.sign-in__remember-me-inner label {
+	margin-left: 9px;
+}
+
+.sign-up__page-wrapper .form__input-wrapper {
+	margin-bottom: 18px;
+}
+

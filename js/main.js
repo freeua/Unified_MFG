@@ -285,17 +285,6 @@ $(document).ready(function () {
 		]
 	});
 
-	// About James page. Slider
-	$('.about-james__slider').slick({
-		infinite: true,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		arrows: false,
-		variableWidth: true,
-
-	});
-
-
 	// Swaggin page carousel with progress bar. Why partner with SWAGGIN’ block 
 	function setProgress(index) {
 		const calc = ((index + 1) / ($slider.slick('getSlick').slideCount)) * 100;
@@ -339,7 +328,7 @@ $(document).ready(function () {
 		slidesToShow: 2,
 		slidesToScroll: 1,
 		speed: 300,
-		infinite: infiniteScroll,
+		infinite: false,
 		variableWidth: true,
 	}
 	slick_on_mobile($slick_slider, settings_slider);
@@ -523,4 +512,28 @@ $(document).ready(function () {
 		$('.item-info__color-item:nth-child(n+9)').toggle();
 	})
 
+	// "Show password" btn on "Sign in" page
+	$('.show-password-btn').click(function () {
+		var passwordBtn = document.getElementById("password");
+		if (passwordBtn.type === "password") {
+			passwordBtn.type = "text";
+		} else {
+			passwordBtn.type = "password";
+		}
+	})
+
+	// Add "full-width" class to Sign in page left image if image height is less then screen height.
+	$(window).on('resize', function () {
+		let imgHeight = $('.sign-in__left-img').height();
+		let windowHeight = $(window).height();
+		if (imgHeight < windowHeight) {
+			$('.sign-in__left-img').addClass('full-width');
+		}
+	}).resize();
+
+	/*Check mobile device*/
+	if (/Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+		/*for positioning of checkbox on sign in page(add remember-checkbox--mob class)*/
+		$('#remember-checkbox').addClass('remember-checkbox--mob');
+	}
 })

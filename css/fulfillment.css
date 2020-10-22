@@ -64,7 +64,8 @@
 .fulfillment-banner-img__desktop img:nth-child(2) {
 	position: absolute;
 	left: 74px;
-	bottom: -180px;
+	bottom: -172px;
+	width: 375px;
 }
 
 
@@ -80,8 +81,8 @@
 	font-size: 16px;
 	color: #fff;
 	text-transform: uppercase;
-	font-family: 'Gotham Pro Bold';
-	padding: 18px 39px;
+	font-family: 'Gotham Pro Medium';
+	padding: 15.5px 39px;
 	background: #009CE5;
 	border-radius: 4px;
 	display: inline-block;
@@ -145,11 +146,11 @@
 }
 
 .fulfillment__how-text {
-	max-width: 830px;
+	max-width: 730px;
 	margin: auto;
 	margin-bottom: 60px;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 26px;
 }
 
@@ -236,17 +237,18 @@
 	font-size: 18px;
 	font-family: 'Gotham Pro Bold';
 	margin-bottom: 20px;
-	line-height: 26px;
+	line-height: 20px;
 	
 }
 
 .fulfillment__partner .fulfillment__item-title {
 	margin-bottom: 26px;
-
+	font-size: 16px;
+	line-height: 26px;
 }
 
 .fulfillment__item-text {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 26px;
 	font-family: 'Gotham Pro Regular';
 }
@@ -258,6 +260,7 @@
 .fulfillment__advantages .fulfillment__item-title {
 	text-transform: uppercase;
 	margin-bottom: 9px;
+	letter-spacing: -0.3px;
 }
 
 .fulfillment__advantages-wrapper {
@@ -319,7 +322,7 @@
 }
 
 .fulfillment__shipping-text {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 26px;
 	font-family: 'Gotham Pro Regular';
 	color: #000;

@@ -2,6 +2,7 @@
 @import "footer.css";
 @import "products-section.css";
 @import "how-it-works-section.css";
+@import "how-it-works.css";
 @import "integrate-with-section.css";
 @import "print-custom-section.css";
 @import "testimonials-section.css";
@@ -71,24 +72,26 @@ a{
 	top:0;
 	right: -119px;
 }
-.first-section	.first-section__title{
+.first-section .first-section__title{
 	font-family: 'Gotham Pro Bold';
-	font-size: 28px;
+	font-size: 34px;
 	letter-spacing: 0;
-	line-height: 39px;
-	margin-bottom: 30px;
+	line-height: 44px;
+	margin-bottom: 24px;
 }
 .first-section	.first-section__column h4{
-	font-size: 14px;
+	font-size: 18px;
 	max-width: 400px;
-	line-height: 20px;
-	margin-bottom: 30px;
+	line-height: 24px;
+	margin-bottom: 22px;
+	font-family: 'Gotham Pro Regular';
 }
+
 .first-section	.first-section__column .first-section__button{
 	letter-spacing: 0;
 	width: 100%;
 	max-width: 216px;
-	padding: 18px 0;
+	padding: 17.5px 0;
 }
 .first-section .first-section__plants{
 	margin: 60px 0 50px 0;
@@ -292,9 +295,9 @@ a{
 .customers-selling-section__contact-info{
 	margin-top: 80px;
 	border-radius: 6px;
-  	background-color: #FFFFFF;
-  	padding: 65px 0;
-  	text-align: center;
+	background-color: #FFFFFF;
+	padding: 65px 20px;
+	text-align: center;
 }
 .customers-selling-section__contact-info h3{
 	font-family: 'Gotham Pro Bold';
@@ -302,6 +305,7 @@ a{
 	font-size: 28px;
 	letter-spacing: 0;
 	line-height: 38px;
+	text-transform: uppercase;
 }
 
 .customers-selling-section__phone {
@@ -393,7 +397,7 @@ a{
     -webkit-align-items: center;
     align-items: center;
 	width: 120px;
-	margin-left: 50px;
+	margin-left: 39px;
 	/* margin-right: 25px; */
 }
 .unified-manufacturing-section__slider-navigation .slick-prev::before{
@@ -453,6 +457,9 @@ a{
     top: 20px;
     right: unset;
     background-color: transparent;
+}
+.unified-manufacturing-section__slider-navigation .slick-prev {
+	left: -6px;
 }
 .unified-manufacturing-section__single-product{
 	width: 24%;
@@ -609,7 +616,7 @@ a{
 
 .red-btn {
 	background: #FF6953;
-	font-family: 'Gotham Pro Bold';
+	font-family: 'Gotham Pro Medium';
 	font-size: 16px;
 	display: flex;
 	justify-content: center;
@@ -817,4 +824,117 @@ a{
 .red-cross {
 	margin: auto;
 	content: url(../img/red-cross.svg);
+}
+
+.homepage .print-custom-section__title {
+	font-size: 32px;
+	line-height: 42px;
+}
+
+.homepage .print-custom-section {
+	padding: 56px 59px;
+}
+
+.homepage .products-section__title {
+	font-size: 31px;
+	line-height: 30px;
+}
+
+.homepage .products-section__button {
+	font-size: 14px;
+	line-height: 13px;
+	max-width: 200px;
+	padding: 16.5px;
+}
+
+.homepage .how-it-works-section {
+	padding-top: 98px;
+}
+
+.homepage .how-it-works-section__title {
+	font-size: 32px;
+	line-height: 30px;
+	padding-bottom: 85px;
+}
+
+.homepage .how-it-works-page__logos {
+	max-width: 390px;
+	margin-bottom: 19px;
+}
+
+.homepage .how-it-works-section__button {
+	font-size: 14px;
+	line-height: 13px;
+	max-width: 200px;
+	padding: 16.5px;
+}
+
+.homepage .how-it-works-section__subtitle {
+	max-width: 395px;
+}
+
+.homepage .integrate-with-section__title {
+	font-size: 32px;
+	line-height: 30px;
+}
+
+.homepage .how-it-works-section {
+	padding-bottom: 160px;
+	overflow: hidden;
+}
+
+.homepage .integrate-with-section__button {
+	padding: 13px;
+}
+
+.homepage .testimonials-section {
+	padding: 121px 20px 144px;
+}
+
+.homepage .testimonials-section__title {
+	font-size: 32px;
+	line-height: 30px;
+}
+
+.homepage .testimonials-section__title-row {
+	padding: 0 60px 33px;
+	align-items: flex-end;
+}
+
+.homepage .unified-manufacturing-section__single-product-price-value {
+	margin-left: 4px;
+	font-size: 14px;
+	line-height: 13px;
+}
+
+/* .homepage .testimonials-section__all-testimonials-wrapper blockquote {
+	font-size: 16px;
+	line-height: 26px;
+	font-family: 'Gotham Pro Medium';
+	max-width: 700px;
+} */
+
+.homepage .unified-manufacturing-section__single-product-price {
+	font-size: 14px; 
+}
+
+.homepage .how-it-works-section__subtitle-mob {
+	display: none;
+}
+
+.homepage .how-it-works-section__column-image--mob {
+	display: none;
+}
+
+.homepage .about__contact-text {
+	max-width: 500px;
+}
+
+.item-with-absolute-img {
+	position: relative;
+}
+
+.item-with-absolute-img img {
+	position: absolute;
+	top: 0;	
 }

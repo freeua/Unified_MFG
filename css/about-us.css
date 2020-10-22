@@ -30,6 +30,7 @@
 .about__features {
 	margin-bottom: 80px;
 }
+
 .about__features .faq__single-column {
 	min-height: 250px;
 }
@@ -37,14 +38,16 @@
 .about__features .faq__single-column-title {
 	font-family: 'Gotham Pro Medium';
 }
+
 .about__features .faq__single-column-texts-wrapper {
 	top: 80px;
 }
+
 .about__features .faq__single-column-texts-wrapper .faq__single-column-title {
-	margin-bottom: 18px;
+	margin-bottom: 16px;
 }
 
-.faq__single-column-text {
+.about__features .faq__single-column-text {
 	font-size: 14px;
 	line-height: 22px;
 }
@@ -60,6 +63,10 @@
 .about__features .faq__double-column-with-rating {
 	display: flex;
 	justify-content: space-between;
+}
+
+.about__features .faq__double-column-right {
+	display: none;
 }
 
 .about__features .faq__double-column-right p {
@@ -88,9 +95,9 @@
 .about__services-item {
 	border-radius: 4px;
 	width: 442px;
-	-webkit-box-shadow: 10px 3px 26px -1px rgba(143,146,198,0.2);
+	/* -webkit-box-shadow: 10px 3px 26px -1px rgba(143,146,198,0.2);
 	-moz-box-shadow: 10px 3px 26px -1px rgba(143,146,198,0.2);
-	box-shadow: 10px 3px 26px -1px rgba(143,146,198,0.2);
+	box-shadow: 10px 3px 26px -1px rgba(143,146,198,0.2); */
 }
 
 .about__services-item .about__services-item-btn:hover {
@@ -141,10 +148,7 @@
 .about__services-item-bottom {
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
-}
-
-.about__services-item-bottom {
-	padding: 55px 65px 40px 65px;
+	padding: 55px 69px 40px 69px;
 	background: #fff;
 }
 
@@ -191,18 +195,29 @@
 }
 
 .about__services-item:nth-child(1) .about__services-item-feature  {
+	letter-spacing: -0.5px;
 	margin-bottom: 13px;
 	color: #829cc2;
 	font-size: 16px;
 	line-height: 32px;
 	font-family: 'Gotham Pro Medium';
-
+	padding-left: 33px;
+	background: url(../img/grey-checkmark.svg) left center no-repeat;
 }
+
+.about__services-item:nth-child(2) .about__services-item-feature  {
+	background: url(../img/blue-checkmark.svg) no-repeat;
+	padding-left: 29px;
+	background-position: -26px 10px;
+	letter-spacing: -0.5px;
+}
+
 .about__services-item-feature .fa-check {
 	margin-right: 20px;
 	color:#829CC2;
 	opacity: .3;
 }
+
 .about__services-item-label {
 	text-transform: uppercase;
 	font-size: 14px;
@@ -219,16 +234,19 @@
 /* ACTIVE BLUE ITEM */
 .about__services-item_active {
 	width: 480px;
-	-webkit-box-shadow: 1px -1px 19px -5px rgba(0,0,0,0.75);
-	-moz-box-shadow: 1px -1px 19px -5px rgba(0,0,0,0.75);
-	box-shadow: 1px -1px 19px -5px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 1px 30px 24px -2px rgba(0,0,0,0.16);
+	-moz-box-shadow: 1px 30px 24px -2px rgba(0,0,0,0.16);
+	box-shadow: 1px 30px 24px -2px rgba(0,0,0,0.16);
 }
+
 .about__services-item_active .about__services-item-top {
 	background: #009dec;
+	padding: 40px 40px 40px 40px;
 }
 
 .about__services-item_active .about__services-item-bottom {
 	background:#11B2FE;
+	padding: 52px 75px 50px 75px;
 }
 
 .about__services-item_active .about__services-item-btn {
@@ -242,7 +260,7 @@
 	margin-bottom: 13px;
 	font-size: 18px;
 	line-height: 32px;
-	font-family: 'Gotham Pro Bold';
+	font-family: 'Gotham Pro Medium';
 }
 
 .about__services-item_active .about__services-item-feature .fa-check {
@@ -254,27 +272,22 @@
 	opacity: .65;
 }
 
-.about__services-item_active .about__services-item-top {
-	padding: 40px 40px 40px 40px;
-}
-
-.about__services-item_active .about__services-item-bottom {
-	padding: 52px 75px 50px 75px;
-}
 /* end of active blue item */
 
 .about__contact {
 	background: #009DEC;
 	width: 100%;
-	padding: 68px 0 75px 0;
+	padding: 68px 20px 75px 20px;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
+	box-sizing: border-box;
 }
 
 .about__contact .main-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 !important;
 }
 
 .about__contact-title {
@@ -299,7 +312,7 @@
 	border-radius: 4px;
 }
 
-#about__contact-submit-btn {
+.about__contact-submit-btn {
 	background: transparent;
 	color: #fff;
 	text-transform: uppercase;
@@ -311,12 +324,12 @@
 	padding: 17px 32px;
 }
 
-#about__contact-submit-btn:hover {
+.about__contact-submit-btn:hover {
 	background: #fff;
 	color: #009DEC;
 }
 
-#about__contact-email {
+.about__contact-email {
 	box-sizing: border-box;
 	width: 260px;
 	background: #fff;
@@ -325,25 +338,25 @@
 	padding: 15px 22px;
 }
 
-#about__contact-email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.about__contact-email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	color:#99B3D9;
 	font-family: 'Gotham Pro Regular';
 	font-size: 14px;
 }
 
-#about__contact-email::-moz-placeholder { /* Firefox 19+ */
+.about__contact-email::-moz-placeholder { /* Firefox 19+ */
 	color:#99B3D9;
 	font-family: 'Gotham Pro Regular';
 	font-size: 14px;
 }
 
-#about__contact-email:-ms-input-placeholder { /* IE 10+ */
+.about__contact-email:-ms-input-placeholder { /* IE 10+ */
 	color:#99B3D9;
 	font-family: 'Gotham Pro Regular';
 	font-size: 14px;
 }
 
-#about__contact-email:-moz-placeholder { /* Firefox 18- */
+.about__contact-email:-moz-placeholder { /* Firefox 18- */
 	color:#99B3D9;
 	font-family: 'Gotham Pro Regular';
 	font-size: 14px;
@@ -417,16 +430,22 @@
 }
 
 .about__advantages-item:nth-child(1) {
-	background: #fff url(../img/guarantee-icon-black.png) no-repeat top 30px left 30px;
+	background: #fff url(../img/guarantee-black.svg) no-repeat top 30px left 30px;
 }	
 
 .about__advantages-item:nth-child(2) {
-	background: #fff url(../img/percentage-icon-black.png) no-repeat top 30px left 30px;
+	background: #fff url(../img/discount-black.svg) no-repeat top 30px left 30px;
 }	
 
 .about__advantages-item:nth-child(3) {
-	background: #fff url(../img/recycle-icon-black.png) no-repeat top 30px left 30px;
+	background: #fff url(../img/choice-black.svg) no-repeat top 30px left 30px;
 }	
+
+.about__advantages {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 119px;
+}
 
 .about__advantages-item {
 	margin-top: -66px;
@@ -445,6 +464,7 @@
 	font-size: 16px;
 	line-height: 20px;
 	margin-bottom: 20px;
+	letter-spacing: -0.3px;
 }
 
 .about__advantages-item-text {
@@ -453,13 +473,6 @@
 	line-height: 22px;
 	color: #9BA5B5;
 }
-
-.about__advantages {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 119px;
-}
-
 
 .about__promise-h2-title {
 	font-family: 'Gotham Pro Bold';
@@ -498,8 +511,8 @@
 
 .about__founder-wrapper {
 	background: #00a0f2;
-	
 }
+
 .about__founder-top {
 	padding: 50px 60px 60px 60px;
 	display: flex;
@@ -606,7 +619,7 @@
 	overflow: hidden;
 	width: 100%;
 	background: #F3E6D7;
-	padding: 60px 20px 60px 20px;
+	padding: 58px 20px 72px 20px;
 	box-sizing: border-box;
 }
 
@@ -647,7 +660,8 @@
 
 .about__banner-right-img {
 	position: relative;
-	right: -65px;
+	right: -59px;
+	top: 13px;
 }
 
 .about__banner-left {
@@ -666,9 +680,3 @@
 	display: none;
 }
 
-.about__features .faq__single-column-link--mob {
-	display: none;
-}
-.faq__double-column-right {
-	display: none;
-}

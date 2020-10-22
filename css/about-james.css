@@ -15,14 +15,18 @@
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 40px;
+	max-width: 500px;
 }
 
-.about-james__contact #about__contact-email {
-	padding: 10px 20px;
+.about-james__contact .about__contact-email {
+	padding: 15px 23px;
 }
 
-.about-james__contact #about__contact-submit-btn {
-	padding: 12px 54px;
+.about-james__contact {
+	padding: 130px 20px 107px 20px;
+}
+.about-james__contact .about__contact-submit-btn {
+	padding: 17px 47px;
 }
 
 .about-james__beginning-wrapper {
@@ -40,7 +44,7 @@
 }
 
 .about-james__beginning-left-title {
-	font-size: 24px;
+	font-size: 30px;
 	line-height: 34px;
 }
 
@@ -156,7 +160,7 @@
 }
 
 .about-james__bands-wrapper:nth-child(1) .about-james__bands-text {
-	padding-bottom: 167px;
+	padding-bottom: 136px;
 	border-bottom: 1px solid #000;
 }
 .about-james__bands-wrapper:nth-child(2) .about-james__bands-text {
@@ -292,9 +296,11 @@
 	margin-right: 0px;
 	padding: 10px 19px;
 }
+
 .about-james__socials-wrapper a:first-child {
 	padding-left: 0;
 }
+
 .about-james__socials-wrapper a:hover {
 	color: rgba(0,0,0,0.6);
 }
@@ -328,14 +334,17 @@
 	display: flex;
 	justify-content: space-between;
 }
+
 .about-james__info-greeting {
 	margin-bottom: 25px;
 	font-size: 24px;
 	line-height: 30px;
 }
+
 .about-james__info-greeting p:nth-child(1){
 	font-family: 'Gotham Pro Bold';
 }
+
 .about-james__info-greeting p:nth-child(2){
 	font-family: 'Gotham Pro Regular';
 
@@ -384,15 +393,6 @@
 	justify-content: space-between;
 }
 
-.about-james__slider-section {
-	margin-bottom: 60px;
-	overflow: hidden;
-	max-width: 100%;
-}
-.about-james__slider {
-	cursor: pointer;
-}
-
 .about-james__info-bottom {
 	padding-bottom: 90px;
 }
@@ -403,4 +403,22 @@
 
 .about-james-img--desk {
 	display: block;
+}
+
+.about-james__image-section {
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.about-james__image-section img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.about-james__image--mob {
+	display: none;
+}
+
+.about-james__instruments--mob {
+	display: none;
 }

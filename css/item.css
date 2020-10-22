@@ -516,6 +516,10 @@
 	margin-bottom: 50px;
 }
 
+.item__recommended__products-desk .collection__single-product-price-value {
+	margin-left: 3px;
+}
+
 .item__recommended__products-mob {
 	display: none;
 	margin-bottom: 70px;

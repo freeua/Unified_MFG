@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="261px" viewBox="0 0 280 261" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4 Copy 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="200.973577" height="182.433579" rx="18.5399979"></rect>
+        <filter x="-30.4%" y="-32.3%" width="160.7%" height="166.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="28.9223967" y="106.048788" width="143.128784" height="2.22479975" rx="1.11239987"></rect>
+        <filter x="-19.6%" y="-1168.6%" width="139.1%" height="2617.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.347246323   0 0 0 0 0.478470076   0 0 0 0 0.668874547  0 0 0 0.153163243 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M30.0347966,106.048788 L123.105586,106.048788 L123.105586,108.273588 L30.0347966,108.273588 C29.4204351,108.273588 28.9223967,107.775549 28.9223967,107.161188 L28.9223967,107.161188 C28.9223967,106.546826 29.4204351,106.048788 30.0347966,106.048788 Z" id="path-5"></path>
+        <filter x="-29.7%" y="-1168.6%" width="159.5%" height="2617.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.347246323   0 0 0 0 0.478470076   0 0 0 0 0.668874547  0 0 0 0.153163243 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="--" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-page-Copy-4" transform="translate(-36.000000, -608.000000)">
+            <g id="Group-4" transform="translate(-19.000000, 474.000000)">
+                <g id="Group-4-Copy-6" transform="translate(94.183189, 171.466341)">
+                    <g id="Group-19-Copy-5" transform="translate(164.635181, 57.103193)" fill="#C3CBDA">
+                        <path d="M5.19119941,0.370799958 L5.19119941,0.370799958 C5.19119941,0.57558712 5.02518661,0.741599916 4.82039945,0.741599916 L0.370799958,0.741599916 C0.166012796,0.741599916 1.77635684e-15,0.57558712 1.77635684e-15,0.370799958 L1.77635684e-15,0.370799958 C1.77635684e-15,0.166012796 0.166012796,-6.03307631e-16 0.370799958,-6.40926423e-16 L4.82039945,-9.13385812e-16 C5.02518661,-9.51004603e-16 5.19119941,0.166012796 5.19119941,0.370799958 Z" id="Combined-Shape"></path>
+                    </g>
+                    <g id="Rectangle-Copy-7">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Rectangle-Copy-7" transform="translate(100.486789, 107.161188) scale(1, -1) translate(-100.486789, -107.161188) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#C4CBD9" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Rectangle-Copy-7" transform="translate(76.013991, 107.161188) scale(1, -1) translate(-76.013991, -107.161188) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#FFD100" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <text id="From:" font-family="GothamPro-Bold, Gotham Pro" font-size="7.41599916" font-weight="bold" fill="#C4CBD9">
+                        <tspan x="28.9223967" y="130.588786">From:</tspan>
+                    </text>
+                    <text id="To:" font-family="GothamPro-Bold, Gotham Pro" font-size="7.41599916" font-weight="bold" fill="#C4CBD9">
+                        <tspan x="160.904934" y="130.588786">To:</tspan>
+                    </text>
+                    <text id="Status:" font-family="GothamPro-Bold, Gotham Pro" font-size="8.89919899" font-weight="bold" fill="#C4CBD9">
+                        <tspan x="28.9223967" y="37.1471965">Status:</tspan>
+                    </text>
+                    <text id="Time-Left:" font-family="GothamPro-Bold, Gotham Pro" font-size="8.89919899" font-weight="bold" fill="#C4CBD9">
+                        <tspan x="128.296785" y="37.1471965">Time Left:</tspan>
+                    </text>
+                    <text id="Los-Angeles,-CA" font-family="GothamPro-Medium, Gotham Pro" font-size="7.41599916" font-weight="400" line-spacing="11.1239987" fill="#000000">
+                        <tspan x="28.9223967" y="146.162384">Los Angeles, CA</tspan>
+                    </text>
+                    <text id="Indianapoli,-IN" font-family="GothamPro-Medium, Gotham Pro" font-size="7.41599916" font-weight="400" line-spacing="11.1239987" fill="#000000">
+                        <tspan x="118.196195" y="146.162384">Indianapoli, IN</tspan>
+                    </text>
+                    <path d="M127.374227,98.9161031 C127.031894,97.8202154 126.130348,96.9276695 125.023409,96.588754 C124.63541,96.4701082 124.236,96.407989 123.848001,96.407989 C123.054885,96.407989 122.290318,96.650892 121.65126,97.1254189 C120.704048,97.8145665 120.139186,98.9161031 120.139186,100.079778 C120.139186,100.881903 120.39595,101.644543 120.880949,102.28287 L123.848001,106.048788 L126.815052,102.28287 C127.539678,101.322537 127.745108,100.096743 127.374227,98.9161031 Z" id="Shape" fill="#FFD100" fill-rule="nonzero"></path>
+                    <text id="Delivering" font-family="GothamPro-Bold, Gotham Pro" font-size="10.3823988" font-weight="bold" fill="#FFD139">
+                        <tspan x="28.9223967" y="63.6199937">Delivering</tspan>
+                    </text>
+                    <text id="1h-15m" font-family="GothamPro-Bold, Gotham Pro" font-size="10.3823988" font-weight="bold" fill="#FFD139">
+                        <tspan x="140.162384" y="63.6199937">1h 15m</tspan>
+                    </text>
+                    <text id="151km" font-family="GothamPro-Bold, Gotham Pro" font-size="8.15759907" font-weight="bold" fill="#C3CBDA">
+                        <tspan x="152.639061" y="79.4183916">151km</tspan>
+                    </text>
+                    <text id="in-Palo-Alto,-SF" font-family="GothamPro-Bold, Gotham Pro" font-size="8.15759907" font-weight="bold" fill="#C3CBDA">
+                        <tspan x="28.9223967" y="79.4183916">in Palo Alto, SF</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

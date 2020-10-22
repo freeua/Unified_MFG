@@ -1,7 +1,7 @@
 .how-page__banner {
-  background: #ECEEFA url(../img/red-instrument-desk.png) no-repeat right bottom;
+  background: #F1F5FC url(../img/how-it-works-banner.png) no-repeat right bottom;
   padding: 131px 0 131px 0;
-  margin-bottom: 200px;
+  margin-bottom: 180px;
 }
 
 .how-page__banner h1 {
@@ -17,8 +17,8 @@
 	font-family: 'Gotham Pro Regular';
 	color: #000;
 	font-size: 18px;
-  line-height: 24px;
-  width: 530px;
+  line-height: 30px;
+  max-width: 500px;
   margin-bottom: 40px;
 }
 
@@ -34,10 +34,10 @@
 }
 
 .how-page__info-item:nth-child(1) .how-page__info-item-img img {
-  width: 487px;
+  width: 417px;
   position: relative;
-  bottom: 43px;
-  right: 37px;
+  bottom: -24px;
+  right: -8px;
 }
 
 .how-page__info-item:nth-child(2) .how-page__info-item-wrapper {
@@ -45,20 +45,22 @@
 }
 
 .how-page__info-item:nth-child(2) .how-page__info-item-img img {
-  width: 455px;
+  width: 464px;
   position: relative;
   left: 0px;
+  left: 2px;
+  top: 98px;
 }
 
 .how-page__info-item-text p {
   font-family: 'Gotham Pro Regular';
   color: #000;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .how-page__info-item-text p:not(:last-child) {
-  margin-bottom: 19px;
+  margin-bottom: 25px;
 }
 
 .how-page__info-item-title {
@@ -66,8 +68,8 @@
   font-family: 'Gotham Pro Medium';
   color: #000;
   font-size: 24px;
-  line-height: 24px;
-  margin-bottom: 30px;
+  line-height: 40px;
+  margin-bottom: 15px;
 }
 
 .how-page__info-item-wrapper {
@@ -83,12 +85,17 @@
 }
 
 .how-page__info-item:nth-child(1) {
-  margin-bottom: 31px;
+  margin-bottom: 43px;
 }
 
 .how-page__info {
   margin-bottom: 189px;
 }
+
+.how-page__info .how-page__info-item-title {
+  margin-bottom: 9px;
+}
+
 
 .how-page__print-section {
   max-width: 980px;
@@ -96,14 +103,14 @@
   margin-bottom: 119px;
 }
 .how-page__your-client {
-  margin-bottom: 90px;
+  margin-bottom: 72px;
 }
 
 .how-page__your-client-top {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   background: #F3F8FC;
-  padding: 60px 40px;
+  padding: 60px 40px 48px 40px;
   display: flex;
 }
 .how-page__your-client-left {
@@ -112,11 +119,11 @@
 }
 .how-page__your-client-left img {
   position: absolute;
-  width: 350px;
-  left: -21px;
+  width: 290px;
+  left: -40px;
   right: 0;
   margin: auto;
-  bottom: 28px;
+  bottom: 0;
 }
 .how-page__your-client-right {
   width: 50%;
@@ -128,18 +135,27 @@
   color: #000;
   font-size: 24px;
   line-height: 24px;
-  margin-bottom: 27px;
+  margin-bottom: 15px;
 }
-
+.how-page__products .unified-manufacturing-section__link {
+  font-size: 12px;
+  line-height: 12px;
+}
+.how-page__products .unified-manufacturing-section__single-product-price .unified-manufacturing-section__single-product-price {
+  font-size: 14px;
+}
+.how-page__products .unified-manufacturing-section__single-product-price-value {
+  margin-left: 2px;
+}
 .how-page__your-client-text {
   font-family: 'Gotham Pro Regular';
   color: #000;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .how-page__your-client-text p:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 27px;
 }
 
 .how-page__your-client-bottom {
@@ -154,10 +170,81 @@
 }
 
 .how-page__products .unified-manufacturing-section__title-row {
-  margin-right: 22px;
+  margin-right: 21px;
 }
 
 .how-page__products.unified-manufacturing-section {
   padding: 0;
   margin-bottom: 78px;
+}
+
+.how-it-works-page__logos {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.how-it-works-page__single-logo {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.how-page__print-section .print-custom-section_item--mob {
+  display: none;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px 0;
+  width: calc(100% - 30px);
+}
+
+.how-page__print-section .print-custom-section_item-white .print-custom-section_item--mob {
+  color: #00B4FF;
+  border: 2px solid #00B4FF;
+}
+
+.how-page__print-section .print-custom-section_item-white .print-custom-section_item--mob:hover {
+  color: #fff;
+  background: #00B4FF;
+}
+
+.how-page__print-section .print-custom-section_item-blue .print-custom-section_item--mob {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.how-page__print-section .print-custom-section_item-blue .print-custom-section_item--mob:hover {
+  background: #fff;
+  color: #00B4FF;
+}
+
+.bandcamp-logo img {
+  width: 82px;
+}
+
+.amazon-logo img {
+  width: 59px;
+  position: relative;
+  top: 5px;
+}
+
+.walmart-logo img {
+  width: 72px;
+}
+
+.shopify-logo img {
+  width: 62px;
+}
+
+.woocommerce-logo img {
+  width: 85px;
+}
+
+.ebay-logo img {
+  width: 50px;
+}
+
+.etsy-logo img {
+  width: 42px;
 }

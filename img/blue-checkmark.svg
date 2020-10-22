@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="62px" viewBox="0 0 63 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 5 Copy 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-23.6%" y="-17.1%" width="147.2%" height="134.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="24" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.36850427   0 0 0 0 0.59739493   0 0 0 0 0.838824728  0 0 0 0.489073427 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="--" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.496963368" stroke-linecap="round" stroke-linejoin="round">
+        <g id="01_About_v2-(1)" transform="translate(-742.000000, -4905.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-4" filter="url(#filter-1)" transform="translate(733.000000, 4380.000000)">
+                <polyline id="Path-5-Copy-11" points="35 531.543707 39.3946196 535.938327 44.6033002 526"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

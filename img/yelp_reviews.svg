@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="27px" viewBox="0 0 38 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>yelp reviews</title>
+    <desc>Created with Sketch.</desc>
+    <g id="--" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_About_v2-(1)" transform="translate(-218.000000, -1595.000000)" fill="#009CE5" fill-rule="nonzero">
+            <g id="Group-27" transform="translate(193.000000, 1565.000000)">
+                <path d="M60.2857143,30 L27.7142857,30 C26.2159161,30.0016174 25.0016621,31.1832222 25,32.6413033 L25,50.8369482 C25.0016621,52.2950293 26.2159161,53.4766341 27.7142857,53.4782515 L30.7578294,53.4782515 L35.9584762,56.8521496 C36.2361115,57.0322473 36.593075,57.0490277 36.8872569,56.8958103 C37.1814387,56.7425929 37.3650829,56.4442502 37.3650794,56.1195548 L37.3650794,53.4782515 L60.2857143,53.4782515 C61.7840839,53.4766341 62.9983379,52.2950293 63,50.8369482 L63,32.6413033 C62.9983379,31.1832222 61.7840839,30.0016174 60.2857143,30 Z" id="yelp-reviews"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -5,13 +5,18 @@
 
 
 .faq__first-section{
-	padding: 92px 0 409px 0;
-	background-image: url(../img/faq-first-section-background.png);
-	background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: -275px; 
+	/* padding: 92px 0 238px 0; */
+	/* background: url(../img/faq-bag-mob.png) top 55px right 466px, linear-gradient(#D6E3F0, #fff);
+	background-repeat: no-repeat;
+	background-size: 400px auto, 100%;
+	margin-bottom: -101px; */
+
+	padding: 92px 0 386px 0;
+	background: url(../img/faq-bg-desk.png);
+	background-position: top center;
+	background-repeat: no-repeat;
 }
+
 .faq__first-section .faq__first-section-title{
 	font-family: 'Gotham Pro Bold';
 	color: #000000;
@@ -177,19 +182,18 @@
 	font-size: 13px;
 	letter-spacing: 0;
 	line-height: 12px;
+	display: flex;
 }
 .faq__single-column-link::after{
-	content:'\02FF';
-	font-size: 30px;
-	top: 13px;
+	content:url(../img/grey-arrow-about.svg);
 	margin-left: 7px;
-	position: absolute;
-	-moz-transform: rotate(180deg);
-	-webkit-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	transform: rotate(180deg);
+	
 }
+
+.faq__single-blue-column .faq__single-column-link::after {
+	content:url(../img/blue-arrow-about.svg);
+}
+
 .faq__single-blue-column .faq__single-column-link{
   color: #ffffff;	
 }
@@ -618,3 +622,18 @@
 	margin-bottom: 25px;
 }
 /*end of FAQ ARTICLE PAGE*/
+
+.faq-main-page .faq__single-column-text {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.faq-main-page .faq__second-section .faq__columns-wrapper:nth-child(1) {
+	margin-top: -252px;
+}
+
+.faq-main-page .faq__full-width-column-image {
+	position: absolute;
+	right: 47px;
+	top: 33px;
+}
