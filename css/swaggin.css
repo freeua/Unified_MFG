@@ -261,7 +261,12 @@
 	border-radius: 10px;
 	max-width: 155px;
 	padding: 14.5px 8px;
+	letter-spacing: 0;
 }
+.swaggin__products-section .products-section__single-product-price .products-section__single-product-price-value {
+	font-family: 'Gotham Pro Bold';
+}
+
 .swaggin__how-it-works .how-it-works-section__button:hover {
 	background:#6B96ED;
 	border-color:#6B96ED;
@@ -292,6 +297,10 @@
 	margin-bottom: 47px;
 }
 
+.swaggin__how-it-works {
+
+}
+
 .swaggin__print-custom-section {
 	border-radius: 28px;
 	background: #6B96ED;
@@ -310,6 +319,8 @@
 	padding: 71px 0 55px 0;
 	background: #F3F5FC;
 }
+
+
 
 .swaggin-testimonials .testimonials-section__all-testimonials-wrapper {
 	border-radius: 30px;
@@ -383,6 +394,7 @@
 }
 .swaggin-testimonials-wrapper .testimonials-section__blue-selection {
 	bottom: -14px;
+	background-color: #6B96ED;
 }
 
 /* .swaggin-banner-img__desktop {
@@ -478,4 +490,56 @@
 
 .swaggin__send-merch-title-mob {
 	display: none;
+}
+
+.swaggin-bandcamp-logo img {
+	width: 82px;
+}
+.swaggin-amazon-logo img {
+	width: 59px;
+	position: relative;
+    top: 3px;
+}
+.swaggin-walmart-logo img {
+	width: 68px;
+}
+.swaggin-shopify-logo img {
+	width: 60px;
+
+}
+.swaggin-woocommerce-logo img {
+	width: 83px;
+
+}
+.swaggin-ebay-logo img {
+	width: 50px;
+}
+.swaggin-etsy-logo img {
+	width: 42px;
+}
+
+.swaggin__how-it-works .how-it-works-section__single-logo {
+	width: 25%;
+	display: flex;
+	margin-right: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.swaggin__how-it-works .how-it-works-section__logos img {
+	margin-bottom: 21px;
+}
+
+.swaggin__connect-column {
+	width: 42%;
+}
+
+.swaggin__products-section .products-section__single-product-title{
+	font-size: 15px;
+	line-height: 14px;
+}
+
+.swaggin__integrate-amazon-logo {
+	position: relative;
+	top: 6px;
 }

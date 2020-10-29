@@ -470,13 +470,13 @@ $(document).ready(function () {
 	});
 
 	// smooth scroll to anchors
-	$(document).on('click', 'a[href^="#"]', function (event) {
-		event.preventDefault();
+	// $(document).on('click', 'a[href^="#"]', function (event) {
+	// 	event.preventDefault();
 
-		$('html, body').animate({
-			scrollTop: $($.attr(this, 'href')).offset().top - 150
-		}, 500);
-	});
+	// 	$('html, body').animate({
+	// 		scrollTop: $($.attr(this, 'href')).offset().top - 150
+	// 	}, 500);
+	// });
 
 	// Cache selectors
 	var topMenu = $(".item-info__anchors"),
@@ -536,4 +536,7 @@ $(document).ready(function () {
 		/*for positioning of checkbox on sign in page(add remember-checkbox--mob class)*/
 		$('#remember-checkbox').addClass('remember-checkbox--mob');
 	}
+
+
+
 })

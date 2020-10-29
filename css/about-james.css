@@ -222,6 +222,12 @@
 	width: 400px;
 }
 
+.about-james__manufacturing-logos-mob {
+	flex-wrap: wrap;
+	width: 400px;
+	display: none;
+}
+
 .about-james__manufacturing-clients > p {
 	font-family: 'Gotham Pro Regular';
 	font-size: 18px;
@@ -229,12 +235,25 @@
 	margin-bottom: 40px;
 	padding-left: 17px;
 }
+
 .about-james__manufacturing-logos p {
 	width: 33%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 25px;
+}
+
+.about-james__manufacturing-logos-mob p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	margin-bottom: 37px;
+}
+
+.about-james__manufacturing-logos-mob {
+	width: 100%;
 }
 
 .about-james__manufacturing-title {

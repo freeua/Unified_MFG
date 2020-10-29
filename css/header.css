@@ -154,8 +154,14 @@
 	padding: 4px 5px;
 	color: #009CEC !important;
 	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+.header__mobile-top-section-chat-link .fas {
+	margin-right: 5px;
+}
 
 .header__top-section-start--inline {
 	display: flex;
@@ -229,6 +235,14 @@
 
 .header-view2 .header__main-nav-wrapper {
 	box-shadow: none ;
+}
+
+.header-view2 .header__main-nav-wrapper {
+	box-shadow: none;
+}
+
+.header-view2 .header__main-container nav.header__main-nav > li >a {
+	letter-spacing: 0;
 }
 
 .header-view2 .header__main-nav-wrapper-fixed {

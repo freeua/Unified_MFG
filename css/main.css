@@ -938,3 +938,17 @@ a{
 	position: absolute;
 	top: 0;	
 }
+
+.homepage .header__top-section-logo img {
+	width: 69px;
+	height: auto;
+}
+
+.homepage .header__mobile-logo img {
+	width: 83px;
+	height: auto;
+}
+
+.header__mobile-logo img {
+	width: 31px;
+}

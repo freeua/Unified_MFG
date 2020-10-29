@@ -633,7 +633,99 @@
 }
 
 .faq-main-page .faq__full-width-column-image {
-	position: absolute;
-	right: 47px;
-	top: 33px;
+	position: static;
+}
+
+
+.faq-main-page .faq__full-width-column-image img {
+	border: none !important;
+	position: relative;
+	right: 27px;
+}
+
+.faq-main-page .faq__full-width-column {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.faq-main-page .faq__full-width-column .faq__single-column-text {
+	max-width: 415px;
+}
+.faq-main-page .faq__full-width-column .faq__single-column-link {
+	position: static;
+	display: block;
+	margin-top: 41px;
+}
+.faq-main-page .faq__full-width-column .faq__single-column-title {
+	margin-bottom: 12px;;
+}
+.faq-main-page  .faq__single-column-texts-wrapper .faq__single-column-title {
+	margin-bottom: 19px;
+}
+
+.faq-main-page .faq__single-column.faq__full-width-column {
+	min-height: initial;
+}
+.faq-main-page .faq__first-section-title span{
+	color:#FF6953;
+}
+
+.faq-main-page .faq__single-column-text {
+	-webkit-line-clamp: 3;
+}
+.faq-main-page .faq-bandcamp-logo img {
+	width: 114px;
+}
+
+.faq-main-page .faq-amazon-logo img {
+	width: 72px;
+
+}
+
+.faq-main-page .faq-walmart-logo img {
+	width: 95px;
+
+}
+
+.faq-main-page .faq-shopify-logo img {
+	width: 85px;
+
+}
+
+.faq-main-page .faq-woocommerce-logo img {
+	width: 110px;
+
+}
+
+.faq-main-page .faq-ebay-logo img {
+	width: 60px;
+
+}
+
+.faq-main-page .faq-etsy-logo img{
+	width: 50px;
+}
+
+.faq-main-page .faq__double-width-column .faq__double-width-sub-column:nth-child(1) {
+	width: 55%;
+}
+
+.faq-main-page .faq__double-width-column .faq__double-width-sub-column:nth-child(2) {
+	width: 45%;
+}
+
+.faq-main-page .faq__double-width-column .faq__single-column-text {
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	display: -webkit-box;
+}
+
+.faq-main-page .faq__single-column-collections {
+	border: 2px solid #F4F8FC;
+}
+
+.faq-main-page .faq__single-column-collections:hover {
+	box-shadow: none;
+	border:  2px solid rgba(0,156,236,1);
 }
